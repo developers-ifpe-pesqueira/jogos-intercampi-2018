@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 2',
+    'title' => 'Jogos Intercampi IFPE 2018',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>INTERCAMPI</b> 2018',
 
-    'logo_mini' => '<b>A</b>LT',
+    'logo_mini' => '<b>JOGOS</b>2018',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'blue',
+    'skin' => 'green',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
     |
     */
 
-    'layout' => null,
+    'layout' => 'top-nav',
 
     /*
     |--------------------------------------------------------------------------
@@ -108,6 +108,10 @@ return [
     */
 
     'menu' => [
+        
+    ],
+
+    /* 'menu' => [
         'MAIN NAVIGATION',
         [
             'text' => 'Blog',
@@ -183,7 +187,7 @@ return [
             'text'       => 'Information',
             'icon_color' => 'aqua',
         ],
-    ],
+    ], */
 
     /*
     |--------------------------------------------------------------------------
@@ -217,8 +221,8 @@ return [
     */
 
     'plugins' => [
-        'datatables' => true,
-        'select2'    => true,
-        'chartjs'    => true,
+        'datatables' => false,
+        'select2'    => false,
+        'chartjs'    => false,
     ],
 ];
