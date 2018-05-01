@@ -25,6 +25,7 @@ class CreateAlunosTable extends Migration
             $table->integer('campus_id')->unsigned();       
             $table->timestamps();
             $table->softDeletes();
+            $table->foreign('campus_id')->references('id')->on('campi')->onUpdate('cascade')->onDelete('restrict');
         });
     }
 
@@ -35,6 +36,9 @@ class CreateAlunosTable extends Migration
      */
     public function down()
     {
+        Schema::table('alunos', function (Blueprint $table){
+            $table->dropForeign(['campus_id']);
+        });
         Schema::dropIfExists('alunos');
     }
 }

@@ -1,9 +1,12 @@
-@extends('adminlte::page')
+@extends('template')
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/web-fonts-with-css/css/fontawesome-all.min.css') }}">
     <style>
-       
+       *{
+           margin: 0;
+           padding: 0;
+       }
         .full-height {
             height: 80vh;
         }
@@ -31,11 +34,33 @@
         img {
             height: 50vh;
         }
+        nav{
+            background-color:#57760C;
+            height: 3em;
+            line-height: 3em;
+        }
+        nav a{
+            color: white;
+        }
+        a{
+            background-color:#57760C !important;
+        }
     </style>
 @stop
 
+@section('navbar')
+    &nbsp;
+    <div class="pull-right">
+        @auth
+            <a href="{{ route('home') }}" target="_self"><i class="fa fa-fw fa-unlock-alt"></i> Área restrita</a>&nbsp;&nbsp;
+        @else
+            <a href="{{ route('login') }}" target="_self"><i class="fa fa-fw fa-lock"></i> Área restrita</a>&nbsp;&nbsp;
+        @endauth
+    </div>
+@stop
 @section('content')
     <div class="flex-center position-ref full-height">
+        
         <div class="content">
             <img src="{{ asset('img/medalha-intercampi-2018.png') }}" alt="">
             <br><br>

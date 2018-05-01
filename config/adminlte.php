@@ -32,7 +32,7 @@ return [
 
     'logo' => '<b>INTERCAMPI</b> 2018',
 
-    'logo_mini' => '<b>JOGOS</b>2018',
+    'logo_mini' => '<b>IFPE</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
     |
     */
 
-    'layout' => 'top-nav',
+    'layout' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
 
     'login_url' => 'login',
 
-    'register_url' => 'register',
+    'register_url' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +108,17 @@ return [
     */
 
     'menu' => [
-        
+        'MENU',
+        [
+            'text'  => 'Inscrições',
+            'route' => 'inscricoes',
+            'icon'  => 'user-plus',
+        ],
+        [
+            'text'  => 'Relação de inscritos',
+            'route' => 'relacao',
+            'icon'  => 'list-alt',
+        ],
     ],
 
     /* 'menu' => [
