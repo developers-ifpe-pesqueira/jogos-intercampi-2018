@@ -14,8 +14,9 @@
 Auth::routes();
 
 Route::get('/', 'SiteController@index')->name('index');
-Route::get('/importar', 'SiteController@importar')->name('import');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/inscricoes', 'HomeController@inscricoes')->name('inscricoes');
 Route::post('/inscricoes/modalidade', 'HomeController@inscricoes_modaliade')->name('inscricoes.modalidade');
 Route::get('/relacao', 'HomeController@relacao')->name('relacao');
+Route::get('/importar', 'HomeController@importar')->name('importar');
+Route::post('/importar', 'HomeController@processar_importacao');

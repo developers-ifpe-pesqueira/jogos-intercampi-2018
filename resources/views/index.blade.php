@@ -50,7 +50,7 @@
 
 @section('navbar')
     &nbsp;
-    <div class="pull-right">
+    <div class="pull-right" style="text-align: right; min-width: 15em; margin-right: 1em;">
         @auth
             <a href="{{ route('home') }}" target="_self"><i class="fa fa-fw fa-unlock-alt"></i> Área restrita</a>&nbsp;&nbsp;
         @else

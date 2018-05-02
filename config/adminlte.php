@@ -119,6 +119,12 @@ return [
             'route' => 'relacao',
             'icon'  => 'list-alt',
         ],
+        [
+            'text'  => 'Importar Alunos (Q-Acadêmico)',
+            'route' => 'importar',
+            'icon'  => 'download',
+            'can'   => 'admin',
+        ],
     ],
 
     /* 'menu' => [
