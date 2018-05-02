@@ -16,7 +16,7 @@ class CampiSeeder extends Seeder
             'campus' => 'Abreu e Lima',
         ]);
         Campus::create([
-            'campus' => 'Afogagdos da Ingazeira',
+            'campus' => 'Afogados da Ingazeira',
         ]);
         Campus::create([
             'campus' => 'Barreiros',

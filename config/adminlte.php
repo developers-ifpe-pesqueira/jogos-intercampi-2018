@@ -120,7 +120,7 @@ return [
             'icon'  => 'list-alt',
         ],
         [
-            'text'  => 'Importar Alunos (Q-Acadêmico)',
+            'text'  => 'Importar Alunos',
             'route' => 'importar',
             'icon'  => 'download',
             'can'   => 'admin',

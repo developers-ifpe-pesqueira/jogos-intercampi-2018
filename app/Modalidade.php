@@ -28,4 +28,7 @@ class Modalidade extends Model
         }
         return 'Único';
     }
+    public function getSexoAbrevAttribute(){
+        return $this->attributes['sexo'];
+    }
 }

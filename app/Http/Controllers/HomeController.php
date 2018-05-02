@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 use App\Modalidade;
 use App\Campus;
 use App\Alunos;
+use App\Inscrito;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class HomeController extends Controller
 {
@@ -39,6 +41,7 @@ class HomeController extends Controller
         }
         return view('inscricoes', compact('modalidades','campi'));
     }
+    
     public function inscricoes_modaliade(Request $request)
     {
         $validatedData = $request->validate([
@@ -48,9 +51,90 @@ class HomeController extends Controller
         if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus){
             abort(403);
         }
+        $campus = Campus::find($request->campus);
         $modalidade = Modalidade::find($request->modalidade);
-        return view('inscricoes_modalidade', compact('modalidade'));
+        if ($modalidade->sexo_abrev == 'U'){
+            $alunos = Alunos::where('campus_id', $campus->id)->get();
+        } else {
+            $alunos = Alunos::where('campus_id', $campus->id)->where('sexo', $modalidade->sexo_abrev)->get();
+        }
+        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
+        
+        return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'));
     }
+    
+    public function inscricoes_adicionar(Request $request)
+    {
+        $validatedData = $request->validate([
+            'campus_id' => 'required|numeric',
+            'modalidade_id' => 'required|numeric',
+            'aluno_id' => 'required|numeric',
+        ]);
+        if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus){
+            abort(403);
+        }
+
+        $campus = Campus::find($request->campus_id);
+        $modalidade = Modalidade::find($request->modalidade_id);
+        if ($modalidade->sexo_abrev == 'U'){
+            $alunos = Alunos::where('campus_id', $campus->id)->get();
+        } else {
+            $alunos = Alunos::where('campus_id', $campus->id)->where('sexo', $modalidade->sexo_abrev)->get();
+        }
+
+        /* Verifica se o estudante já está inscrito */
+        $inscrito = Inscrito::where('campus_id', $request->campus_id)
+                            ->where('modalidade_id', $request->modalidade_id)
+                            ->where('aluno_id', $request->aluno_id)
+                            ->first();
+        if (!is_null($inscrito)){
+            $msg_erro = 'Estudante já inscrito nesta modalidade.';
+            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+        }
+
+
+        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
+        $qtd_modalidades = DB::select('SELECT
+	                            aluno_id, COUNT(modalidade_id)
+                            FROM
+                                inscritos
+                            WHERE
+                                aluno_id = ?
+                            GROUP BY aluno_id',
+                        [$request->aluno_id]);
+        if (count($qtd_modalidades) == 3) {
+            $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades.';
+            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+        }
+        /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
+        if ($modalidade->prova != ""){
+            $qtd_provas = DB::select('SELECT
+                                        i.aluno_id, i.modalidade_id, COUNT(i.modalidade_id)
+                                    FROM
+                                        inscritos i, modalidades m
+                                    WHERE
+                                        i.modalidade_id = m.id AND i.modalidade_id = ? AND i.aluno_id = ?
+                                    GROUP BY i.aluno_id, i.modalidade_id',
+                                [$request->modalidade_id, $request->aluno_id]);
+            if (count($qtd_provas) == 3) {
+                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade.';
+                return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+            }
+        }
+
+        Inscrito::create([
+            'campus_id' => $request->campus_id,
+            'modalidade_id' => $request->modalidade_id,
+            'aluno_id' => $request->aluno_id,
+        ]);
+        
+        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
+
+        $msg_ok = "Estudande inscrito com sucesso!";
+        return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('sucesso', $msg_ok);
+    
+    }
+
     public function relacao()
     {
         return view('home');
@@ -68,7 +152,6 @@ class HomeController extends Controller
         $validatedData = $request->validate([
             'arquivo' => 'required|file',
         ]);
-        //dd($request->arquivo);
     /* Limpar tabela alunos */
         DB::delete('delete from alunos');
 
@@ -90,7 +173,7 @@ class HomeController extends Controller
         if (!in_array("Instituição", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Instituição' : $arquivo_invalido .= ', Instituição';
         if (!in_array("Nome do Pai", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nome do Pai' : $arquivo_invalido .= ', Nome do Pai';
         if (!in_array("Nome da Mãe", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nome da Mãe' : $arquivo_invalido .= ', Nome da Mãe';
-        //if (!in_array("Nível/Regime de Ensino", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nível/Regime de Ensino' : $arquivo_invalido .= ', Nível/Regime de Ensino';
+        if (!in_array("Nível/Regime de Ensino", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nível/Regime de Ensino' : $arquivo_invalido .= ', Nível/Regime de Ensino';
         $msg_erro = "Arquivo inválido. O aquivo não possui os campos: $arquivo_invalido";
         if($arquivo_invalido != ""){
             return redirect()->back()->withErrors([$msg_erro]);
@@ -117,7 +200,7 @@ class HomeController extends Controller
                 $agora = strtotime("now");
                 $created_at = date('Y-m-d H:i:s', $agora);
                 $updated_at = date('Y-m-d H:i:s', $agora);
-                //$nivel = $dados[array_search('Nível/Regime de Ensino', $cabecalho)];
+                $nivel = $dados[array_search('Nível/Regime de Ensino', $cabecalho)];
                 /* Sanear os dados recebidos */
                 $cpf = str_replace(".", "", $cpf);
                 $cpf = str_replace("-", "", $cpf);
@@ -180,34 +263,47 @@ class HomeController extends Controller
                 $validado = TRUE;
             } else {
                 $validado = FALSE;
-                $falha .= "Linha $cont: Quantidade de campos incompatível.<br>";
+                $falha = "Quantidade de campos incompatível; ";
             }
             /* Validar os dados */
-            if ($matricula == '') {
-                $validado = FALSE;
-                $falha .= "Linha $cont: Matrícula inválida.<br>";
+            if ($validado) {
+                if ($matricula == '') {
+                    $validado = FALSE;
+                    $falha .= "Matrícula inválida; ";
+                }
+                if (strlen($cpf) != 11) {
+                    $validado = FALSE;
+                    $falha .= "CPF inválido; ";
+                }
+                if ($nome == '') {
+                    $validado = FALSE;
+                    $falha .= "Nome inválido; ";
+                }
+                if ($campus == 0) {
+                    $validado = FALSE;
+                    $falha .= "Instituição/Campus inválido; ";
+                }
+                if ($sexo != 'M' && $sexo != 'F') {
+                    $validado = FALSE;
+                    $falha .= "Sexo inválido; ";
+                }
+                if (strlen($nascimento) != 10){
+                    $validado = FALSE;
+                    $falha .= "Nascimento inválido; ";
+                } else {
+                    $dt_nascimento = strtotime(substr($nascimento,6,4) . '-' . substr($nascimento,3,2) . '-' . substr($nascimento,0,2));
+                    $dt_nasc = date('Y-m-d', $dt_nascimento);
+                }
+                $data_limite =  strtotime('1999-01-01');
+                if ($dt_nascimento < $data_limite){
+                    $validado = FALSE;
+                    $falha .= "Filtrada pela data de nascimento; ";
+                }
+                if ($nivel == 'Extensão' || $nivel == 'Formação Inicial e Continuada - FIC') {
+                    $validado = FALSE;
+                    $falha .= "Filtrada pelo Nível/Regime de Ensino; ";
+                }
             }
-            if (strlen($cpf) != 11) {
-                $validado = FALSE;
-                $falha .= "Linha $cont: CPF inválido.<br>";
-            }
-            if ($nome == '') {
-                $validado = FALSE;
-                $falha .= "Linha $cont: Nome inválido.<br>";
-            }
-            if ($sexo != 'M' && $sexo != 'F') {
-                $validado = FALSE;
-                $falha .= "Linha $cont: Sexo inválido.<br>";
-            }
-            if (strlen($nascimento) != 10){
-                $validado = FALSE;
-                $falha .= "Linha $cont: Nascimento inválido.<br>";
-            } else {
-                $dt_nascimento = strtotime(substr($nascimento,6,4) . '-' . substr($nascimento,3,2) . '-' . substr($nascimento,0,2));
-                $dt_nasc = date('Y-m-d', $dt_nascimento);
-            }
-            /* if ($nivel == 'Extensão') $validado = FALSE; */
-
             /* Inserir os dados no BD ou imprimir linhas não inseridas*/
             if ($validado){
                 Alunos::create([
@@ -223,13 +319,14 @@ class HomeController extends Controller
                 $linhas_ok++;
             } else {
                 $linhas_erro++;
+                Log::info("Linha $cont: $falha");
             }
             $cont++; 
+            $falha = '';
           } 
-         fclose($fp);
-         $msg_ok = "Importação realizada com sucesso. $linhas_ok registros importados.";
-         return view('importar', compact('falha'))->with('sucesso', $msg_ok);
-         //return redirect()->route('importar', compact('falha'))->with('sucesso', $msg_ok);
+        fclose($fp);
+        $msg_ok = "Importação realizada com sucesso. $linhas_ok registros importados.";
+        return view('importar', compact('falha'))->with('sucesso', $msg_ok);
     }
 
 }
