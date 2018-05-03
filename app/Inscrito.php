@@ -20,4 +20,12 @@ class Inscrito extends Model
 	{
 		return $this->belongsTo('App\Alunos', 'aluno_id');
     }
+    public function modalidade()
+	{
+		return $this->belongsTo('App\Modalidade', 'modalidade_id');
+    }
+    public function campus()
+	{
+		return $this->belongsTo('App\Campus', 'campus_id');
+    }
 }

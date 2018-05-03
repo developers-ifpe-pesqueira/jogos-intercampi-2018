@@ -48,6 +48,7 @@
                             <li>Sexo</li>
                             <li>CPF</li>
                             <li>Instituição</li>
+                            <li>Turma</li>
                             <li>Nome do Pai</li>
                             <li>Nome da Mãe</li>
                             <li>Nível/Regime de Ensino</li>

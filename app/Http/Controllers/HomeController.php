@@ -9,6 +9,7 @@ use App\Alunos;
 use App\Inscrito;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -42,7 +43,7 @@ class HomeController extends Controller
         return view('inscricoes', compact('modalidades','campi'));
     }
     
-    public function inscricoes_modaliade(Request $request)
+    public function inscricoes_modalidade(Request $request)
     {
         $validatedData = $request->validate([
             'campus' => 'required|numeric',
@@ -65,12 +66,17 @@ class HomeController extends Controller
     
     public function inscricoes_adicionar(Request $request)
     {
-        $validatedData = $request->validate([
+        $validator = Validator::make($request->all(), [
             'campus_id' => 'required|numeric',
             'modalidade_id' => 'required|numeric',
             'aluno_id' => 'required|numeric',
         ]);
-        if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus){
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator);
+        }
+        
+        if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus_id){
             abort(403);
         }
 
@@ -81,6 +87,7 @@ class HomeController extends Controller
         } else {
             $alunos = Alunos::where('campus_id', $campus->id)->where('sexo', $modalidade->sexo_abrev)->get();
         }
+        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
 
         /* Verifica se o estudante já está inscrito */
         $inscrito = Inscrito::where('campus_id', $request->campus_id)
@@ -92,32 +99,45 @@ class HomeController extends Controller
             return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
         }
 
-
-        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
-        $qtd_modalidades = DB::select('SELECT
-	                            aluno_id, COUNT(modalidade_id)
-                            FROM
-                                inscritos
-                            WHERE
-                                aluno_id = ?
-                            GROUP BY aluno_id',
-                        [$request->aluno_id]);
-        if (count($qtd_modalidades) == 3) {
-            $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades.';
+        /* Verifica a quantidade máxima de participantes para esta modalidade*/
+        $qtd_inscritos = count($inscritos);
+        if ($qtd_inscritos >= $modalidade->qtd_max){
+            $msg_erro = 'Inscrição não realizada. Limite de inscritos para esta modalidade foi excedido.';
             return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
         }
-        /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
-        if ($modalidade->prova != ""){
-            $qtd_provas = DB::select('SELECT
-                                        i.aluno_id, i.modalidade_id, COUNT(i.modalidade_id)
-                                    FROM
-                                        inscritos i, modalidades m
-                                    WHERE
-                                        i.modalidade_id = m.id AND i.modalidade_id = ? AND i.aluno_id = ?
-                                    GROUP BY i.aluno_id, i.modalidade_id',
-                                [$request->modalidade_id, $request->aluno_id]);
-            if (count($qtd_provas) == 3) {
-                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade.';
+
+        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
+        
+        $aluno_modalidades = Inscrito::with('modalidade')->where('aluno_id', $request->aluno_id)->get();
+        $array_modalidades = [];
+        foreach ($aluno_modalidades as $am){
+            
+            if (!array_key_exists($am->modalidade->modalidade, $array_modalidades)){
+                $array_modalidades[$am->modalidade->modalidade] = [];
+            }
+            
+            if ($am->modalidade->prova != ''){
+                if (!in_array( $am->modalidade->prova, $array_modalidades[$am->modalidade->modalidade] )){
+                    array_push($array_modalidades[$am->modalidade->modalidade], $am->modalidade->prova);
+                }
+            }
+        }
+        
+        if (count($array_modalidades) >= 3 && !array_key_exists($modalidade->modalidade, $array_modalidades)){
+            $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades: ';
+            foreach ($array_modalidades as $k => $v){
+                $msg_erro .= ($k . ', ');
+            }
+            $msg_erro = substr($msg_erro, 0, -2) . '.';
+            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+        } else {
+            /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
+            if (count($array_modalidades[$modalidade->modalidade]) >= 3){
+                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade: ';
+                foreach ($array_modalidades[$modalidade->modalidade] as $v){
+                    $msg_erro .= ($v . ', ');
+                }
+                $msg_erro = substr($msg_erro, 0, -2) . '.';
                 return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
             }
         }
@@ -160,6 +180,9 @@ class HomeController extends Controller
         $fp = fopen($request->arquivo, "r");
         /* Extrair primeira linha para array cabecalho */
         $linha = fgets($fp);
+        if (!mb_detect_encoding($linha, 'UTF-8', true)){
+            $linha = utf8_encode($linha);
+        }
         $linha = str_replace("\"", "", $linha);
         $cabecalho = explode(",", $linha);
         $colunas = count($cabecalho);
@@ -171,6 +194,7 @@ class HomeController extends Controller
         if (!in_array("Sexo", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Sexo' : $arquivo_invalido .= ', Sexo';
         if (!in_array("CPF", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'CPF' : $arquivo_invalido .= ', CPF';
         if (!in_array("Instituição", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Instituição' : $arquivo_invalido .= ', Instituição';
+        if (!in_array("Turma", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Turma' : $arquivo_invalido .= ', Turma';
         if (!in_array("Nome do Pai", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nome do Pai' : $arquivo_invalido .= ', Nome do Pai';
         if (!in_array("Nome da Mãe", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nome da Mãe' : $arquivo_invalido .= ', Nome da Mãe';
         if (!in_array("Nível/Regime de Ensino", $cabecalho)) $arquivo_invalido == "" ? $arquivo_invalido .= 'Nível/Regime de Ensino' : $arquivo_invalido .= ', Nível/Regime de Ensino';
@@ -185,6 +209,9 @@ class HomeController extends Controller
         $falha = "";
         while(!feof($fp)) {
             $linha = fgets($fp);
+            if (!mb_detect_encoding($linha, 'UTF-8', true)){
+                $linha = utf8_encode($linha);
+            }
             $linha = str_replace("\"", "", $linha);
             $dados = explode(",", $linha);
             /* Recupera os dados do array */
@@ -197,6 +224,7 @@ class HomeController extends Controller
                 $nome_pai = $dados[array_search('Nome do Pai', $cabecalho)];
                 $nome_mae = $dados[array_search('Nome da Mãe', $cabecalho)];
                 $instituicao = $dados[array_search('Instituição', $cabecalho)];
+                $turma = $dados[array_search('Turma', $cabecalho)];
                 $agora = strtotime("now");
                 $created_at = date('Y-m-d H:i:s', $agora);
                 $updated_at = date('Y-m-d H:i:s', $agora);
@@ -312,6 +340,7 @@ class HomeController extends Controller
                     'nome' => $nome,
                     'sexo' => $sexo,
                     'nascimento' => $dt_nasc,
+                    'turma' => $turma,
                     'nome_pai' => $nome_pai,
                     'nome_mae' => $nome_mae,
                     'campus_id' => $campus,

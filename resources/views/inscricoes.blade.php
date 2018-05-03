@@ -23,7 +23,7 @@
                 @endforeach 
             </div>
         @endif
-        <form action="{{ route('inscricoes.modalidade') }}" method="POST">
+        <form action="{{ route('inscricoes.modalidade') }}" method="GET">
             {{ csrf_field() }}
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">

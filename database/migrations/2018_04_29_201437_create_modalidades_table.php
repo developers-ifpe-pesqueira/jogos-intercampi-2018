@@ -19,6 +19,7 @@ class CreateModalidadesTable extends Migration
             $table->string('prova');
             $table->enum('tipo', ['Coletiva', 'Individual']);
             $table->enum('sexo', ['M', 'F','U']);
+            $table->integer('qtd_min')->default(0);
             $table->integer('qtd_max');
             $table->timestamps();
             $table->softDeletes();

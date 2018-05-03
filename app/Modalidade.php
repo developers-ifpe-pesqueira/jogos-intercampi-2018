@@ -12,7 +12,7 @@ class Modalidade extends Model
     protected $table = 'modalidades';
 
     protected $fillable = [
-        'modalidade','prova', 'tipo', 'sexo', 'qtd_max',
+        'modalidade','prova', 'tipo', 'sexo', 'qtd_min', 'qtd_max',
     ];
     public function getSexoAttribute($value){
         switch($value){

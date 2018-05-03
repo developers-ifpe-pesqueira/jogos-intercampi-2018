@@ -12,6 +12,6 @@ class Alunos extends Model
     protected $table = 'alunos';
 
     protected $fillable = [
-        'matricula' , 'cpf', 'nome', 'sexo', 'nascimento', 'nome_pai', 'nome_mae', 'campus_id',
+        'matricula' , 'cpf', 'nome', 'sexo', 'nascimento', 'turma','nome_pai', 'nome_mae', 'campus_id',
     ];
 }

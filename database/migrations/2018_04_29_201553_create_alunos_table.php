@@ -20,6 +20,7 @@ class CreateAlunosTable extends Migration
             $table->string('nome');
             $table->enum('sexo', ['M', 'F']);
             $table->date('nascimento');
+            $table->string('turma');
             $table->string('nome_pai');
             $table->string('nome_mae');
             $table->integer('campus_id')->unsigned();       

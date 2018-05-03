@@ -25,6 +25,6 @@ class UsuariosSeeder extends Seeder
             'password' => bcrypt('2162303'),
             'campus_id' => 15,
             'admin' => FALSE,
-        ]); 
+        ]);
     }
 }
