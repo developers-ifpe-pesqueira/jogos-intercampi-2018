@@ -106,8 +106,8 @@ class HomeController extends Controller
             return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
         }
 
-        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
         
+        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
         $aluno_modalidades = Inscrito::with('modalidade')->where('aluno_id', $request->aluno_id)->get();
         $array_modalidades = [];
         foreach ($aluno_modalidades as $am){
@@ -122,23 +122,25 @@ class HomeController extends Controller
                 }
             }
         }
-        
-        if (count($array_modalidades) >= 3 && !array_key_exists($modalidade->modalidade, $array_modalidades)){
-            $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades: ';
-            foreach ($array_modalidades as $k => $v){
-                $msg_erro .= ($k . ', ');
-            }
-            $msg_erro = substr($msg_erro, 0, -2) . '.';
-            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
-        } else {
-            /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
-            if (count($array_modalidades[$modalidade->modalidade]) >= 3){
-                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade: ';
-                foreach ($array_modalidades[$modalidade->modalidade] as $v){
-                    $msg_erro .= ($v . ', ');
+        if (count($array_modalidades) > 0){
+            if (count($array_modalidades) >= 3 && !array_key_exists($modalidade->modalidade, $array_modalidades)){
+                /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
+                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades: ';
+                foreach ($array_modalidades as $k => $v){
+                    $msg_erro .= ($k . ', ');
                 }
                 $msg_erro = substr($msg_erro, 0, -2) . '.';
                 return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+            } else {
+                /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
+                if (count($array_modalidades[$modalidade->modalidade]) >= 3){
+                    $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade: ';
+                    foreach ($array_modalidades[$modalidade->modalidade] as $v){
+                        $msg_erro .= ($v . ', ');
+                    }
+                    $msg_erro = substr($msg_erro, 0, -2) . '.';
+                    return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+                }
             }
         }
 
