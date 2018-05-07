@@ -7,10 +7,7 @@
            margin: 0;
            padding: 0;
        }
-        .full-height {
-            height: 80vh;
-        }
-
+    
         .flex-center {
             align-items: center;
             display: flex;
@@ -45,6 +42,20 @@
         a{
             background-color:#57760C !important;
         }
+        body {
+            background-color: #EFF4E8;
+        }
+
+        @media (min-width: 992px){
+            .full-height {
+                height: 90vh;
+            }
+        }
+        @media (max-width: 991px){
+            .btn{
+                margin-top: 5px;
+            }
+        }
     </style>
 @stop
 
@@ -60,7 +71,6 @@
 @stop
 @section('content')
     <div class="flex-center position-ref full-height">
-        
         <div class="content">
             <img src="{{ asset('img/medalha-intercampi-2018.png') }}" alt="">
             <br><br>
@@ -76,8 +86,20 @@
                         <a href="" class="btn btn-lg btn-block btn-success" disabled><i class="fa fa-fw fa-table"></i> Tabela</a>
                     </div>
                 </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                        <div class="alert alert-info alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h4><i class="icon fa fa-info"></i> Encontro pós-inscrição:</h4>
+                            <p>CONGRESSO TÉCNICO</p>
+                            <p>DATA: <b>22/05/2018</b></p>
+                            <p>HORÁRIO: <b>9h</b></p>
+                            <p>LOCAL: <b>Campus Caruaru</b></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
         </div>
     </div>
 @stop

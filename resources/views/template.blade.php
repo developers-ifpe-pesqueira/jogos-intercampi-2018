@@ -9,7 +9,7 @@
     <nav>
         @yield('navbar')
     </nav>
-    <section class="content">
+    <section>
 
         @yield('content')
 

@@ -53,12 +53,18 @@ class HomeController extends Controller
             abort(403);
         }
         $campus = Campus::find($request->campus);
-        $modalidade = Modalidade::find($request->modalidade);
+        $modalidade = Modalidade::with('categoria')->find($request->modalidade);
+
         if ($modalidade->sexo_abrev == 'U'){
-            $alunos = Alunos::where('campus_id', $campus->id)->get();
+            $alunos = Alunos::where('campus_id', $campus->id)
+            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->get();
         } else {
-            $alunos = Alunos::where('campus_id', $campus->id)->where('sexo', $modalidade->sexo_abrev)->get();
+            $alunos = Alunos::where('campus_id', $campus->id)
+            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->where('sexo', $modalidade->sexo_abrev)->get();
         }
+
+        //dd($alunos);
+        dd(count($alunos));
         $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
         
         return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'));
@@ -324,7 +330,7 @@ class HomeController extends Controller
                     $dt_nascimento = strtotime(substr($nascimento,6,4) . '-' . substr($nascimento,3,2) . '-' . substr($nascimento,0,2));
                     $dt_nasc = date('Y-m-d', $dt_nascimento);
                 }
-                $data_limite =  strtotime('1999-01-01');
+                $data_limite =  strtotime(env('DT_NASC_IMPORT', '1993-01-01'));
                 if ($dt_nascimento < $data_limite){
                     $validado = FALSE;
                     $falha .= "Filtrada pela data de nascimento; ";

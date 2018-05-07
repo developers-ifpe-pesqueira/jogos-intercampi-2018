@@ -18,6 +18,7 @@ class CreateInscritosTable extends Migration
             $table->integer('campus_id')->unsigned();
             $table->integer('modalidade_id')->unsigned();
             $table->integer('aluno_id')->unsigned();     
+            $table->boolean('confirmado')->default(false);     
             $table->timestamps();
             $table->softDeletes();
             $table->foreign('campus_id')->references('id')->on('campi')->onUpdate('cascade')->onDelete('restrict');

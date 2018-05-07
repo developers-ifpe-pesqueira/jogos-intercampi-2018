@@ -12,7 +12,7 @@ class Inscrito extends Model
     protected $table = 'inscritos';
 
     protected $fillable = [
-        'campus_id' , 'modalidade_id', 'aluno_id',
+        'campus_id' , 'modalidade_id', 'aluno_id', 'confirmado'
     ];
 
     /* Relacionamentos N:1 */

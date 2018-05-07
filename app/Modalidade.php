@@ -12,7 +12,7 @@ class Modalidade extends Model
     protected $table = 'modalidades';
 
     protected $fillable = [
-        'modalidade','prova', 'tipo', 'sexo', 'qtd_min', 'qtd_max',
+        'modalidade','prova', 'tipo', 'tipo_prova', 'sexo', 'qtd_min', 'qtd_max', 'categoria_id'
     ];
     public function getSexoAttribute($value){
         switch($value){
@@ -31,4 +31,11 @@ class Modalidade extends Model
     public function getSexoAbrevAttribute(){
         return $this->attributes['sexo'];
     }
+
+     /* Relacionamentos N:1 */
+     public function categoria()
+     {
+         return $this->belongsTo('App\Categoria', 'categoria_id');
+     }
+
 }
