@@ -18,6 +18,7 @@
     <div class="box-header">
         @php
             $str_modalidade = "";
+            $str_modalidade .= $modalidade->categoria->categoria . ' - ';
             $str_modalidade .= $modalidade->modalidade;
             if ($modalidade->prova != ''){
                 $str_modalidade .= ' - ';
@@ -28,13 +29,16 @@
             $str_modalidade .= ')';
         @endphp
         <h3 class="box-title">{{ $str_modalidade }}:</h3>
+        <div class="pull-right">
+            <a href="{{ route('inscricoes') }}" class="btn btn-primary"><i class="fa fa-fw fa-retweet"></i>&nbsp; Alterar modalidade</a>
+        </div>
     </div>
     <div class="box-body">
-        @if(!empty($sucesso))
+         @if (session('sucesso'))
             <div class="alert alert-success alert-dismissible">
                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                 <h4><i class="icon fa fa-check"></i> Sucesso!</h4>
-                <p>{{ $sucesso }}</p> 
+                <p>{{ session('sucesso') }}</p> 
             </div>
         @endif
         @if(!empty($erro))
@@ -53,40 +57,30 @@
                 @endforeach 
             </div>
         @endif
-        <form action="{{ route('inscricoes.adicionar') }}" method="POST">
+        <form action="{{ route('inscricoes.adicionar',['campus'=> $campus->id, 'modalidade' => $modalidade->id ]) }}" method="POST">
             {{ csrf_field() }}
-            {{-- <div class="form-group row">
-                <div class="col-md-12 col-xs-12">
-                    <label for="campus">Campus: </label>
-                    <input type="text" name="campus" value="Campus {{ $campus->campus }}" class="form-control" disabled>
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-md-12 col-xs-12">
-                    <label for="modalidade">Modalidade: </label>
-                    <input type="text" name="modalidade" value="{{ $str_modalidade }}" class="form-control" disabled>
-                </div>
-            </div> --}}
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">
                     <label for="aluno">
                         Estudante:
                     </label>
-                    <input type="hidden" name="campus_id" value="{{ $campus->id }}">
-                    <input type="hidden" name="modalidade_id" value="{{ $modalidade->id }}">
+                    {{-- <input type="hidden" name="campus_id" value="{{ $campus->id }}">
+                    <input type="hidden" name="modalidade_id" value="{{ $modalidade->id }}"> --}}
                     <select name="aluno_id" id="aluno" class="form-control" aria-describedby="alunosAjuda">
                         <option></option>
                         @foreach($alunos as $aluno)
                             <option value="{{ $aluno->id }}">
-                                {{ $aluno->matricula}} - {{ $aluno->nome}}
+                                {{ $aluno->matricula}} - {{ $aluno->nome}} ({{ $aluno->idade}} anos)
                             </option>
                         @endforeach
                     </select>
                     <small id="alunosAjuda" class="form-text text-muted">
-                        <br><br>
+                        <br>
+                        Quantidade mínima: {{ $modalidade->qtd_min }}<br>
+                        Quantidade máxima: {{ $modalidade->qtd_max }}<br>
                         Estudantes matriculados no campus: <br>
                         <ul>
-                            <li>nascidos a partir de 01/01/1999 (19 anos);</li>
+                            <li>nascidos a partir de {{ date('d/m/Y', strtotime($modalidade->categoria->dt_nascimento_limite)) }};</li>
                             @if ($modalidade->sexo_abrev != 'U')
                             <li>do sexo {{ $modalidade->sexo }};</li>
                             @endif
@@ -112,6 +106,7 @@
                         <th>Sexo</th>
                         <th>Turma</th>
                         <th>Mãe</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -123,10 +118,28 @@
                         <td>{{ $inscrito->aluno->sexo }}</td>
                         <td>{{ $inscrito->aluno->turma }}</td>
                         <td>{{ $inscrito->aluno->nome_mae }}</td>
+                        <td>
+                            <form method="post" action="{{ route('inscricoes.remover',['campus'=> $campus->id, 'modalidade' => $modalidade->id ]) }}" style="display:inline;" class="form-delete">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE')}}
+                                <input type="hidden" name="inscricao" value="{{ $inscrito->id }}">
+                                <button type="submit" class="btn btn-danger btn-xs">
+                                        <i class="fa fa-fw fa-close"></i>
+                                </button>
+                            </form>
+                        </td>
                     </tr>
                     @endforeach
                 </tbody>
             </table>
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+            
+            @if(!$inscritos->first()->confirmado)
+                <p class="text-yellow">*As inscrições acima não estão confirmadas. Quantidade mímina de atletas não atingido para esta modalidade.</p>
+            @endif
+                </div>
+            </div>
         @endif
     </div>
     <div class="overlay" style="display:none;" id="loading">
@@ -148,5 +161,14 @@
             $('#loading').css('display','block');
         });
     }
+    @if (session('sucesso'))
+        $('.alert-dismissible').delay(10000).slideUp(500);
+    @endif
+    @if(!empty($erro))
+        $('.alert-dismissible').delay(10000).slideUp(500);
+    @endif
+    @if ($errors->any())
+        $('.alert-dismissible').delay(10000).slideUp(500);
+    @endif
     </script>
 @stop

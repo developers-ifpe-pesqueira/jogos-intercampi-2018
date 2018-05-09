@@ -30,11 +30,71 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $campus = Campus::find(\Auth::user()->campus_id);
+        $inscritos = DB::Select('SELECT `aluno_id` FROM `inscritos` WHERE `campus_id` = ? GROUP BY `aluno_id`',
+                                [$campus->id]);
+        $qtd_inscritos = count($inscritos);
+        $sql = "SELECT 
+                    A.modalidade, masc, fem, unic, masc_id, fem_id, unic_id, masc_min, fem_min, unic_min
+                FROM
+                    (SELECT
+                        CONCAT(modalidade, IF(prova != '', ' - ','') ,prova) AS modalidade
+                    FROM
+                        modalidades
+                    WHERE
+                        1
+                    GROUP BY
+                        modalidade, prova) AS A
+                    LEFT JOIN
+                    (SELECT
+                        CONCAT(m.modalidade, IF(m.prova != '', ' - ','') ,m.prova) AS modalidade, m.id AS masc_id, m.qtd_min AS masc_min, count(i.id) as masc
+                    FROM
+                        inscritos i, modalidades m
+                    WHERE
+                        m.id = i.modalidade_id AND
+                        m.sexo = 'M' AND
+                        i.campus_id = ?
+                    GROUP BY
+                        m.modalidade, m.prova) AS B
+                    ON A.modalidade = B.modalidade
+                    LEFT JOIN
+                    (SELECT
+                        CONCAT(m.modalidade, IF(m.prova != '', ' - ','') ,m.prova) AS modalidade, m.id AS fem_id, m.qtd_min AS fem_min, count(i.id) as fem
+                    FROM
+                        inscritos i, modalidades m
+                    WHERE
+                        m.id = i.modalidade_id AND
+                        m.sexo = 'F' AND
+                        i.campus_id = ?
+                    GROUP BY
+                        m.modalidade, m.prova) as C
+                    ON A.modalidade = C.modalidade
+                    LEFT JOIN		
+                    (SELECT
+                        CONCAT(m.modalidade, IF(m.prova != '', ' - ','') ,m.prova) AS modalidade, m.id AS unic_id, m.qtd_min AS unic_min, count(i.id) as unic
+                    FROM
+                        inscritos i, modalidades m
+                    WHERE
+                        m.id = i.modalidade_id AND
+                        m.sexo = 'U' AND
+                        i.campus_id = ?
+                    GROUP BY
+                        m.modalidade, m.prova) AS D
+                    ON A.modalidade = D.modalidade
+                ORDER BY
+                    A.modalidade";
+
+        $modalidades_inscritos = DB::Select($sql, [$campus->id,$campus->id,$campus->id]);
+
+        return view('home', compact('campus','qtd_inscritos','modalidades_inscritos'));
     }
     public function inscricoes()
     {
-        $modalidades = Modalidade::all();
+        $modalidades = Modalidade::with('categoria')
+                                ->orderBy('categoria_id')
+                                ->orderBy('modalidade')
+                                ->orderBy('prova')
+                                ->get();
         if(\Auth::user()->admin){
             $campi = Campus::all();
         }else{
@@ -43,17 +103,18 @@ class HomeController extends Controller
         return view('inscricoes', compact('modalidades','campi'));
     }
     
-    public function inscricoes_modalidade(Request $request)
+    public function inscricoes_modalidade_v($campus_id, $modalidade_id)
     {
-        $validatedData = $request->validate([
-            'campus' => 'required|numeric',
-            'modalidade' => 'required|numeric',
-        ]);
-        if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus){
+        
+        $campus = Campus::find($campus_id);
+        $modalidade = Modalidade::with('categoria')->find($modalidade_id);
+        
+        if(!\Auth::user()->admin && \Auth::user()->campus_id != $campus->id){
             abort(403);
         }
-        $campus = Campus::find($request->campus);
-        $modalidade = Modalidade::with('categoria')->find($request->modalidade);
+        if(is_null($campus) || is_null($modalidade)){
+            abort(401);
+        }
 
         if ($modalidade->sexo_abrev == 'U'){
             $alunos = Alunos::where('campus_id', $campus->id)
@@ -63,106 +124,228 @@ class HomeController extends Controller
             ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->where('sexo', $modalidade->sexo_abrev)->get();
         }
 
-        //dd($alunos);
-        dd(count($alunos));
-        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
+        $inscritos = Inscrito::with('aluno')
+                        ->where('campus_id', $campus->id)
+                        ->where('modalidade_id', $modalidade->id)
+                        ->orderBy('aluno_id')
+                        ->get();
         
         return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'));
+
+    }
+    public function inscricoes_modalidade(Request $request)
+    {
+        $validatedData = $request->validate([
+            'campus' => 'required|numeric',
+            'modalidade' => 'required|numeric',
+        ]);
+        return redirect()->route('inscricoes.modalidade.v',['campus'=> $request->campus, 'modalidade'=> $request->modalidade]);        
     }
     
-    public function inscricoes_adicionar(Request $request)
+    public function inscricoes_adicionar($campus_id, $modalidade_id, Request $request)
     {
+        /* Valida os dados recebidos do formulário */
         $validator = Validator::make($request->all(), [
-            'campus_id' => 'required|numeric',
-            'modalidade_id' => 'required|numeric',
             'aluno_id' => 'required|numeric',
         ]);
 
         if ($validator->fails()) {
             return redirect()->back()->withErrors($validator);
         }
-        
-        if(!\Auth::user()->admin && \Auth::user()->campus_id != $request->campus_id){
+        /* Valida se o usuário é admin ou é do Campus */
+        if(!\Auth::user()->admin && \Auth::user()->campus_id != $campus_id){
             abort(403);
         }
-
-        $campus = Campus::find($request->campus_id);
-        $modalidade = Modalidade::find($request->modalidade_id);
-        if ($modalidade->sexo_abrev == 'U'){
-            $alunos = Alunos::where('campus_id', $campus->id)->get();
-        } else {
-            $alunos = Alunos::where('campus_id', $campus->id)->where('sexo', $modalidade->sexo_abrev)->get();
-        }
-        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
-
         /* Verifica se o estudante já está inscrito */
-        $inscrito = Inscrito::where('campus_id', $request->campus_id)
-                            ->where('modalidade_id', $request->modalidade_id)
+        $inscrito = Inscrito::where('campus_id', $campus_id)
+                            ->where('modalidade_id', $modalidade_id)
                             ->where('aluno_id', $request->aluno_id)
                             ->first();
         if (!is_null($inscrito)){
             $msg_erro = 'Estudante já inscrito nesta modalidade.';
-            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
         }
 
         /* Verifica a quantidade máxima de participantes para esta modalidade*/
+        $inscritos = Inscrito::where('campus_id', $campus_id)->where('modalidade_id', $modalidade_id)->get();
+        $modalidade = Modalidade::find($modalidade_id);
         $qtd_inscritos = count($inscritos);
         if ($qtd_inscritos >= $modalidade->qtd_max){
             $msg_erro = 'Inscrição não realizada. Limite de inscritos para esta modalidade foi excedido.';
-            return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
         }
 
         
-        /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
+        /* Cria Arrays de Modalidades / Provas em que o atleta está inscrito*/
         $aluno_modalidades = Inscrito::with('modalidade')->where('aluno_id', $request->aluno_id)->get();
-        $array_modalidades = [];
+        $array_modalidades_individuais = [];
+        $array_modalidades_coletivas = [];
         foreach ($aluno_modalidades as $am){
-            
-            if (!array_key_exists($am->modalidade->modalidade, $array_modalidades)){
-                $array_modalidades[$am->modalidade->modalidade] = [];
-            }
-            
-            if ($am->modalidade->prova != ''){
-                if (!in_array( $am->modalidade->prova, $array_modalidades[$am->modalidade->modalidade] )){
-                    array_push($array_modalidades[$am->modalidade->modalidade], $am->modalidade->prova);
+            if($am->modalidade->tipo == 'Individual'){
+                if (!array_key_exists($am->modalidade->modalidade, $array_modalidades_individuais)){
+                    $array_modalidades_individuais[$am->modalidade->modalidade]['individuais'] = [];
+                    $array_modalidades_individuais[$am->modalidade->modalidade]['coletivas'] = [];
+                }
+                if ($am->modalidade->tipo_prova == 'Individual'){
+                    if (!in_array( $am->modalidade->prova, $array_modalidades_individuais[$am->modalidade->modalidade]['individuais'] )){
+                        array_push($array_modalidades_individuais[$am->modalidade->modalidade]['individuais'], $am->modalidade->prova);
+                    }
+                }else if ($am->modalidade->tipo_prova == 'Coletiva'){
+                    if (!in_array( $am->modalidade->prova, $array_modalidades_individuais[$am->modalidade->modalidade]['coletivas'] )){
+                        array_push($array_modalidades_individuais[$am->modalidade->modalidade]['coletivas'], $am->modalidade->prova);
+                    }
+                }
+            }else{
+                if (!array_key_exists($am->modalidade->modalidade, $array_modalidades_coletivas)){
+                    $array_modalidades_coletivas[$am->modalidade->modalidade]['individuais'] = [];
+                    $array_modalidades_coletivas[$am->modalidade->modalidade]['coletivas'] = [];
+                }
+                if ($am->modalidade->tipo_prova == 'Individual'){
+                    if (!in_array( $am->modalidade->prova, $array_modalidades_coletivas[$am->modalidade->modalidade]['individuais'] )){
+                        array_push($array_modalidades_coletivas[$am->modalidade->modalidade]['individuais'], $am->modalidade->prova);
+                    }
+                }else if ($am->modalidade->tipo_prova == 'Coletiva'){
+                    if (!in_array( $am->modalidade->prova, $array_modalidades_coletivas[$am->modalidade->modalidade]['coletivas'] )){
+                        array_push($array_modalidades_coletivas[$am->modalidade->modalidade]['coletivas'], $am->modalidade->prova);
+                    }
                 }
             }
         }
-        if (count($array_modalidades) > 0){
-            if (count($array_modalidades) >= 3 && !array_key_exists($modalidade->modalidade, $array_modalidades)){
-                /* Verifica quantidade de modalidades em que o estudante já está inscrito (LIMITE: 3)*/
-                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 modalidades: ';
-                foreach ($array_modalidades as $k => $v){
+        /* Verifica limites no .Env */
+        $limite_modadlidades_individual = env('MODALIDADE_INDIVIDUAL_MAX', 3);
+        $limite_modadlidades_coletiva = env('MODALIDADE_COLETIVA_MAX', 3);
+        $limite_provas_individual = env('PROVA_INDIVIDUAL_MAX', 2);
+        $limite_provas_coletiva = env('PROVA_COLETIVA_MAX', 3);
+        if (count($array_modalidades_individuais) > 0 && $modalidade->tipo == 'Individual'){
+            if (count($array_modalidades_individuais) >= $limite_modadlidades_individual && !array_key_exists($modalidade->modalidade, $array_modalidades_individuais)){
+                /* Verifica quantidade de modalidades individuais em que o estudante já está inscrito */
+                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_modadlidades_individual . ' modalidades individuais: ';
+                foreach ($array_modalidades_individuais as $k => $v){
                     $msg_erro .= ($k . ', ');
                 }
                 $msg_erro = substr($msg_erro, 0, -2) . '.';
-                return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
-            } else {
-                /* Verifica quantidade de provas desta modalidade em que o estudante já está inscrito (LIMITE: 3)*/
-                if (count($array_modalidades[$modalidade->modalidade]) >= 3){
-                    $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em 3 provas desta modalidade: ';
-                    foreach ($array_modalidades[$modalidade->modalidade] as $v){
-                        $msg_erro .= ($v . ', ');
+                return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+            } else if($modalidade->tipo_prova == 'Individual'){
+                /* Verifica quantidade de provas individuais desta modalidade em que o estudante já está inscrito */
+                if (array_key_exists($modalidade->modalidade, $array_modalidades_individuais)){
+                    if (count($array_modalidades_individuais[$modalidade->modalidade]['individuais']) >= $limite_provas_individual){
+                        $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_provas_individual . ' provas individuais desta modalidade: ';
+                        foreach ($array_modalidades_individuais[$modalidade->modalidade]['individuais'] as $v){
+                            $msg_erro .= ($v . ', ');
+                        } 
+                        $msg_erro = substr($msg_erro, 0, -2) . '.';
+                        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
                     }
-                    $msg_erro = substr($msg_erro, 0, -2) . '.';
-                    return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('erro', $msg_erro);
+                }
+            } else if($modalidade->tipo_prova == 'Coletiva'){
+                /* Verifica quantidade de provas individuais desta modalidade em que o estudante já está inscrito */
+                if (array_key_exists($modalidade->modalidade, $array_modalidades_individuais)){
+                    if (count($array_modalidades_individuais[$modalidade->modalidade]['coletivas']) >= $limite_provas_coletiva){
+                        $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_provas_coletiva . ' provas de revezamento desta modalidade: ';
+                        foreach ($array_modalidades_individuais[$modalidade->modalidade]['coletivas'] as $v){
+                            $msg_erro .= ($v . ', ');
+                        }
+                        $msg_erro = substr($msg_erro, 0, -2) . '.';
+                        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+                    }
                 }
             }
         }
-
+        if (count($array_modalidades_coletivas) > 0 && $modalidade->tipo == 'Coletiva'){
+            if (count($array_modalidades_coletivas) >= $limite_modadlidades_coletiva && !array_key_exists($modalidade->modalidade, $array_modalidades_coletivas)){
+                /* Verifica quantidade de modalidades coletivas em que o estudante já está inscrito */
+                $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_modadlidades_coletiva . ' modalidades coletivas: ';
+                foreach ($array_modalidades_coletivas as $k => $v){
+                    $msg_erro .= ($k . ', ');
+                }
+                $msg_erro = substr($msg_erro, 0, -2) . '.';
+                return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+            } else if($modalidade->tipo_prova == 'Individual'){
+                /* Verifica quantidade de provas coletivas desta modalidade em que o estudante já está inscrito */
+                if (array_key_exists($modalidade->modalidade, $array_modalidades_coletivas)){
+                    if (count($array_modalidades_coletivas[$modalidade->modalidade]['individuais']) >= $limite_provas_individual){
+                        $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_provas_individual . ' provas individuais desta modalidade: ';
+                        foreach ($array_modalidades_coletivas[$modalidade->modalidade]['individuais'] as $v){
+                            $msg_erro .= ($v . ', ');
+                        }
+                        $msg_erro = substr($msg_erro, 0, -2) . '.';
+                        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+                    }
+                }
+            } else if($modalidade->tipo_prova == 'Coletiva'){
+                /* Verifica quantidade de provas coletivas desta modalidade em que o estudante já está inscrito */
+                if (array_key_exists($modalidade->modalidade, $array_modalidades_coletivas)){
+                    if (count($array_modalidades_coletivas[$modalidade->modalidade]['coletivas']) >= $limite_provas_coletiva){
+                        $msg_erro = 'O estutande não pode ser adicionado. Pois ele já está inscrito em ' . $limite_provas_coletiva . ' provas de revezamento desta modalidade: ';
+                        foreach ($array_modalidades_coletivas[$modalidade->modalidade]['coletivas'] as $v){
+                            $msg_erro .= ($v . ', ');
+                        }
+                        $msg_erro = substr($msg_erro, 0, -2) . '.';
+                        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+                    }
+                }
+            }
+        }
+        $confirmado = FALSE;
         Inscrito::create([
-            'campus_id' => $request->campus_id,
-            'modalidade_id' => $request->modalidade_id,
+            'campus_id' => $campus_id,
+            'modalidade_id' => $modalidade_id,
             'aluno_id' => $request->aluno_id,
+            'confirmado' => $confirmado,
         ]);
-        
-        $inscritos = Inscrito::with('aluno')->where('campus_id', $campus->id)->where('modalidade_id', $modalidade->id)->get();
-
+        /* Verifica se pode confirmar equipe */
+        $inscritos = Inscrito::with('modalidade')
+                        ->where('campus_id', $campus_id)
+                        ->where('modalidade_id', $modalidade_id)
+                        ->get();
+        $atleta = $inscritos->first();
+        if(count($inscritos) >= $atleta->modalidade->qtd_min && count($inscritos) <= $atleta->modalidade->qtd_max){
+            Inscrito::where('campus_id', $campus_id)
+                    ->where('modalidade_id', $modalidade_id)
+                    ->update(['confirmado' => TRUE]);
+        }
         $msg_ok = "Estudande inscrito com sucesso!";
-        return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'))->with('sucesso', $msg_ok);
-    
+        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso',$msg_ok);
     }
 
+    public function inscricoes_remover($campus_id, $modalidade_id, Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'inscricao' => 'required|numeric',
+        ]);
+
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator);
+        }
+        
+        $inscrito = Inscrito::find($request->inscricao);
+
+        if(is_null($inscrito)){
+            abort(401);
+        }
+
+        if(!\Auth::user()->admin && \Auth::user()->campus_id != $inscrito->campus_id){
+            abort(403);
+        }
+
+        $inscrito->delete();
+
+        /* Verifica se pode confirmar equipe */
+        $inscritos = Inscrito::with('modalidade')
+                        ->where('campus_id', $campus_id)
+                        ->where('modalidade_id', $modalidade_id)
+                        ->get();
+        $atleta = $inscritos->first();
+        if(count($inscritos) < $atleta->modalidade->qtd_min || count($inscritos) > $atleta->modalidade->qtd_max){
+            Inscrito::where('campus_id', $campus_id)
+                    ->where('modalidade_id', $modalidade_id)
+                    ->update(['confirmado' => FALSE]);
+        }
+
+        $msg_ok = "Estudande removido com sucesso!";
+        return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso', $msg_ok);    
+    }
+    
     public function relacao()
     {
         return view('home');

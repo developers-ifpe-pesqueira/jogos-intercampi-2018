@@ -18,7 +18,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -28,7 +28,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -38,7 +38,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -48,7 +48,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -58,7 +58,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -68,7 +68,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -78,7 +78,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -88,7 +88,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -98,7 +98,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -108,7 +108,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -118,7 +118,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -128,7 +128,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -138,7 +138,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -148,7 +148,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -158,7 +158,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -168,7 +168,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -178,7 +178,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -188,7 +188,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -198,7 +198,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -208,7 +208,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -218,7 +218,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -228,7 +228,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -238,7 +238,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -248,7 +248,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -258,8 +258,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -268,8 +268,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -278,8 +278,9 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,'categoria_id' => 1,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
+            'categoria_id' => 1,
         ]);
         Modalidade::create([
             'modalidade' => 'Atletismo', 
@@ -287,8 +288,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -297,7 +298,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -307,7 +308,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -317,7 +318,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -327,7 +328,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -337,7 +338,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -347,7 +348,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -357,7 +358,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -367,7 +368,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -377,7 +378,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -387,7 +388,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -397,7 +398,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -407,7 +408,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -417,7 +418,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -427,7 +428,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -437,7 +438,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -447,7 +448,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -457,7 +458,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -467,7 +468,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -477,7 +478,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -487,7 +488,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,
         ]);
@@ -497,8 +498,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -507,8 +508,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -517,8 +518,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -527,8 +528,8 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Coletiva',
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 2,
+            'qtd_min' => 4,
+            'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
 
@@ -537,7 +538,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 3,
             'categoria_id' => 1,
         ]);
@@ -546,7 +547,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 3,
             'categoria_id' => 1,
         ]);
@@ -555,7 +556,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 5,
             'qtd_max' => 10,
             'categoria_id' => 1,
         ]);
@@ -564,7 +565,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'U', 
-            'qtd_min' => 0,
+            'qtd_min' => 5,
             'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
@@ -573,7 +574,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 11,
             'qtd_max' => 16,
             'categoria_id' => 1,
         ]);
@@ -582,7 +583,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 5,
             'qtd_max' => 10,
             'categoria_id' => 1,
         ]);
@@ -591,7 +592,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 5,
             'qtd_max' => 10,
             'categoria_id' => 1,
         ]);
@@ -600,7 +601,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 7,
             'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
@@ -609,26 +610,26 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 7,
             'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
             'modalidade' => 'Jogos Eletrônicos', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 10,
+            'qtd_min' => 5,
+            'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
             'modalidade' => 'Jogos Eletrônicos', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => 'Coletiva', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 10,
+            'qtd_min' => 5,
+            'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -636,7 +637,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'U', 
-            'qtd_min' => 0,
+            'qtd_min' => 3,
             'qtd_max' => 3,
             'categoria_id' => 1,
         ]);
@@ -645,7 +646,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 3,
             'categoria_id' => 1,
         ]);
@@ -654,7 +655,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 1,
             'qtd_max' => 3,
             'categoria_id' => 1,
         ]);
@@ -663,25 +664,25 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 6,
             'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
             'modalidade' => 'Voleibol de Praia', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => 'Coletiva', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
+            'qtd_min' => 2,
             'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
             'modalidade' => 'Voleibol de Praia', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => 'Coletiva', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
+            'qtd_min' => 2,
             'qtd_max' => 4,
             'categoria_id' => 1,
         ]);
@@ -690,8 +691,8 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 4,
+            'qtd_min' => 1,
+            'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -699,8 +700,8 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 4,
+            'qtd_min' => 1,
+            'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -708,7 +709,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'U', 
-            'qtd_min' => 0,
+            'qtd_min' => 5,
             'qtd_max' => 12,
             'categoria_id' => 2,
         ]);
@@ -717,7 +718,7 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'U', 
-            'qtd_min' => 0,
+            'qtd_min' => 3,
             'qtd_max' => 3,
             'categoria_id' => 2,
         ]);
@@ -726,8 +727,8 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'M', 
-            'qtd_min' => 0,
-            'qtd_max' => 4,
+            'qtd_min' => 1,
+            'qtd_max' => 5,
             'categoria_id' => 2,
         ]);
         Modalidade::create([
@@ -735,8 +736,8 @@ class ModalidadesSeeder extends Seeder
             'prova' => '', 
             'tipo' => 'Individual', 
             'sexo' => 'F', 
-            'qtd_min' => 0,
-            'qtd_max' => 4,
+            'qtd_min' => 1,
+            'qtd_max' => 5,
             'categoria_id' => 2,
         ]);
     }

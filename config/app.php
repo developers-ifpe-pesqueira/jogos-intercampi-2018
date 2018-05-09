@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'logo' => env('APP_LOGO', 'img/medalha-intercampi-2018.png'),
 
     /*
     |--------------------------------------------------------------------------

@@ -1,5 +1,10 @@
 @extends('adminlte::page')
 
+@section('css')
+<link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/web-fonts-with-css/css/fontawesome-all.min.css') }}">
+<link rel="stylesheet" href="{{ asset('vendor/select2-4.0.5/select2.min.css')}}">
+@stop
+
 @section('content_header')
     <h1>Inscrições</h1>
     <ol class="breadcrumb">
@@ -23,7 +28,7 @@
                 @endforeach 
             </div>
         @endif
-        <form action="{{ route('inscricoes.modalidade') }}" method="GET">
+        <form action="{{ route('inscricoes.modalidade') }}" method="POST">
             {{ csrf_field() }}
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">
@@ -41,9 +46,10 @@
                 <div class="col-md-12 col-xs-12">
                     <label for="modalidade">Modalidade: </label>
                     <select name="modalidade" id="modalidade" class="form-control">
+                        <option></option>
                         @foreach($modalidades as $modalidade)
                             <option value="{{ $modalidade->id }}">
-                                {{ $modalidade->modalidade}} 
+                                {{ $modalidade->categoria->categoria}} - {{ $modalidade->modalidade}} 
                                 @if($modalidade->prova != '') 
                                     ({{ $modalidade->prova}})
                                 @endif
@@ -55,10 +61,20 @@
             </div>
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">
-                    <button type="submit" class="btn btn-primary btn-block">Próximo</button>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fa fa-fw fa-arrow-alt-circle-right "></i> Próximo</button>
                 </div>                    
             </div>
         </form>
     </div>
 </div>
+@stop
+@section('js')
+    <script src="{{ asset('vendor/select2-4.0.5/select2.min.js')}}"></script>
+    <script>
+    $(document).ready(function() {
+        $('#modalidade').select2({
+            placeholder: "Selecione uma modalidade:"
+        });
+    });
+    </script>
 @stop
