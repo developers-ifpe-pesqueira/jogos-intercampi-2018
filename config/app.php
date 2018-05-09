@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Jogos Intercampi IFPE 2018'),
     'logo' => env('APP_LOGO', 'img/medalha-intercampi-2018.png'),
 
     /*
