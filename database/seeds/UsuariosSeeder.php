@@ -140,6 +140,13 @@ class UsuariosSeeder extends Seeder
             'campus_id' => 16,
             'admin' => FALSE,
         ]);
+        User::create([
+            'name' => 'Helton Layon Teixeira dos Santos',
+            'email' => 'heltonsantos@recife.ifpe.edu.br',
+            'password' => bcrypt(str_random(10)),
+            'campus_id' => 16,
+            'admin' => FALSE,
+        ]);
         // Vitória de Santo Antão
         User::create([
             'name' => 'Iunaly Sumaia da Costa Ataide',

@@ -16,7 +16,7 @@ class CreateModalidadesTable extends Migration
         Schema::create('modalidades', function (Blueprint $table) {
             $table->increments('id');
             $table->string('modalidade');
-            $table->enum('tipo', ['Coletiva', 'Individual']);
+            $table->enum('tipo', ['Coletiva', 'Individual','']);
             $table->string('prova');
             $table->enum('tipo_prova', ['Coletiva', 'Individual'])->nullable()->defaut(null);
             $table->enum('sexo', ['M', 'F','U']);

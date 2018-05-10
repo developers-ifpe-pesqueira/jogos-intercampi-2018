@@ -36,7 +36,7 @@
                 @endforeach 
             </div>
         @endif
-        <form action="{{ route('relacao.campus') }}" method="POST">
+        <form action="{{ route('relacao.campus') }}" method="POST" target="_blank">
             {{ csrf_field() }}
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">

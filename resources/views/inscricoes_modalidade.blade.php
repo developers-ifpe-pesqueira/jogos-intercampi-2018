@@ -99,6 +99,7 @@
             <table class="table table-boordered">
                 <thead>
                     <tr>
+                        <th>#</th>
                         <th>Matrícula</th>
                         <th>Nome</th>
                         <th>Nascimento</th>
@@ -109,8 +110,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                    @php $cont = 1 @endphp
                     @foreach($inscritos as $inscrito)
                     <tr>
+                        <td>{{ $cont++ }}</td>
                         <td>{{ $inscrito->aluno->matricula }}</td>
                         <td>{{ $inscrito->aluno->nome }}</td>
                         <td>{{ date('d/m/Y', strtotime($inscrito->aluno->nascimento)) }}</td>

@@ -563,7 +563,7 @@ class ModalidadesSeeder extends Seeder
         Modalidade::create([
             'modalidade' => 'Corrida de Orientação', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => '', 
             'sexo' => 'U', 
             'qtd_min' => 5,
             'qtd_max' => 12,
@@ -635,7 +635,7 @@ class ModalidadesSeeder extends Seeder
         Modalidade::create([
             'modalidade' => 'Maratona Cultural', 
             'prova' => '', 
-            'tipo' => 'Coletiva', 
+            'tipo' => '', 
             'sexo' => 'U', 
             'qtd_min' => 3,
             'qtd_max' => 3,
@@ -707,7 +707,7 @@ class ModalidadesSeeder extends Seeder
         Modalidade::create([
             'modalidade' => 'Corrida de Orientação', 
             'prova' => '', 
-            'tipo' => 'Individual', 
+            'tipo' => '', 
             'sexo' => 'U', 
             'qtd_min' => 5,
             'qtd_max' => 12,
@@ -716,7 +716,7 @@ class ModalidadesSeeder extends Seeder
         Modalidade::create([
             'modalidade' => 'Maratona Cultural', 
             'prova' => '', 
-            'tipo' => 'Coletiva', 
+            'tipo' => '', 
             'sexo' => 'U', 
             'qtd_min' => 3,
             'qtd_max' => 3,

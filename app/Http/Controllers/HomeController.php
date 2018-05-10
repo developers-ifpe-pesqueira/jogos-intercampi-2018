@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
+
 class HomeController extends Controller
 {
     /**
@@ -131,19 +132,20 @@ class HomeController extends Controller
             abort(401);
         }
 
-        if ($modalidade->sexo_abrev == 'U'){
-            $alunos = Alunos::where('campus_id', $campus->id)
-            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->get();
-        } else {
-            $alunos = Alunos::where('campus_id', $campus->id)
-            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->where('sexo', $modalidade->sexo_abrev)->get();
-        }
-
         $inscritos = Inscrito::with('aluno')
                         ->where('campus_id', $campus->id)
                         ->where('modalidade_id', $modalidade->id)
                         ->orderBy('aluno_id')
                         ->get();
+
+        if ($modalidade->sexo_abrev == 'U'){
+            $alunos = Alunos::where('campus_id', $campus->id)
+            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)
+            ->get();
+        } else {
+            $alunos = Alunos::where('campus_id', $campus->id)
+            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->where('sexo', $modalidade->sexo_abrev)->get();
+        }
         
         return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'));
 
@@ -183,13 +185,26 @@ class HomeController extends Controller
 
         /* Verifica a quantidade máxima de participantes para esta modalidade*/
         $inscritos = Inscrito::where('campus_id', $campus_id)->where('modalidade_id', $modalidade_id)->get();
-        $modalidade = Modalidade::find($modalidade_id);
+        $modalidade = Modalidade::with('categoria')->find($modalidade_id);
         $qtd_inscritos = count($inscritos);
         if ($qtd_inscritos >= $modalidade->qtd_max){
             $msg_erro = 'Inscrição não realizada. Limite de inscritos para esta modalidade foi excedido.';
             return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
         }
 
+        /* Verifica pela data de nascimento se o estudante pode ser inscrito */
+        $aluno = Alunos::find($request->aluno_id);
+        if ($aluno->idade < 12){
+            $msg_erro = 'Inscrição não realizada. Idade inferior a 12 anos, verifique se data de nascimento está correta.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
+        $tz  = new \DateTimeZone(config('app.timezone', 'America/Recife'));
+        $data_nasc = \DateTime::createFromFormat('Y-m-d', $aluno->nascimento, $tz);
+        $data_perm = \DateTime::createFromFormat('Y-m-d', $modalidade->categoria->dt_nascimento_limite, $tz);
+        if ($data_perm->diff($data_nasc)->invert > 0 && $data_perm->diff($data_nasc)->y > 0){
+            $msg_erro = 'Inscrição não realizada. Idade superior a permitida para esta modalidade.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
         
         /* Cria Arrays de Modalidades / Provas em que o atleta está inscrito*/
         $aluno_modalidades = Inscrito::with('modalidade')->where('aluno_id', $request->aluno_id)->get();
@@ -210,7 +225,7 @@ class HomeController extends Controller
                         array_push($array_modalidades_individuais[$am->modalidade->modalidade]['coletivas'], $am->modalidade->prova);
                     }
                 }
-            }else{
+            }else if($am->modalidade->tipo == 'Coletiva'){
                 if (!array_key_exists($am->modalidade->modalidade, $array_modalidades_coletivas)){
                     $array_modalidades_coletivas[$am->modalidade->modalidade]['individuais'] = [];
                     $array_modalidades_coletivas[$am->modalidade->modalidade]['coletivas'] = [];
@@ -351,12 +366,13 @@ class HomeController extends Controller
                         ->where('modalidade_id', $modalidade_id)
                         ->get();
         $atleta = $inscritos->first();
-        if(count($inscritos) < $atleta->modalidade->qtd_min || count($inscritos) > $atleta->modalidade->qtd_max){
-            Inscrito::where('campus_id', $campus_id)
-                    ->where('modalidade_id', $modalidade_id)
-                    ->update(['confirmado' => FALSE]);
+        if(!is_null($atleta)){
+            if(count($inscritos) < $atleta->modalidade->qtd_min || count($inscritos) > $atleta->modalidade->qtd_max){
+                Inscrito::where('campus_id', $campus_id)
+                        ->where('modalidade_id', $modalidade_id)
+                        ->update(['confirmado' => FALSE]);
+            }
         }
-
         $msg_ok = "Estudande removido com sucesso!";
         return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso', $msg_ok);    
     }
@@ -371,8 +387,15 @@ class HomeController extends Controller
         $validatedData = $request->validate([
             'campus' => 'required',
         ]);
-        
-        return 1;
+        $campi = Campus::whereIn('id', $request->campus)->get();
+        $inscritos = Inscrito::with('aluno')
+                                ->whereIn('campus_id', $request->campus)
+                                ->where('confirmado', TRUE)
+                                ->groupBy('aluno_id')
+                                ->groupBy('campus_id')
+                                ->get();
+        $pdf = \PDF::loadView('pdf.campus', compact('campi','inscritos'));
+        return $pdf->stream();
     }
 
     public function relacao_modalidade()

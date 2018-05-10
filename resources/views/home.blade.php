@@ -94,7 +94,15 @@
                                         <a href="{{ route('inscricoes.modalidade.v',['campus'=> $campus->id, 'modalidade'=> $mi->masc_id]) }}" class="badge bg-yellow">{{ $mi->masc }}</a>
                                     @endif
                                 </td>
-                                <td style="text-align:center; vertical-align:middle;">{{ $mi->fem or '-' }}</td>
+                                <td style="text-align:center; vertical-align:middle;">
+                                    @if(is_null($mi->fem))
+                                        -
+                                    @elseif($mi->fem >= $mi->fem_min)
+                                        <a href="{{ route('inscricoes.modalidade.v',['campus'=> $campus->id, 'modalidade'=> $mi->fem_id]) }}" class="badge bg-green">{{ $mi->fem }}</a>
+                                    @else
+                                        <a href="{{ route('inscricoes.modalidade.v',['campus'=> $campus->id, 'modalidade'=> $mi->fem_id]) }}" class="badge bg-yellow">{{ $mi->fem }}</a>
+                                    @endif
+                                    </td>
                                 <td style="text-align:center; vertical-align:middle;">{{ $mi->unic or '-' }}</td>
                             </tr>
                             @endforeach
