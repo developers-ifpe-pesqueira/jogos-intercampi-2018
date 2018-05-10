@@ -19,7 +19,9 @@
 @section('body')
     <div class="login-box">
         <div class="login-logo">
-            <img src="{{ asset('img/medalha-intercampi-2018.png') }}" style="height:5em;">
+            <a href="{{ route('index') }}">
+                <img src="{{ asset('img/medalha-intercampi-2018.png') }}" style="height:5em;">
+            </a>
             {{-- <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a> --}}
         </div>
         <!-- /.login-logo -->

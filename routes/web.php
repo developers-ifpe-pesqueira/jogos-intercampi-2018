@@ -20,6 +20,8 @@ Route::post('/inscricoes/modalidade', 'HomeController@inscricoes_modalidade')->n
 Route::get('/inscricoes/modalidade/{campus}/{modalidade}', 'HomeController@inscricoes_modalidade_v')->name('inscricoes.modalidade.v');
 Route::post('/inscricoes/modalidade/{campus}/{modalidade}/adicionar', 'HomeController@inscricoes_adicionar')->name('inscricoes.adicionar');
 Route::delete('/inscricoes/modalidade/{campus}/{modalidade}/remover', 'HomeController@inscricoes_remover')->name('inscricoes.remover');
-Route::get('/relacao', 'HomeController@relacao')->name('relacao');
+Route::get('/relacao/campus', 'HomeController@relacao_campus')->name('relacao.campus');
+Route::post('/relacao/campus', 'HomeController@relacao_campus_pdf');
+Route::get('/relacao/modalidade', 'HomeController@relacao_modalidade')->name('relacao.modalidade');
 Route::get('/importar', 'HomeController@importar')->name('importar');
 Route::post('/importar', 'HomeController@processar_importacao');

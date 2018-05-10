@@ -116,8 +116,20 @@ return [
         ],
         [
             'text'  => 'Relação de inscritos',
-            'route' => 'relacao',
             'icon'  => 'list-alt',
+            'submenu' => [
+                [
+                    'text' => 'Por Campus',
+                    'icon'  => 'graduation-cap',
+                    'route' => 'relacao.campus',
+                    
+                ],
+                [
+                    'text' => 'Por Modalidade',
+                    'icon'  => 'table-tennis',
+                    'route' => 'relacao.modalidade',
+                ],
+            ]
         ],
         [
             'text'  => 'Importar Alunos',

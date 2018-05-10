@@ -1,7 +1,6 @@
 @extends('adminlte::page')
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/web-fonts-with-css/css/fontawesome-all.min.css') }}">
 <link rel="stylesheet" href="{{ asset('vendor/select2-4.0.5/select2.min.css')}}">
 @stop
 

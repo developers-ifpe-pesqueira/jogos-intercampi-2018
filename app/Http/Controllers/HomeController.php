@@ -85,8 +85,23 @@ class HomeController extends Controller
                     A.modalidade";
 
         $modalidades_inscritos = DB::Select($sql, [$campus->id,$campus->id,$campus->id]);
+        /* $modalidades_confirmadas = Inscrito::where('campus_id',$campus->id)
+                                            ->where('confirmado', TRUE)
+                                            ->groupBy('modalidade_id')
+                                            ->count();
+        $modalidades_totais = Modalidade::all()->count(); */
 
-        return view('home', compact('campus','qtd_inscritos','modalidades_inscritos'));
+
+        $modalidades_confirmadas = DB::Select(' SELECT m.modalidade, COUNT(i.id) 
+                                                FROM `inscritos` i, modalidades m 
+                                                WHERE i.modalidade_id = m.id AND i.confirmado = 1 AND i.campus_id = ? 
+                                                GROUP BY m.modalidade',
+                                                [$campus->id]);
+        $modalidades_confirmadas = count($modalidades_confirmadas);
+        $modalidades_totais = Modalidade::groupBy('modalidade')->count();
+
+
+        return view('home', compact('campus','qtd_inscritos','modalidades_inscritos','modalidades_confirmadas', 'modalidades_totais'));
     }
     public function inscricoes()
     {
@@ -346,9 +361,23 @@ class HomeController extends Controller
         return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso', $msg_ok);    
     }
     
-    public function relacao()
+    public function relacao_campus()
     {
-        return view('home');
+        $campi = Campus::all();
+        return view('relacao_campus', compact('campi'));
+    }
+    public function relacao_campus_pdf(Request $request)
+    {
+        $validatedData = $request->validate([
+            'campus' => 'required',
+        ]);
+        
+        return 1;
+    }
+
+    public function relacao_modalidade()
+    {
+        return view('index');
     }
 
     public function importar()

@@ -2,6 +2,9 @@
 
 @section('content_header')
     <h1>Informações<small>{{ config('app.name') }}</small></h1>
+    <ol class="breadcrumb">
+        <li><a href="{{ route('home') }}"><i class="fa fa-fw fa-home"></i> Inicial</a></li>
+    </ol>
 @stop
 
 @section('content')
@@ -35,12 +38,12 @@
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-green">
             <div class="inner">
-              <h3>&nbsp;</h3>
+              <h3>{{ $modalidades_confirmadas }}</h3>
 
               <p>Modalidades confirmadas</p>
             </div>
             <div class="icon">
-              <i class="fa fa-fw fa-check-square-o"></i>
+              <i class="fa fa-fw fa-check-square"></i>
             </div>
             <a class="small-box-footer">&nbsp;</a>
           </div>
@@ -48,7 +51,7 @@
         <div class="col-lg-3 col-xs-6">
           <div class="small-box bg-yellow">
             <div class="inner">
-              <h3>&nbsp;</h3>
+                <h3>{{ $modalidades_totais - $modalidades_confirmadas }}</h3>
 
               <p>Modalidades pendentes</p>
             </div>
@@ -82,7 +85,15 @@
                             @foreach($modalidades_inscritos as $mi)
                             <tr>
                                 <td style="text-align:left; vertical-align:middle;">{{ $mi->modalidade }}</td>
-                                <td style="text-align:center; vertical-align:middle;">{{ $mi->masc or '-' }}</td>
+                                <td style="text-align:center; vertical-align:middle;">
+                                    @if(is_null($mi->masc))
+                                        -
+                                    @elseif($mi->masc >= $mi->masc_min)
+                                        <a href="{{ route('inscricoes.modalidade.v',['campus'=> $campus->id, 'modalidade'=> $mi->masc_id]) }}" class="badge bg-green">{{ $mi->masc }}</a>
+                                    @else
+                                        <a href="{{ route('inscricoes.modalidade.v',['campus'=> $campus->id, 'modalidade'=> $mi->masc_id]) }}" class="badge bg-yellow">{{ $mi->masc }}</a>
+                                    @endif
+                                </td>
                                 <td style="text-align:center; vertical-align:middle;">{{ $mi->fem or '-' }}</td>
                                 <td style="text-align:center; vertical-align:middle;">{{ $mi->unic or '-' }}</td>
                             </tr>
