@@ -217,16 +217,6 @@ class ModalidadesSeeder extends Seeder
             'prova' => 'Corrida 3.000m', 
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
-            'sexo' => 'M', 
-            'qtd_min' => 1,
-            'qtd_max' => 2,
-            'categoria_id' => 1,
-        ]);
-        Modalidade::create([
-            'modalidade' => 'Atletismo', 
-            'prova' => 'Corrida 3.000m', 
-            'tipo' => 'Individual', 
-            'tipo_prova' => 'Individual',
             'sexo' => 'F', 
             'qtd_min' => 1,
             'qtd_max' => 2,
@@ -238,16 +228,6 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
             'sexo' => 'M', 
-            'qtd_min' => 1,
-            'qtd_max' => 2,
-            'categoria_id' => 1,
-        ]);
-        Modalidade::create([
-            'modalidade' => 'Atletismo', 
-            'prova' => 'Corrida 5.000m', 
-            'tipo' => 'Individual', 
-            'tipo_prova' => 'Individual',
-            'sexo' => 'F', 
             'qtd_min' => 1,
             'qtd_max' => 2,
             'categoria_id' => 1,

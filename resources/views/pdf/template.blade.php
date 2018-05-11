@@ -38,6 +38,18 @@
 			margin-bottom: 0.3cm;
 			text-align: center;
 		}
+		h4{
+			font-size: 14px;
+			margin-bottom: 0.3cm;
+			text-align: center;
+			border-top: 1px solid #5F7D19;
+			border-bottom: 1px solid #5F7D19;
+			background-color: #D7D9C8;
+			font-weight: bold;
+		}
+		hr{
+			color: #5F7D19;
+		}
 		table{
 			width: 100%;
 			border-collapse: collapse;
@@ -58,6 +70,22 @@
         .erro{
             color: red;
         }
+		footer{
+			position: absolute;
+			bottom: 0;
+		}
+		footer .direita{
+			display: inline-block;
+			vertical-align: bottom;
+			width: 45%;
+			text-align: right;
+			float: right;
+		}
+		footer .esquerda{
+			display: inline-block;
+			vertical-align: bottom;
+			width: 45%;
+		}
     </style>
 </head>
 <body>

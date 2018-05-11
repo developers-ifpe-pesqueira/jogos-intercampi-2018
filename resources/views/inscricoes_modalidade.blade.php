@@ -15,19 +15,7 @@
 @section('content')
 <div class="box">
     <div class="box-header">
-        @php
-            $str_modalidade = "";
-            $str_modalidade .= $modalidade->categoria->categoria . ' - ';
-            $str_modalidade .= $modalidade->modalidade;
-            if ($modalidade->prova != ''){
-                $str_modalidade .= ' - ';
-                $str_modalidade .= $modalidade->prova;
-            }
-            $str_modalidade .= ' (';
-            $str_modalidade .= $modalidade->sexo;
-            $str_modalidade .= ')';
-        @endphp
-        <h3 class="box-title">{{ $str_modalidade }}:</h3>
+        <h3 class="box-title">{{ $modalidade->nome }}:</h3>
         <div class="pull-right">
             <a href="{{ route('inscricoes') }}" class="btn btn-primary"><i class="fa fa-fw fa-retweet"></i>&nbsp; Alterar modalidade</a>
         </div>
@@ -146,6 +134,15 @@
     </div>
     <div class="overlay" style="display:none;" id="loading">
         <i class="fa fa-refresh fa-spin"></i>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-xs-12">
+        <div class="callout callout-info">
+            <h4>Observação:</h4>
+            <p>A informações dos estudantes foram obtidas pelo sistema Q-Acadêmico, caso exista alguma divergência, favor regularizar junto ao setor responsável pelo registro escolar do seu Campus.</p>
+            <p>Para incluir ou modificar estudantes na plataforma de inscrições do Intercampi, enviar documentação comprobatório de matrícula e um documento oficial do estudante para o e-mail <a href="mailto:intercampi@pesqueira.ifpe.edu.br">intercampi@pesqueira.ifpe.edu.br</a></p>
+        </div>
     </div>
 </div>
 @stop

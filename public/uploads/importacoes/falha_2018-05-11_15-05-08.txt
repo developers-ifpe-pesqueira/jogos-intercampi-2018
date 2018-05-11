@@ -1,0 +1,1035 @@
+20172AOSI0014,Adriano Francisco de Oliveira,Matriculado,Matriculado,20181.AOSI.3N,01/09/1984,M,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,090.841.604-01,IFPE / RECIFE,Sebastião Francisco de Oliveira,Maria dos Anjos de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 53: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0124,Bruna Venâncio Vasconcelos,Matriculado,Matriculado,,22/06/1989,F,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,078.963.614-00,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 664: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0132,Bruno Érix de Araújo,Matriculado,Matriculado,,04/10/1996,M,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,704.098.714-78,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 679: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0070,Carla Andréa da Silva,Matriculado,Matriculado,20181.EIP.3N,06/11/1985,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,054.145.074-30,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 769: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0022,Carolina Rodrigues da Silva,Matriculado,Matriculado,20181.AOSI.3N,15/06/1998,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,709.655.434-39,IFPE / RECIFE,Antônio Inácio da Silva,Nivia Rodrigues,Formação Inicial e Continuada - FIC,
+Linha 820: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0029,Cassandra Tatiane Gomes dos Santos,Matriculado,Matriculado,20181.EIP.3N,15/09/1996,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,703.816.624-70,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 828: Filtrada pelo Nível/Regime de Ensino; 
+20162AOSI0032,Conceição Valeria Silva Ribeiro,Matriculado,Matriculado,,30/03/1976,F,2016/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,4,Noturno,,779.902.694-49,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 916: Filtrada pelo Nível/Regime de Ensino; 
+20162AOSI0040,Daniel Alves Ribeiro,Matriculado,Matriculado,,01/11/1997,M,2016/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,4,Noturno,,708.095.014-73,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 938: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0030,Danirrely Marcelly Barbosa dos Anjos,Matriculado,Matriculado,20181.AOSI.3N,27/04/1989,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,091.788.024-23,IFPE / RECIFE,Fernando Severinpo dos Anjos,Maria Luciene Barbosa da Silva,Formação Inicial e Continuada - FIC,
+Linha 994: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0049,Dayse Pereira Costa,Matriculado,Matriculado,20181.AOSI.3N,04/11/1975,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,NOVA IGUAÇU - RJ,027.101.244-75,IFPE / RECIFE,José Eurico Alves Pereira,Deni da Silva Pereira,Formação Inicial e Continuada - FIC,
+Linha 1064: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0088,Débora Pereira Lima da Silva,Matriculado,Matriculado,20181.EIP.3N,07/02/1984,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,066.086.694-37,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1086: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0053,Deleite Fernandes José de Lima,Matriculado,Matriculado,20181.EIP.3N,21/09/1992,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,099.540.994-33,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1106: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0027,Diego Filipe de Albuquerque,Matriculado,Matriculado,,12/03/1997,M,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,707.830.834-40,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1157: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0118,Edvaldo Francisco da Silva Junior,Matriculado,Matriculado,,26/04/1986,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,MORENO - PE,056.910.404-13,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1295: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0142,Flávia Renata Barbosa da Silva,Matriculado,Matriculado,20181.EIP.3N,05/07/1986,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,064.005.934-11,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1648: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0126,Gabriel Ferreira Dourado da Paixao,Matriculado,Matriculado,20181.EIP.3N,09/02/1999,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,704.619.564-11,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1703: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0043,Gabriel José do Nascimento,Matriculado,Matriculado,,19/09/1997,M,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,703.140.084-89,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1716: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0010,Gleiciana Gonçalves da Silva,Matriculado,Matriculado,20181.EIP.3N,09/04/1988,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,073.394.034-00,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 1900: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0185,Ivison Deivit Souza da Silva,Matriculado,Matriculado,20181.EIP.3N,24/08/1997,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,704.151.564-83,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2215: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0057,Jackeline Pessoa Cabral,Matriculado,Matriculado,20181.AOSI.3N,15/08/1992,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,093.989.794-62,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2235: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0134,Jadson Oliveira da Silva,Matriculado,Matriculado,20181.EIP.3N,23/11/1995,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,710.097.064-46,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2248: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0065,Janaina Pereira da Silva,Matriculado,Matriculado,20181.AOSI.3N,27/04/1997,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,104.170.314-75,IFPE / RECIFE,Genivaldo José da Silv a,Marilene Pereira da Silva,Formação Inicial e Continuada - FIC,
+Linha 2278: Filtrada pelo Nível/Regime de Ensino; 
+20172Y7RC0130,Jose Bernardo da Silva Junior,Matriculado,Matriculado,,29/07/1992,M,2017/2,GESTÃO EM REDES DE COMPUTADORES,1,Noturno,ABREU E LIMA - PE,092.227.014-70,IFPE / RECIFE,Jose Bernado da Silva,Helena Alves dos Santos,Formação Inicial e Continuada - FIC,
+Linha 2585: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0100,Jose Ronaldo da Silva,Matriculado,Matriculado,20181.EIP.3N,02/11/1962,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,BEZERROS - PE,918.812.344-87,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2675: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0096,Josélia Maria de Araujo Fragoso,Matriculado,Matriculado,20181.EIP.3N,22/03/1978,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,036.785.844-46,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2697: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0167,Leandra Thais da Conceição,Matriculado,Matriculado,,16/11/1997,F,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,708.442.014-21,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 2970: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0051,Lucimaria da Silva Evangelista Guerra,Matriculado,Matriculado,,21/05/1978,F,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,027.709.574-30,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 3251: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0150,Marcio Henrique Lopes dos Santos,Matriculado,Matriculado,,06/04/1974,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,734.635.154-15,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 3410: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0073,Maria da Conceição Gonçalves,Matriculado,Matriculado,20181.AOSI.3N,03/12/1981,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,OROBÓ - PE,047.223.494-36,IFPE / RECIFE,José Gonçalves da Silva,Josefa Maria da Conceição,Formação Inicial e Continuada - FIC,
+Linha 3510: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0081,Maria de Jesus Pereira de Andrade,Matriculado,Matriculado,20181.AOSI.3N,22/12/1970,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,948.439.294-68,IFPE / RECIFE,Luiz Manoel de Andrade,Carmelita Pereira de Andrade,Formação Inicial e Continuada - FIC,
+Linha 3513: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0090,Maria do Carmo do Nascimento,Matriculado,Matriculado,20181.AOSI.3N,16/07/1976,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,029.591.714-89,IFPE / RECIFE,José Geraldo do Nascimento,Graciete Soares do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 3516: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0103,Maria Helena Gomes de Oliveira,Matriculado,Matriculado,20181.AOSI.3N,16/07/1976,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,BOM CONSELHO - PE,024.057.574-19,IFPE / RECIFE,Elias Gomes da Silva,Maria Lourenço Silva,Formação Inicial e Continuada - FIC,
+Linha 3576: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0061,Maria Jose Ferreira,Matriculado,Matriculado,20181.EIP.3N,26/10/1958,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,761.590.434-04,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 3587: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0111,Maria José Vieira da Silva,Matriculado,Matriculado,20181.AOSI.3N,15/09/1982,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,LAGOA DO CARRO - PE,077.911.084-61,IFPE / RECIFE,Severino Vieira da Silva,Maria Rosa da Silva,Formação Inicial e Continuada - FIC,
+Linha 3588: Filtrada pelo Nível/Regime de Ensino; 
+9221446,MOISES DIONISIO DA SILVA,Matriculado,Matriculado,,,M,1992/2,ELETRONICA NORMAL,,Matutino,RECIFE - PE,,IFPE / RECIFE,,NOME DA MÃE NÃO INFORMADO,Integrado,
+Linha 3930: CPF inválido; Nascimento inválido; 
+20172AOSI0120,Núbia Bezerra da Silva Pimentel,Matriculado,Matriculado,20181.AOSI.3N,28/04/1963,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,735.185.654-00,IFPE / RECIFE,Nilton da Costa Pimentel,Ednir Antonia Bezerra da Silva,Formação Inicial e Continuada - FIC,
+Linha 4030: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0138,Priscila Martins da Silva,Matriculado,Matriculado,20181.AOSI.3N,15/06/1976,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,011.350.104-80,IFPE / RECIFE,,Sonia Martins da Silva,Formação Inicial e Continuada - FIC,
+Linha 4217: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0146,Rafaela dos Santos Gomes,Matriculado,Matriculado,20181.AOSI.3N,15/10/1991,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,106.918.074-26,IFPE / RECIFE,Genival Gomes da Silva,Maria Aparecida Santana dos Santos,Formação Inicial e Continuada - FIC,
+Linha 4264: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0060,Raron Victor da Rocha Gonçalves,Matriculado,Matriculado,,22/10/1993,M,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,101.872.074-02,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4311: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0177,Reinan Correia da Silva,Matriculado,Matriculado,,20/01/1999,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,2,Noturno,RECIFE - PE,709.176.664-45,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4366: Filtrada pelo Nível/Regime de Ensino; 
+20162AOSI0180,Renan Henrique Monte de Arruda,Matriculado,Matriculado,,05/03/1993,M,2016/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,4,Noturno,,102.971.814-83,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4371: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0037,Sandra Marinho Gomes,Matriculado,Matriculado,20181.EIP.3N,16/02/1971,F,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,686.150.784-91,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4600: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0154,Severino João Ferreira Filho,Matriculado,Matriculado,20181.AOSI.3N,14/04/1973,M,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,SÃO LOURENÇO DA MATA - PE,773.615.984-04,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4640: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0162,Shayna Wesley Leonidas Pereira,Matriculado,Matriculado,20181.AOSI.3N,27/03/1998,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,124.711.224-18,IFPE / RECIFE,Alexandre Leonidas Pereira,Marcia Pereira da Silva,Formação Inicial e Continuada - FIC,
+Linha 4646: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0170,Sidicley Silva dos Santos Filho,Matriculado,Matriculado,20181.AOSI.3N,26/08/1998,M,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,110.905.924-85,IFPE / RECIFE,Sidicley Silva dos Santos,Fabiana Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 4661: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0183,Thaynan Leticia Nascimento Mendonça,Matriculado,Matriculado,,21/10/1997,F,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,106.080.274-05,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4825: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0094,Thiago Alberto Nunes Conceição,Matriculado,Matriculado,,09/02/1996,M,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,114.026.024-30,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4836: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0169,Thiago Jorge dos Santos Silva,Matriculado,Matriculado,20181.EIP.3N,20/04/1999,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,705.819.694-05,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4864: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0189,Tulio Monteiro,Matriculado,Matriculado,20181.AOSI.3N,29/12/1991,M,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,JABOATÃO (JABOATÃO DOS GUARARAPES) - PE,110.315.334-00,IFPE / RECIFE,José Orlando Monteiro,Maria José Alves dos Santos,Formação Inicial e Continuada - FIC,
+Linha 4915: Filtrada pelo Nível/Regime de Ensino; 
+20172AOSI0197,Valmir Manoel da Silva,Matriculado,Matriculado,20181.AOSI.3N,15/12/1967,M,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,511.868.704-78,IFPE / RECIFE,Osvaldo Manoel da Silva,Maria de Lourdes da Silva,Formação Inicial e Continuada - FIC,
+Linha 4933: Filtrada pelo Nível/Regime de Ensino; 
+20162EIP0191,Vera Lúcia da Conceição ,Matriculado,Matriculado,,22/01/1965,F,2016/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,4,Noturno,,784.248.104-06,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 4956: Filtrada pelo Nível/Regime de Ensino; 
+20172EIP0045,Willian Melo da Silva,Matriculado,Matriculado,20181.EIP.3N,23/04/1993,M,2017/2,BÁSICO DE ELETRICISTA INSTALADOR PREDIAL - PROEJA,3,Noturno,RECIFE - PE,101.029.274-99,IFPE / RECIFE,,,Formação Inicial e Continuada - FIC,
+Linha 5193: Filtrada pelo Nível/Regime de Ensino; 
+20142Q5-RC0090,Yuri Alexei Lima Da, Silva,Matriculado,Matriculado,20181.Q5-RC.6V,11/07/1996,M,2014/2,SUPERIOR DE TECNOLOGIA EM RADIOLOGIA,6,Vespertino,RECIFE - PE,094.299.734-44,IFPE / RECIFE,Antonio Jose da Silva,Andrea Renata de Lima Bispo,Tecnólogo,
+Linha 5247: Quantidade de campos incompatível; 
+20172AOSI0200,Zelinda Silva de Souza,Matriculado,Matriculado,20181.AOSI.3N,02/01/1953,F,2017/2,BÁSICO DE AGENTE DE OBSERVAÇÃO DE SEGURANÇA NA INDÚSTRIA - SEE / PE.,3,Noturno,RECIFE - PE,818.735.304-04,IFPE / RECIFE,Manoel Andrade da Silva,Joana Francisca da Silva,Formação Inicial e Continuada - FIC,
+Linha 5253: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0630,Adelso Antonio Monteiro dos Santos,Matriculado,Matriculado,,26/07/1989,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,083.166.104-69,IFPE / PESQUEIRA,Ataide Cordeiro dos Santos,Ione Monteiro da Silva Santos,Extensão,
+Linha 5259: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0096,Adriana Karla Tavares Batista Nunes Leal,Matriculado,Matriculado,,17/04/1976,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,NATAL - RN,022.375.744-64,IFPE / PESQUEIRA,Rômulo Batista Nunes,Neuza Tavares Nunes,Extensão,
+Linha 5263: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0606,Adriana Oliveira da Silva,Matriculado,Matriculado,,14/09/1980,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,039.912.714-35,IFPE / PESQUEIRA,José Arnaldo da Silva,Irenice Porfirio Oliveira da Silva,Extensão,
+Linha 5264: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1076,Adriana Siqueira de Almeida,Matriculado,Matriculado,,16/11/1986,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,062.529.764-40,IFPE / PESQUEIRA,Moacir Bezerra de Almeida Jínior,Maria Aparecida Siqueira Nunes,Extensão,
+Linha 5265: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0045,Adson Jonatas Silva dos Santos,Matriculado,Matriculado,,27/10/1983,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,331.476.578-92,IFPE / PESQUEIRA,Não Declarado,Maria de Lourdes da Silva,Extensão,
+Linha 5273: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0452,Aldejanne Flávia Araújo dos Santos,Matriculado,Matriculado,,27/08/1977,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,030.144.894-92,IFPE / PESQUEIRA,José Milton Maciel dos Santos,Agueda Maria Araújo dos Santos,Extensão,
+Linha 5284: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0100,Alexandro Álvaro Barbosa,Matriculado,Matriculado,,17/08/1981,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,SANTA MARIA (SÃO JOÃO DO TIGRE) - PB,032.700.444-45,IFPE / PESQUEIRA,Antonio Luiz Barbosa  ,Antonia da Silva Barbosa,Extensão,
+Linha 5292: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0185,Alisson Gabriel Brito Araújo,Matriculado,Matriculado,,22/08/1994,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,108.406.254-21,IFPE / PESQUEIRA,Gevaldo Araújo da Silva,Valéria de Cássia Brito Araújo,Extensão,
+Linha 5308: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0207,Allany Ariane Maia Araújo,Matriculado,Matriculado,,23/12/1998,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,118.627.734-32,IFPE / PESQUEIRA,,,Extensão,
+Linha 5312: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0193,Ana Allayne Maia Araújo,Matriculado,Matriculado,,30/10/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,105.855.054-38,IFPE / PESQUEIRA,Ailson Antonio Araújo,Maria Everalda Maia,Extensão,
+Linha 5322: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0371,Ana Cristina Barbosa de Oliveira,Matriculado,Matriculado,,05/01/1972,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,880.098.744-34,IFPE / PESQUEIRA,Antonio Joaquim de Oliveira,Severina Barbosa de Oliveira,Extensão,
+Linha 5332: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0401,Ana Lívia Silva Lopes,Matriculado,Matriculado,,02/01/2000,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,129.912.804-17,IFPE / PESQUEIRA,Paulo de Vasconcelos Lopes,Ana Lúcia Gonçalo Silva,Extensão,
+Linha 5336: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0134,Andreza Alves de Souza,Matriculado,Matriculado,,29/01/1997,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,127.273.164-29,IFPE / PESQUEIRA,João Batista de Souza,Maria Iraete Alves de Souza,Extensão,
+Linha 5357: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0061,Anna Clara de Freitas Santos,Matriculado,Matriculado,,21/07/2000,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,078.180.294-60,IFPE / PESQUEIRA,Perácio José dos Santos,Emanuella de Freitas Silva Santos,Extensão,
+Linha 5366: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0029,Anna Luíza Bonfim Lira,Matriculado,Matriculado,,06/05/1999,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,CARUARU - PE,079.332.704-09,IFPE / PESQUEIRA,Alexandre Alves Lira,Alessandra Bonfim,Extensão,
+Linha 5373: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0037,Anne Ingrid Feitosa Bezerra,Matriculado,Matriculado,,06/12/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,070.371.484-82,IFPE / PESQUEIRA,Luiz Carlos Bezerra ,Ana Aparecida Feitosa Bezerra,Extensão,
+Linha 5377: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0843,Bárbara da Silva Sena,Matriculado,Matriculado,,06/04/1994,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,703.116.904-67,IFPE / PESQUEIRA,Nerinaldo da Silva Sena,Maria Eunice D Silva Sena,Extensão,
+Linha 5394: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1084,Carla Batista da Silva,Matriculado,Matriculado,,02/04/1986,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,VENTUROSA - PE,059.158.174-40,IFPE / PESQUEIRA,Manoel Dorvalino da Silva,Maria Cicera Batista Lins da Silva,Extensão,
+Linha 5424: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0924,Carla Edivânia Santos da Silva,Matriculado,Matriculado,,20/03/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,116.409.384-35,IFPE / PESQUEIRA,,,Extensão,
+Linha 5425: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1033,Carlene Silva de Oliveira Galindo Neves,Matriculado,Matriculado,,05/02/1991,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,ALAGOINHA - PE,079.641.444-05,IFPE / PESQUEIRA,Carlos de Alexandre de Oliveira Galindo,Marcilene Silva de Oliveira Galindo,Extensão,
+Linha 5430: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0053,Carlos Pereira Mendes Filho,Matriculado,Matriculado,,12/09/1990,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,095.513.214-21,IFPE / PESQUEIRA,Carlos Pereira Mendes,Maria Joseane de Sousa Mendes,Extensão,
+Linha 5438: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0312,Clesio Alves da Silva,Matriculado,Matriculado,,08/08/1976,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RECIFE - PE,024.843.334-20,IFPE / PESQUEIRA,Geraldo Alves da Silva,Marileide Rodrigues Alves,Extensão,
+Linha 5459: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0460,Daniela Paula de Oliveira ,Matriculado,Matriculado,,29/09/1985,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,055.901.934-35,IFPE / PESQUEIRA,,Maria Aparecida de Oliveira,Extensão,
+Linha 5473: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0800,David Santos de Moraes,Matriculado,Matriculado,,10/10/1981,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RIACHO GRANDE (SÃO BERNARDO DO CAMPO) - SP,002.816.585-36,IFPE / PESQUEIRA,Adalberto Antonio de Moraes,Maria Bernadete Santos de Moraes,Extensão,
+Linha 5490: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0410,Ecília Maria Santos de Lima Cavalcanti,Matriculado,Matriculado,,20/02/1982,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,044.513.364-30,IFPE / PESQUEIRA,Ison Rodrigues da Silva,Maria Nerice Santos Rodrigues,Extensão,
+Linha 5513: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0746,Edineide Carmen Pereira da Silva,Matriculado,Matriculado,,20/05/1985,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,074.560.174-09,IFPE / PESQUEIRA,Heleno Pereira da Silva,Maria do Carmo da Silva,Extensão,
+Linha 5519: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0711,Edson de Lima Cavalcanti,Matriculado,Matriculado,,11/05/1977,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,024.791.024-40,IFPE / PESQUEIRA,Pedro Cintra Cavalcanti,Edite de Lima Cavalcanti,Extensão,
+Linha 5530: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0673,Eduardo Gomes Cavalcanti,Matriculado,Matriculado,,30/12/1979,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,045.465.894-09,IFPE / PESQUEIRA,Manoel Gomes Cavalcanti,Ediléia Gomes da Silva,Extensão,
+Linha 5534: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0568,Elisanne Conceição Alves Bezerra,Matriculado,Matriculado,,30/10/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,102.034.154-85,IFPE / PESQUEIRA,Everaldo Alves Bezerra,Edizia Alves Bezerra,Extensão,
+Linha 5547: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0541,Erika Ravena Galvao Guimaraes,Matriculado,Matriculado,,14/08/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,097.440.804-26,IFPE / PESQUEIRA,Jose Marcos da Silva Guimaraes,Celia Barros Galvao,Extensão,
+Linha 5574: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0983,Erisvan de Oliveira Bispo,Matriculado,Matriculado,,26/06/1978,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,216.993.688-21,IFPE / PESQUEIRA,João Rodrigues Bispo,Maria Jucineide de Oliveira Bispo,Extensão,
+Linha 5575: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0304,Eunice Juliana Barbosa dos Santos,Matriculado,Matriculado,,11/09/1989,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,100.333.344-39,IFPE / PESQUEIRA,Genneci Barbosa dos Santos,Maria José dos Santos,Extensão,
+Linha 5577: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0940,Fabiana Santos de Siqueira,Matriculado,Matriculado,,13/01/1991,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,097.127.854-75,IFPE / PESQUEIRA,Oscar Rmos de Siqueira Filho,Maria Luciene dos Santos,Extensão,
+Linha 5586: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0894,Fabricia Rosa dos Prazeres Santos,Matriculado,Matriculado,,25/12/1986,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,065.551.924-61,IFPE / PESQUEIRA,Fausto José dos Santos,Maria José Rosa dos Prazeres,Extensão,
+Linha 5590: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0851,Francilma Alves de Almeida,Matriculado,Matriculado,,16/02/1994,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,091.480.834-61,IFPE / PESQUEIRA,Francisco Alves de Almeida,Maria de Fátima Alves de Brito,Extensão,
+Linha 5612: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0223,Gabriella Freitas dos Santos,Matriculado,Matriculado,,18/04/1989,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RECIFE - PE,065.546.904-41,IFPE / PESQUEIRA,Geraldo Cristovam dos Santos,Valdete Monica  Freitas dos Santos,Extensão,
+Linha 5630: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0916,GILVANE MENDES GALINDO,Matriculado,Matriculado,,23/10/1988,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,ALAGOINHA - PE,082.597.004-09,IFPE / PESQUEIRA,Egídio Mende Galindo,Valdejane Mendes Galindo,Extensão,
+Linha 5653: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0908,Gilvaneide Wanderley,Matriculado,Matriculado,,26/12/1962,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,310.783.974-49,IFPE / PESQUEIRA,,Maria Wanderley,Extensão,
+Linha 5654: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0789,Isabella Giovana Bezerra de Araujo,Matriculado,Matriculado,,30/09/1996,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,105.303.654-05,IFPE / PESQUEIRA,Ivonaldo Duque de Araujo,Maria Izabel Bezerra Duque de Araujo,Extensão,
+Linha 5714: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0614,Isabella Kallinne Santos Oliveira,Matriculado,Matriculado,,05/05/1991,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,103.010.824-21,IFPE / PESQUEIRA,Manoel Messias Alves Oliveira,Luedina Sheila dos Santos Oliveira,Extensão,
+Linha 5715: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0959,Ivana Siqueira Teixeira,Matriculado,Matriculado,,16/10/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,098.072.754-58,IFPE / PESQUEIRA,Descartes Siqueira Teixeira,Gilda Siqueira Teixeira,Extensão,
+Linha 5721: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0517,Jair Rodrigues Lacerda Filho,Matriculado,Matriculado,,22/06/2000,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,130.728.404-31,IFPE / PESQUEIRA,Jair Rodrigues Lacerda,Zuleide Nogueira dos Santos Lacerda,Extensão,
+Linha 5735: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0860,Janiele Batista da Silva,Matriculado,Matriculado,,29/01/1997,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,112.817.564-90,IFPE / PESQUEIRA,Ediuilson Calado da Silva,Lucilia Batista Tôrres,Extensão,
+Linha 5747: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1092,Janine Carla de Santana Neto,Matriculado,Matriculado,,24/11/1984,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,050.642.344-14,IFPE / PESQUEIRA,Aloizio Neto da Silva,Cacilda Maria Ferreia de Santana Neto,Extensão,
+Linha 5748: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0649,Jéssica Kerlaine Ferreira Gomes,Matriculado,Matriculado,,29/05/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,081.035.154-42,IFPE / PESQUEIRA,Ricardo Alexandre Gomes,Zeruia Ferrreira Gomes,Extensão,
+Linha 5769: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0240,Jéssica Maria Bezerra Santos do Nascimento,Matriculado,Matriculado,,26/05/1991,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,098.385.154-93,IFPE / PESQUEIRA,Suenildo Joaquim Bezerra,Girlene Maria dos Santos Bezerra,Extensão,
+Linha 5770: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0991,Joaci Antônio de Oliveira Júnior,Matriculado,Matriculado,,16/05/1989,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,097.583.414-21,IFPE / PESQUEIRA,Joaci Antonio de Oliveira,Maria Izolda de Oliveira,Extensão,
+Linha 5776: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0533,Jonatas Santos de Oliveira,Matriculado,Matriculado,,20/04/1993,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,100.655.534-03,IFPE / PESQUEIRA,João Pereira de Oliveira,Amara Francisca Santos de Oliveira,Extensão,
+Linha 5813: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0215,Josias Soares da Silva,Matriculado,Matriculado,,02/01/2199,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,119.661.624-80,IFPE / PESQUEIRA,Heronides Soares da Silva,Maria do Carmo Silva Soares,Extensão,
+Linha 5877: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0070,Júlio Flávio Santana de Oliveira,Matriculado,Matriculado,,17/10/1998,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,119.418.024-86,IFPE / PESQUEIRA,Francisco Vanderlei de Oliveira,Jucicleide Santana de Oliveira,Extensão,
+Linha 5899: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0509,Kátia Jayne Florentino da Silva,Matriculado,Matriculado,,17/03/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PEDRA - PE,112.536.344-40,IFPE / PESQUEIRA,Jodecy Herculano da Silva,Marilene Felix Florentino,Extensão,
+Linha 5910: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0282,Laniedja Jacó Maciel,Matriculado,Matriculado,,22/06/1990,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,POÇÃO - PE,092.535.504-65,IFPE / PESQUEIRA,José Ivan Alves Maciel,Elifeletex Jacó Maciel,Extensão,
+Linha 5928: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0363,Lisoneide Jacinto de Souza Galindo,Matriculado,Matriculado,,03/10/1971,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,ALAGOINHA - PE,011.580.644-03,IFPE / PESQUEIRA,José Jacinto de Douza,Maria Inês de Souza,Extensão,
+Linha 5949: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1050,Luan Pereira da Silva,Matriculado,Matriculado,,19/02/1990,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,GUARULHOS - SP,073.673.524-07,IFPE / PESQUEIRA,Romeu Leandro da Silva,Maria Salete Pereira das Montanhas Silva,Extensão,
+Linha 5954: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0665,Luann Pablo Gil de Souza Mendes,Matriculado,Matriculado,,03/07/1992,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,094.575.064-13,IFPE / PESQUEIRA,Gilvan Mandes da Silva,Maria José de Souza Mandes,Extensão,
+Linha 5958: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0436,Lucélia de Lima Cavalcanti,Matriculado,Matriculado,,06/03/1981,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,029.213.634-02,IFPE / PESQUEIRA,Pedro Cintra Cavalcanti,Edite de Lima Cavacanti,Extensão,
+Linha 5965: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0169,Luciana Cristiane Santos Mandu,Matriculado,Matriculado,,10/11/1975,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,025.628.444-08,IFPE / PESQUEIRA,,,Extensão,
+Linha 5967: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0428,Lucilia de Lima Cavalcanti,Matriculado,Matriculado,,06/03/1981,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,030.624.154-44,IFPE / PESQUEIRA,Pedro Cintra Cavalcanti,Edite de Lima Cavalcanti,Extensão,
+Linha 5970: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0592,Magnalda Profiro de Oliveira,Matriculado,Matriculado,,31/05/1978,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,034.273.694-98,IFPE / PESQUEIRA,José Profiro de Olieira,Maria José Oliveira de Freitas,Extensão,
+Linha 5988: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0444,Marcelo Filipe de Lima Cordeiro,Matriculado,Matriculado,,21/04/1993,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,109.993.554-73,IFPE / PESQUEIRA,,,Extensão,
+Linha 5998: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1009,Marcilio Vital Germano Lira,Matriculado,Matriculado,,09/11/1981,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,BELO JARDIM - PE,012.088.404-60,IFPE / PESQUEIRA,Jose Miguel de Lira,Valdirene Germano de Lira,Extensão,
+Linha 6001: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0932,Maria Andréia de Lima,Matriculado,Matriculado,,24/05/1980,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,042.302.144-30,IFPE / PESQUEIRA,Ezio Barbosa de Lima,Expedita Maria de Lima,Extensão,
+Linha 6016: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1068,Maria Aparecida Gomes Simão,Matriculado,Matriculado,,08/09/1961,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,ALAGOINHA - PE,945.117.724-87,IFPE / PESQUEIRA,Damião Gomes da Silva,Quitéria Queiroz da Silva,Extensão,
+Linha 6019: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0398,Maria Aparecida Rodrigues de Araujo,Matriculado,Matriculado,,03/01/1967,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RECIFE - PE,507.548.074-87,IFPE / PESQUEIRA,José Rodrigues de Araújo,Aurelina Germano de Araújo,Extensão,
+Linha 6020: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0525,Maria Célia Farias Monteiro Lopes,Matriculado,Matriculado,,25/03/1980,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,POÇÃO - PE,044.609.034-40,IFPE / PESQUEIRA,Severino Ginu Monteiro,Maria Helena Alves de Farias Monteiro,Extensão,
+Linha 6022: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1041,Maria da Conceição Bezerra Galindo Coriolano,Matriculado,Matriculado,,07/12/1966,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,428.370.304-49,IFPE / PESQUEIRA,Cacildo Simões Galindo,Hilda Bezerra Galindo,Extensão,
+Linha 6027: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0584,Maria Eduarda Xavier da Silva,Matriculado,Matriculado,,29/02/2000,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,134.456.744-42,IFPE / PESQUEIRA,Fábio Xavier da Silva,Janaína Xavier da Silva,Extensão,
+Linha 6039: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0142,Maria Galindo da Silva,Matriculado,Matriculado,,08/04/2000,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,SÃO PAULO - SP,142.497.034-28,IFPE / PESQUEIRA,Antonio José da Silva,Lucenilda Maria Galindo,Extensão,
+Linha 6051: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0274,Maria Gilclécia Conrado de Souza,Matriculado,Matriculado,,14/11/1993,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,098.081.384-03,IFPE / PESQUEIRA,José Cícero de Souza Monteiro,Gilcleide Maria Conrado de Souza,Extensão,
+Linha 6052: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0150,Maria Ivaneti da Silva,Matriculado,Matriculado,,26/10/1999,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,138.026.474-08,IFPE / PESQUEIRA,,,Extensão,
+Linha 6057: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0754,Maria Izabel Bezerra de Araújo,Matriculado,Matriculado,,25/01/1961,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,   .   .   -  ,IFPE / PESQUEIRA,Amaro Bezerra de Araújo,Maria das Graças Bezerra de Araújo,Extensão,
+Linha 6060: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0177,Maria Jussara de Melo55200 ,Matriculado,Matriculado,,12/05/1988,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,ALAGOINHA - PE,087.205.234-67,IFPE / PESQUEIRA,Jonas Ambrosio de Melo,Maria das Doresde Melo,Extensão,
+Linha 6065: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0797,Maria Margarida Santos de Moraes,Matriculado,Matriculado,,03/11/1982,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,055.932.834-60,IFPE / PESQUEIRA,Adalberto Antonio de Moraes,Maria Bernadete Santos de Moraes,Extensão,
+Linha 6077: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0290,Maria Rita da Silva Santos,Matriculado,Matriculado,,18/07/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,118.974.944-08,IFPE / PESQUEIRA,José Didier Cordeiro dos Santos,Maria José da Silva Santos,Extensão,
+Linha 6083: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0720,Mariana Mendes Amorim,Matriculado,Matriculado,,07/01/1993,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,088.219.284-11,IFPE / PESQUEIRA,Gilberto Amorim,Maria de Fatima Mendes Amorim,Extensão,
+Linha 6094: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0495,Mariane Torres da Silva,Matriculado,Matriculado,,26/01/1998,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,CARUARU - PE,125.153.834-75,IFPE / PESQUEIRA,Marcos Antônio da Silva,Valdete Pinheiro Torres da Silva,Extensão,
+Linha 6097: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0762,MARIANGELA ALVES GALINDO,Matriculado,Matriculado,,23/05/1986,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,068.721.284-70,IFPE / PESQUEIRA,NIVALDO ALVES GALINDO,MARGARIDA DO CARMO GALINDO,Extensão,
+Linha 6098: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0266,Marília Genuíno Alves Maciel,Matriculado,Matriculado,,13/03/1987,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,073.993.144-03,IFPE / PESQUEIRA,Geraldo Alves da Silva,Marinalva Genuino da Silva Alves,Extensão,
+Linha 6099: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0827,Marina Carla Batista Ferreira,Matriculado,Matriculado,,16/07/1975,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,857.174.794-68,IFPE / PESQUEIRA,Enedino Bezerra Ferreira,Marina Batista Ferreira,Extensão,
+Linha 6100: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0355,Marla Larissa Alves Ferreria dos Santos,Matriculado,Matriculado,,16/09/1996,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,093.204.124-80,IFPE / PESQUEIRA,Marlos Ferrira da Silva,Laudicéia Alves Ferreira dos Santos,Extensão,
+Linha 6105: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1017,Maurício Célio Gusmão de Queiroz,Matriculado,Matriculado,,26/08/1975,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,862.428.814-20,IFPE / PESQUEIRA,Mauricelio Gonçalves de Queiroz,Gilvania Valdenice Gusmão de Queiroz,Extensão,
+Linha 6116: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0657,Max Wesley de Freitas,Matriculado,Matriculado,,30/03/1992,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,106.727.854-04,IFPE / PESQUEIRA,,Malcélia de Freitas,Extensão,
+Linha 6119: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0487,Mayane Andréia Rocha dos Santos,Matriculado,Matriculado,,07/08/1990,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,092.140.924-94,IFPE / PESQUEIRA,José Marcos da Silva,Jaira Rocha dos Santos,Extensão,
+Linha 6122: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0975,Micaela de Oliveira Lima,Matriculado,Matriculado,,23/12/1988,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RECIFE - PE,084.126.594-14,IFPE / PESQUEIRA,Elias Timoteo de Lima,Geralda de Oliveira Lima,Extensão,
+Linha 6129: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1106,Mylena Araújo Cavalcanti,Matriculado,Matriculado,,11/05/2000,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,RECIFE - PE,129.096.514-52,IFPE / PESQUEIRA,Jairo Araújo Cavalcanti,Maria José Moraes Cavalcanti,Extensão,
+Linha 6146: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0088,Natália Oliveira de Souza,Matriculado,Matriculado,,29/07/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,123.565.024-32,IFPE / PESQUEIRA,Artur Eliziário de Souza,Leonice Cordeiro Oliveira de Souza,Extensão,
+Linha 6159: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0258,Nayara Barbosa da Silva,Matriculado,Matriculado,,18/08/1993,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,084.657.834-46,IFPE / PESQUEIRA,José Naildo da Silva ,Rosimere Barbosa de Figueredo,Extensão,
+Linha 6165: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0010,Naziene Mary dos Santos Torres,Matriculado,Matriculado,,30/04/1998,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,126.961.734-60,IFPE / PESQUEIRA,Adenildo José Texeira Tôrres,Naiza dos Santos Tôrres,Extensão,
+Linha 6167: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0320,Otavio Washigton Lima Silva,Matriculado,Matriculado,,01/05/1993,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,CARUARU - PE,095.354.834-12,IFPE / PESQUEIRA,Welligton Lima Silva,Maria Hortência Pereira da Silva,Extensão,
+Linha 6181: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0835,Paula Alessandra dos Santos Mendes,Matriculado,Matriculado,,19/07/1980,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,041.179.274-18,IFPE / PESQUEIRA,João Mendes da Silva,Djanira Maria dos Santos Mendes,Extensão,
+Linha 6184: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0118,Paula Camylla Alves de Menezes,Matriculado,Matriculado,,21/04/1996,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,GUARULHOS - SP,099.420.654-23,IFPE / PESQUEIRA,Paulo Carlos de Menezes,Edilene Alves dos Santos,Extensão,
+Linha 6185: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0576,Paula Vanessa Duvaizém Almeida,Matriculado,Matriculado,,11/12/1980,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,042.596.934-76,IFPE / PESQUEIRA,Celso Osnar Albertin de Almeida,Maria Helena de Almeida,Extensão,
+Linha 6187: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0967,Rafaela Neves de Oliveia Santos,Matriculado,Matriculado,,14/08/1987,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,062.371.064-13,IFPE / PESQUEIRA,Rafael Rodrigues de Oliveira,Elindinalva Neves de Oliveira,Extensão,
+Linha 6218: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0681,Raiana Dara Cavalcanti Perirar,Matriculado,Matriculado,,18/12/2014,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,091.340.314-80,IFPE / PESQUEIRA,José Raimundo Pereira da Silva,Lucineide Maria Cavalcanti Pereira,Extensão,
+Linha 6221: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS1025,Rayanne Lopes Cavalcanti,Matriculado,Matriculado,,06/06/1997,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,BELO JARDIM - PE,112.348.754-54,IFPE / PESQUEIRA,José Antonio Roberto Lopes Cavalcanti,Evaneide Maria Cavalcanti,Extensão,
+Linha 6232: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0738,Regina Mikaelly Nunes de Oliveira,Matriculado,Matriculado,,12/07/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,085.317.724-43,IFPE / PESQUEIRA,Valdemir Oliveira da Silv,Rozilange Nunes de Oliveira,Extensão,
+Linha 6240: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0770,Renanda Bezerra da Silva,Matriculado,Matriculado,,18/12/1991,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,094.659.544-54,IFPE / PESQUEIRA,Walter Leite da Silva,Maria Lúcia Bezerra da Silva,Extensão,
+Linha 6242: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0886,Rita de Cassia Felix Xavier,Matriculado,Matriculado,,19/02/1967,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,478.715.124-04,IFPE / PESQUEIRA,Jose Marcelino Xavier,Maria Felix Xavier,Extensão,
+Linha 6253: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0690,Sandra de Lima Brito,Matriculado,Matriculado,,16/10/1970,M,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,719.441.504-63,IFPE / PESQUEIRA,Antonio Galindo Bezerra,Maria Inês de Lima Bezerra,Extensão,
+Linha 6288: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0703,Sandra de Oliveira,Matriculado,Matriculado,,04/11/1975,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,024.828.724-99,IFPE / PESQUEIRA,,,Extensão,
+Linha 6289: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0347,Sandreane Galindo de Oliveira,Matriculado,Matriculado,,30/12/1982,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,042.500.194-62,IFPE / PESQUEIRA,João Cavalcanti de Oliveira ,Ivanice Carmelita Galindo de Oliveira,Extensão,
+Linha 6290: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0878,Sergia Teixeira de Carvalho,Matriculado,Matriculado,,02/09/1997,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,024.427.084-85,IFPE / PESQUEIRA,Juvenal Teixeira de Carvalho ,Rosa Teixeira de Carvalho,Extensão,
+Linha 6299: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0339,Silvia Maria dos Santos,Matriculado,Matriculado,,19/10/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,098.103.084-00,IFPE / PESQUEIRA,,,Extensão,
+Linha 6308: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0380,Tayanne Rafaely Lima e Silva,Matriculado,Matriculado,,04/12/1986,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,,067.736.614-04,IFPE / PESQUEIRA,José Geraldo da Silva,Razangela Maria da Silva,Extensão,
+Linha 6326: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0126,Thais Mirella Santos da Silva,Matriculado,Matriculado,,24/05/1997,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,COTIA - SP,120.137.454-51,IFPE / PESQUEIRA,José Maria dos Santos,Maria Josineide dos Santos,Extensão,
+Linha 6332: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0622,Thais Ribeiro Silva,Matriculado,Matriculado,,02/05/1998,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,122.935.844-70,IFPE / PESQUEIRA,José Edvaldo Gomes da Silva,Mria da Penha Ribeiro Silva,Extensão,
+Linha 6333: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0231,Thalyta Rafaella Tenório Nascimento,Matriculado,Matriculado,,27/02/1995,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,108.693.184-03,IFPE / PESQUEIRA,Maurilio do Nascimento,Adriana Tenório do Nascimento,Extensão,
+Linha 6337: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0819,Valderice Amorim dos Santos,Matriculado,Matriculado,,04/01/1977,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,QUIPAPÁ - PE,027.576.944-56,IFPE / PESQUEIRA,,Maria Jose Amorim dos Santos,Extensão,
+Linha 6353: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0479,Viuca Natália Ramos dos Santos,Matriculado,Matriculado,,08/03/1993,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,103.655.664-62,IFPE / PESQUEIRA,,,Extensão,
+Linha 6382: Filtrada pelo Nível/Regime de Ensino; 
+20181Y61PS0550,Wanda Caroline de Melo,Matriculado,Matriculado,,19/03/1992,F,2018/1,GRAMÁTICA PARA CONCURSO - EXTPS,1,Noturno,PESQUEIRA - PE,099.616.944-06,IFPE / PESQUEIRA,Genivaldo Silva Santos,Jeilda Eide de Mélo,Extensão,
+Linha 6387: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0204,Amanda Beatriz da Silva Souza,Matriculado,Matriculado,20181.QSIVT.3N,02/06/1999,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,143.010.774-05,IFPE / VITÓRIA DE SANTO ANTÃO,Marcos José de Souza,Sandra Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 7647: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0018,Ana Cláudia da Silva,Matriculado,Matriculado,20181.QSIVT.3N,19/05/1987,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,,015.396.254-27,IFPE / VITÓRIA DE SANTO ANTÃO,,Josefa Severina da Silva,Formação Inicial e Continuada - FIC,
+Linha 7664: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0166,Elaine Cristina de Araújo Silva,Matriculado,Matriculado,20181.QSIVT.3N,11/08/1982,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,,052.832.844-17,IFPE / VITÓRIA DE SANTO ANTÃO,Cicero Galdino da Silva,Maria Berlarmina de Araujo Silva,Formação Inicial e Continuada - FIC,
+Linha 7877: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0140,Francielly Mendes de Amorim,Matriculado,Matriculado,20181.QSIVT.3N,21/02/1992,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,,103.621.624-17,IFPE / VITÓRIA DE SANTO ANTÃO,,Sandra Mendes de Amorim,Formação Inicial e Continuada - FIC,
+Linha 7972: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0026,Gerdilane dos Santos Silva,Matriculado,Matriculado,20181.QSIVT.3N,16/08/1988,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,090.616.674-88,IFPE / VITÓRIA DE SANTO ANTÃO,João Antônio da Silva,Josefa Nogueira dos Santos,Formação Inicial e Continuada - FIC,
+Linha 8004: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0050,Jamerson da Silva Lima,Matriculado,Matriculado,20181.QSIVT.3N,14/11/1995,M,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,701.759.404-52,IFPE / VITÓRIA DE SANTO ANTÃO,Joel Soares de Lima,Ana Lucia Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8100: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0239,José Rafael de Sá da Silva,Matriculado,Matriculado,20181.QSIVT.3N,03/01/1999,M,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,114.115.184-70,IFPE / VITÓRIA DE SANTO ANTÃO,Antônio Carlos Gomes da Silva,Marilene de Sá da Silva,Formação Inicial e Continuada - FIC,
+Linha 8215: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0158,Kalynne Gabrielly do Nascimento Silva,Matriculado,Matriculado,20181.QSIVT.3N,03/11/1992,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,114.380.094-02,IFPE / VITÓRIA DE SANTO ANTÃO,José Luiz da Silva,Etiane Araújo do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 8257: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0190,Larissa Sabrina da Silva Amorim,Matriculado,Matriculado,20181.QSIVT.3N,05/04/1998,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,134.973.904-96,IFPE / VITÓRIA DE SANTO ANTÃO,Jurandi Paulo de Amorim,Marlene Gomes da Silva Amorim,Formação Inicial e Continuada - FIC,
+Linha 8295: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0182,Lenilda Maria dos Santos,Matriculado,Matriculado,20181.QSIVT.3N,22/03/1970,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,CHÃ DE ALEGRIA - PE,711.990.124-91,IFPE / VITÓRIA DE SANTO ANTÃO,,Maria Josefa dos Santos,Formação Inicial e Continuada - FIC,
+Linha 8313: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0131,Leonice Maria Dantas dos Santos,Matriculado,Matriculado,20181.QSIVT.3N,19/12/1977,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,PASSIRA - PE,064.211.094-89,IFPE / VITÓRIA DE SANTO ANTÃO,José Francisco Dantas,Maria Luisa Dantas,Formação Inicial e Continuada - FIC,
+Linha 8319: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0042,Maria Eduarda da Silva Lima,Matriculado,Matriculado,20181.QSIVT.3N,17/01/1998,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,RECIFE - PE,135.084.134-03,IFPE / VITÓRIA DE SANTO ANTÃO,Joel Soares de Lima,Ana Lucia Maria da Silva Lima,Formação Inicial e Continuada - FIC,
+Linha 8412: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0034,Marivalda Rosa da Silva,Matriculado,Matriculado,20181.QSIVT.3N,15/01/1979,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,RECIFE - PE,063.573.194-06,IFPE / VITÓRIA DE SANTO ANTÃO,José Francisco Bezerra,Severina Rosa da Silva,Formação Inicial e Continuada - FIC,
+Linha 8492: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0123,Marta Alves Feitosa,Matriculado,Matriculado,20181.QSIVT.3N,13/10/1996,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,SANTA MARIA DA BOA VISTA - PE,124.224.744-03,IFPE / VITÓRIA DE SANTO ANTÃO,Marcos Antîno Santos Feitosa,Maria Cleide Alves Menezes,Formação Inicial e Continuada - FIC,
+Linha 8494: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0212,Ninfa Elizangela Ribeiro de Lacerda,Matriculado,Matriculado,20181.QSIVT.3N,24/10/1976,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,057.994.594-40,IFPE / VITÓRIA DE SANTO ANTÃO,,Luzia Ribeiro de Lacerda,Formação Inicial e Continuada - FIC,
+Linha 8544: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0069,Querolin de Souza Vicente,Matriculado,Matriculado,20181.QSIVT.3N,10/06/1988,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,SÃO PAULO - SP,090.212.334-36,IFPE / VITÓRIA DE SANTO ANTÃO,José Salatiel da Silva Vicente,Maria de Fátima de Souza,Formação Inicial e Continuada - FIC,
+Linha 8570: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0115,Rafaela Santos Silva,Matriculado,Matriculado,20181.QSIVT.3N,28/08/1996,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,131.958.564-76,IFPE / VITÓRIA DE SANTO ANTÃO,Cicero Fernando da Silva,Josicleide da Silva Santos,Formação Inicial e Continuada - FIC,
+Linha 8577: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0247,Rodrigo Correia da Silva,Matriculado,Matriculado,20181.QSIVT.3N,29/12/1995,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,715.907.594-35,IFPE / VITÓRIA DE SANTO ANTÃO,Severino Correia da Silva,Izabel Vieira da Silva,Formação Inicial e Continuada - FIC,
+Linha 8635: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0093,Rubia Tamilles da Silva,Matriculado,Matriculado,20181.QSIVT.3N,15/04/1990,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,702.246.824-90,IFPE / VITÓRIA DE SANTO ANTÃO,José Antônio da Silva,Maria Francisca da Silva,Formação Inicial e Continuada - FIC,
+Linha 8655: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0174,Sabrina Beatriz Santos de Lima,Matriculado,Matriculado,20181.QSIVT.3N,26/03/1998,F,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,SIRINHAÉM - PE,700.166.846-05,IFPE / VITÓRIA DE SANTO ANTÃO,Cristiano Dantas de Lima,Lecilda Maria dos Santos ,Formação Inicial e Continuada - FIC,
+Linha 8659: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0085,Tiago do Monte Dias,Matriculado,Matriculado,20181.QSIVT.3N,04/03/1995,M,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,117.071.754-38,IFPE / VITÓRIA DE SANTO ANTÃO,Severino Luiz Dias,Celia Guilhermina do Monte Dias,Formação Inicial e Continuada - FIC,
+Linha 8747: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0220,Walisson da Silva Viera,Matriculado,Matriculado,20181.QSIVT.3N,08/01/1996,M,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,123.980.434-28,IFPE / VITÓRIA DE SANTO ANTÃO,Edmilson de Souza Vieira,Jadiene Maria da Silva Vieira,Formação Inicial e Continuada - FIC,
+Linha 8787: Filtrada pelo Nível/Regime de Ensino; 
+20172QSIVT0077,Weverton José da Silva Santana,Matriculado,Matriculado,20181.QSIVT.3N,05/10/1998,M,2017/2,QUALIFICAÇÃO PROFISSIONAL EM MANUTENÇÃO E SUPORTE EM INFORMÁTICA - SEE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,126.672.804-07,IFPE / VITÓRIA DE SANTO ANTÃO,Jose´joaquim de Santana Filho,Lindalva da Conceição Barbosa da Silva,Formação Inicial e Continuada - FIC,
+Linha 8805: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0156,Abdalla Remingthon da Silva Rocha Junior,Matriculado,Matriculado,20181.EJ-BR.3N,27/04/1993,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,MACEIÓ - AL,700.850.894-86,IFPE / BARREIROS,Abdalla Remingthon da Silva Rocha Junior,Ana Patricia Barbosa da Silva,Formação Inicial e Continuada - FIC,
+Linha 8831: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0030,Acácio Rodrigo Cavalcante Feijó de Mélo,Matriculado,Matriculado,20181.EJ-BR.2N,28/04/1999,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,113.916.864-97,IFPE / BARREIROS,José Alberto Feijó de Mélo,Maria Auxiliadora Cavalcante Feijó de Mélo,Formação Inicial e Continuada - FIC,
+Linha 8835: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0286,Alane Dangela da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,27/02/1993,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,063.380.824-55,IFPE / BARREIROS,Não Declarado,Amara Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8854: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0148,Alexia Nayara Ralf Lemos,Matriculado,Matriculado,20181.EJ-BR.3N,10/10/1997,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,106.677.804-32,IFPE / BARREIROS,José Antonio Lemos Pereira,Inez de Farias Ralf,Formação Inicial e Continuada - FIC,
+Linha 8869: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0170,Alexsandra Karla Bezerra da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,15/07/1999,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,066.159.764-47,IFPE / BARREIROS,Não Declarado,Juliana Maria Bezerra da Silva,Formação Inicial e Continuada - FIC,
+Linha 8872: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0315,Aline Kacia Santos Silva,Matriculado,Matriculado,20181.EJ-BR.1N,23/07/1994,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,087.632.854-01,IFPE / BARREIROS,Jose Carlos Ribeiro da Silva,Gilvanete Maria dos Santos,Formação Inicial e Continuada - FIC,
+Linha 8877: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0017,Aline Karla da Conceiçao,Matriculado,Matriculado,20181.EJ-BR.4N,04/02/1991,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,093.938.304-79,IFPE / BARREIROS,,Severina Maria da Conceição,Formação Inicial e Continuada - FIC,
+Linha 8878: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0102,Aline Maria Batista Lino,Matriculado,Matriculado,20181.EJ-BR.1N,16/10/1985,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,050.043.354-27,IFPE / BARREIROS,Antonio Jose Lopes Lino,Cleide Maria Ferreira Batista,Formação Inicial e Continuada - FIC,
+Linha 8879: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0081,Amanda Cristina Câmara da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,20/04/1998,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,126.790.494-11,IFPE / BARREIROS,Eliezer Camará da Silva,Dolores da Silva,Formação Inicial e Continuada - FIC,
+Linha 8887: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0110,Amanda da Silva Santiago,Matriculado,Matriculado,20181.EJ-BR.1N,13/12/1996,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,134.555.034-03,IFPE / BARREIROS,Não Declarado,Marly Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8888: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0181,Amara Lucia da Silva Aguiar,Matriculado,Matriculado,20181.EJ-BR.4N,04/01/1964,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,   .   .   -  ,IFPE / BARREIROS,Jose Bernardo da Silva,Antonia Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8892: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0331,Amara Veronica Soares,Matriculado,Matriculado,20181.EJ-BR.1N,11/07/1970,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,669.564.714-34,IFPE / BARREIROS,,Maria de Lourdes Soares,Formação Inicial e Continuada - FIC,
+Linha 8893: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0172,Ana Carla da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,27/03/1992,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,PALMARES - PE,096.088.804-75,IFPE / BARREIROS,Pedro José da Silva,Marcia Cícera da Silva,Formação Inicial e Continuada - FIC,
+Linha 8896: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0285,Ana Gabriela Maria do Rêgo Silva,Matriculado,Matriculado,20181.EJ-BR.1N,01/10/1988,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,093.978.744-03,IFPE / BARREIROS,,Lindalva Maria do Rêgo Silva,Formação Inicial e Continuada - FIC,
+Linha 8901: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0016,Ana Paula de Oliveira,Matriculado,Matriculado,20181.EJ-BR.3N,07/09/1986,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,RECIFE - PE,014.969.824-01,IFPE / BARREIROS,José Domingos de Oliveira,Maria José de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 8908: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0153,Anderson Douglas da Silva Aguiar,Matriculado,Matriculado,20181.EJ-BR.1N,25/09/1997,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,130.620.534-45,IFPE / BARREIROS,Amaro André da Silva Aguiar,Dionéa Francisca Nascimento da Silva,Formação Inicial e Continuada - FIC,
+Linha 8911: Filtrada pelo Nível/Regime de Ensino; 
+20141EJ-BR0090,ANDRE FELIPE DOS SANTOS,Matriculado,Matriculado,20181.EJ-BR.3N,02/06/1994,M,2014/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,078.235.144-19,IFPE / BARREIROS,ROMILDO JOSE DOS SANTOS,NATALICE OLIVEIRA DOS SANTOS,Formação Inicial e Continuada - FIC,
+Linha 8914: Filtrada pelo Nível/Regime de Ensino; 
+20152EJ-BR0230,Antonio Alfredo da Silva,Matriculado,Matriculado,20181.EJ-BR.4N,14/11/1988,M,2015/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,,075.090.384-80,IFPE / BARREIROS,Antonio Alfredo da Silva,Eliane Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8929: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0340,Antonio Gilcélio de Oliveira,Matriculado,Matriculado,20181.EJ-BR.1N,16/12/1963,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,TAMANDARÉ - PE,353.744.114-20,IFPE / BARREIROS,,Maria do Carmo de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 8932: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0250,Artur da Silva Cavalcanti,Matriculado,Matriculado,20181.EJ-BR.1N,10/01/1985,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,060.422.574-12,IFPE / BARREIROS,Luiz Cavalcanti de Oliveira,Maria Jose da Silva Cavalcanti,Formação Inicial e Continuada - FIC,
+Linha 8940: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0332,Ataines da Silva Santiago,Matriculado,Matriculado,20181.EJ-BR.2N,02/01/1998,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,136.970.184-50,IFPE / BARREIROS,Não Declarado,Marly Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 8941: Filtrada pelo Nível/Regime de Ensino; 
+20152EJ-BR0010,Athaires Michele Soares Silva,Matriculado,Matriculado,20181.EJ-BR.4N,09/08/1991,F,2015/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,,092.612.744-63,IFPE / BARREIROS,Anselmo Soares da Silva ,Maria Jose Camara da Silva,Formação Inicial e Continuada - FIC,
+Linha 8942: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0064,Carlos Oliveira do Nascimento Júnior,Matriculado,Matriculado,20181.EJ-BR.1N,29/03/1996,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,102.496.854-50,IFPE / BARREIROS,Carlos Oliveira do Nascimento,Silvania Maria Gomes,Formação Inicial e Continuada - FIC,
+Linha 8973: Filtrada pelo Nível/Regime de Ensino; 
+20161EJ-BR0310,Daise Tuane Nascimento de Oliveira,Matriculado,Matriculado,20181.EJ-BR.4N,18/07/1996,F,2016/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,120.121.094-11,IFPE / BARREIROS,Aluizio Justino da Silva Oliveira,Vera Lucia do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 8999: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0049,Daniele Lima de Alcântara,Matriculado,Matriculado,20181.EJ-BR.2N,31/05/1999,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,130.573.994-95,IFPE / BARREIROS,Amaro Antonio Lorenço de Alcântara,Severina Lima de Alcântara,Formação Inicial e Continuada - FIC,
+Linha 9003: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0145,Darivaldo Ralf Neto,Matriculado,Matriculado,20181.EJ-BR.1N,05/11/1993,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,125.351.394-56,IFPE / BARREIROS,José Antonio Lemos Pereira,Inês de Farias Ralf,Formação Inicial e Continuada - FIC,
+Linha 9007: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0129,Davi Felipe Buarque de Gusmao da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,18/11/1996,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,127.059.174-62,IFPE / BARREIROS,Joe Mariano da Silva,Maria Denise Buarque de Gusmao da Silva,Formação Inicial e Continuada - FIC,
+Linha 9008: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0137,Dayse Maria da Silva Gomes,Matriculado,Matriculado,20181.EJ-BR.1N,09/08/1998,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,CORTÊS - PE,104.932.654-73,IFPE / BARREIROS,Elinaldo da Silva Gomes,Lindinalva Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9014: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0245,Debora Cristina Lima Silva,Matriculado,Matriculado,20181.EJ-BR.3N,04/01/1993,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,087.705.694-36,IFPE / BARREIROS,Eliel dos Santos Silva,Roseane Cristina de Lima,Formação Inicial e Continuada - FIC,
+Linha 9018: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0226,Deusiana de Sousa Gusmao,Matriculado,Matriculado,20181.EJ-BR.1N,21/01/1985,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,087.535.094-12,IFPE / BARREIROS,Ednilson Buarque Degusmao,Maria Lopes de Sousa,Formação Inicial e Continuada - FIC,
+Linha 9022: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0076,Diogo Felipe de Albuquerque,Matriculado,Matriculado,20181.EJ-BR.3N,21/07/1987,M,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,078.235.134-47,IFPE / BARREIROS,Amaro da Silva Albuquerque,Maria Jose da Silva Albuquerque,Formação Inicial e Continuada - FIC,
+Linha 9029: Filtrada pelo Nível/Regime de Ensino; 
+20161EJ-BR0230,Drielly Roberta Nascimento de Oliveira,Matriculado,Matriculado,20181.EJ-BR.4N,06/01/1993,F,2016/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,111.571.664-66,IFPE / BARREIROS,Aluizio Justino da Silva Oliveira,Vera Lucia do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 9032: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0080,Edilene Bezerra da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,23/11/1991,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,099.923.334-30,IFPE / BARREIROS,Esmeraldo Bezerra da Silva,Maria Valderez da Silva,Formação Inicial e Continuada - FIC,
+Linha 9034: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0072,Edizanjala Bezerra da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,17/07/1993,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,099.921.714-30,IFPE / BARREIROS,Esmeraldo Bezerra da Silva,Maria Valderes da Silva,Formação Inicial e Continuada - FIC,
+Linha 9035: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0242,Edjane da Silva Santos,Matriculado,Matriculado,20181.EJ-BR.1N,02/07/1976,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,039.110.644-97,IFPE / BARREIROS,Manoel Vicente dos Santos,Amara Luiza da Silva Santos,Formação Inicial e Continuada - FIC,
+Linha 9036: Filtrada pelo Nível/Regime de Ensino; 
+20142EJ-BR0373,Edlla Taine do Nascimento,Matriculado,Matriculado,20181.EJ-BR.4N,13/01/1996,F,2014/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,,109.148.494-50,IFPE / BARREIROS,Amaro Sebastião José,Marilene Maria da Nascimento,Formação Inicial e Continuada - FIC,
+Linha 9038: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0113,Edvane de Araujo,Matriculado,Matriculado,20181.EJ-BR.3N,13/09/1970,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,617.439.924-91,IFPE / BARREIROS,José Agostinho de Araújo,Maria Augusta da Silva,Formação Inicial e Continuada - FIC,
+Linha 9052: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0180,Elenita de Mendonça Gomes,Matriculado,Matriculado,20181.EJ-BR.3N,05/05/1968,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,COLÔNIA LEOPOLDINA - AL,041.101.004-29,IFPE / BARREIROS,Ulisses José Gomes,Zulmira Maria de Mendonça Gomes,Formação Inicial e Continuada - FIC,
+Linha 9057: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0200,Elicleide Gomes da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,01/09/1983,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,065.767.314-50,IFPE / BARREIROS,Antonio Gonçalo da Silva,Eunice Gomes,Formação Inicial e Continuada - FIC,
+Linha 9060: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0260,Eliel Francisco da Silva Filho,Matriculado,Matriculado,20181.EJ-BR.2N,16/05/1997,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,114.818.764-22,IFPE / BARREIROS,Eliel Francisco da Silva,Edjane Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9061: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0099,Elisa Maria Silva dos Santos Buarque,Matriculado,Matriculado,20181.EJ-BR.1N,20/07/1996,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,715.841.224-55,IFPE / BARREIROS,Moises Berto da Silva,Elizane Maria Silva dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9066: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0103,Ellen Dassia Pereira dos Santos,Matriculado,Matriculado,20181.EJ-BR.2N,04/01/1999,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,RECIFE - PE,123.233.514-27,IFPE / BARREIROS,Dorgival Pereira dos Santos,Elizângela Marinho de Mercês,Formação Inicial e Continuada - FIC,
+Linha 9071: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0300,Elma Maria Marques da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,22/08/1988,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,RIO FORMOSO - PE,086.318.464-22,IFPE / BARREIROS,João Firmino Marques da Silva,Cicera Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9073: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0057,Emanoel Miqueias da Silva Lourenço,Matriculado,Matriculado,20181.EJ-BR.2N,26/06/1995,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,115.188.224-01,IFPE / BARREIROS,Valdelucio da Silva Lourenço,Eliane Maria da Silva Lourenço,Formação Inicial e Continuada - FIC,
+Linha 9077: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0197,Erik Jose do Nascimento,Matriculado,Matriculado,20181.EJ-BR.2N,03/02/1992,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,078.750.644-30,IFPE / BARREIROS,Amaro Sebastiao Jose,Marilene Maria do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 9086: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0025,Erison Tavares Silvestre,Matriculado,Matriculado,20181.EJ-BR.3N,24/11/1988,M,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,091.114.324-62,IFPE / BARREIROS,Erivaldo Martins Silvestre,Rosimar Tavares da Silva,Formação Inicial e Continuada - FIC,
+Linha 9089: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0056,Erivania da Silva Mendonça,Matriculado,Matriculado,20181.EJ-BR.1N,19/08/1984,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,070.468.464-05,IFPE / BARREIROS,Edvaldo Manoel de Mendonça,Severina Bernarda da Silva Mendonça,Formação Inicial e Continuada - FIC,
+Linha 9090: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0218,Etelvina Patricia de Carvalho,Matriculado,Matriculado,20181.EJ-BR.1N,28/12/1980,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,052.791.804-08,IFPE / BARREIROS,Manoel Livino de Carvalho,Laurenilda Maria Acioli Perreira,Formação Inicial e Continuada - FIC,
+Linha 9096: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0014,Felipe Thiago Tavares Silvestre,Matriculado,Matriculado,20181.EJ-BR.2N,20/10/1991,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,108.734.984-29,IFPE / BARREIROS,Erivaldo Martins Silvestre,Rozimar Tavares da Silva,Formação Inicial e Continuada - FIC,
+Linha 9113: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0149,Fernanda Maria da Silva Pereira,Matriculado,Matriculado,20181.EJ-BR.4N,08/11/1995,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,102.573.284-75,IFPE / BARREIROS,Jose Carlos Pereira,Lucia Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9117: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0227,Flávio Silva Santiago,Matriculado,Matriculado,20181.EJ-BR.2N,03/07/1999,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,136.970.004-03,IFPE / BARREIROS,Não Declarado,Marly Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9124: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0358,Gilson Pedro da Silva Filho,Matriculado,Matriculado,20181.EJ-BR.1N,03/01/1998,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,VITÓRIA DE SANTO ANTÃO - PE,059.894.871-69,IFPE / BARREIROS,Gilson Pedro da Silva,Maria Eliete da Souza,Formação Inicial e Continuada - FIC,
+Linha 9150: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0367,Gisele Vanessa da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,15/10/1997,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,456.624.568-36,IFPE / BARREIROS,Edmilson da Silva,Rosangela da Silva Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9158: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0318,Gizeli Thais da Silva Santos,Matriculado,Matriculado,20181.EJ-BR.3N,19/09/1994,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,117.872.944-39,IFPE / BARREIROS,Gilvan da Silva Santos,Maria Rosineide da Silva,Formação Inicial e Continuada - FIC,
+Linha 9161: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0105,Isaac Lima da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,18/07/1988,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,RECIFE - PE,710.854.224-29,IFPE / BARREIROS,Antonio Paulino da Silva,Janete Lima da Silva,Formação Inicial e Continuada - FIC,
+Linha 9197: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0022,Jady Emmelly de Oliveira Silva,Matriculado,Matriculado,20181.EJ-BR.1N,13/10/1998,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,108.472.524-00,IFPE / BARREIROS,Não Declarado,Edvania Antônia de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 9225: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0326,Jairo Batista da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,10/02/1977,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,818.668.524-34,IFPE / BARREIROS,João Francisco da Silva,Maria Batista da Silva,Formação Inicial e Continuada - FIC,
+Linha 9227: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0048,Jamille Ferreira da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,01/06/1992,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,RIO FORMOSO - PE,080.951.284-06,IFPE / BARREIROS,Josemir Ferreira da Silva,Rosa Maria Ferreira de Araujo,Formação Inicial e Continuada - FIC,
+Linha 9231: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0111,Jaqueline Ariane de Lima,Matriculado,Matriculado,20181.EJ-BR.2N,31/05/1996,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,102.503.509-71,IFPE / BARREIROS,Não Declarado,Adriana de Lima,Formação Inicial e Continuada - FIC,
+Linha 9234: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0162,Jeferson Felipe da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,23/02/1998,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,118.113.814-05,IFPE / BARREIROS,Jose Antonio da Silva,Cicera Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9240: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0277,Joanderson de Souza Silva,Matriculado,Matriculado,20181.EJ-BR.1N,23/06/1996,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,VITÓRIA DE SANTO ANTÃO - PE,056.815.801-64,IFPE / BARREIROS,Gilson Pedro da Silva,Maria Eliete de Souza,Formação Inicial e Continuada - FIC,
+Linha 9260: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0065,João Vitor dos Santos Matos,Matriculado,Matriculado,20181.EJ-BR.2N,28/04/1998,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,114.140.484-24,IFPE / BARREIROS,Gilserda de Jesus Matos,Jaelson dos Santos Matos,Formação Inicial e Continuada - FIC,
+Linha 9276: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0253,Jose Elias da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,11/06/1979,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,029.811.014-80,IFPE / BARREIROS,Edgar Porciano da Silva,Maria Serrate da Silva,Formação Inicial e Continuada - FIC,
+Linha 9299: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0200,Jose Jhonantan Lucas da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,10/01/1986,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,064.981.184-40,IFPE / BARREIROS,Carlos Fernandes da Silva,Maria do Carmo Lucas,Formação Inicial e Continuada - FIC,
+Linha 9310: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0075,José Kleyton de Lima,Matriculado,Matriculado,20181.EJ-BR.3N,31/07/1986,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,074.369.964-52,IFPE / BARREIROS,Apolonio de Lima Neto,Vancleide Cristiane da Conceição,Formação Inicial e Continuada - FIC,
+Linha 9313: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0161,José Rinaldo da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,25/01/1973,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,SIRINHAÉM - PE,689.096.084-04,IFPE / BARREIROS,,Josefa Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9323: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0122,Josenilda Maria Aureliano de Santana,Matriculado,Matriculado,20181.EJ-BR.3N,25/05/1983,M,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,061.431.954-47,IFPE / BARREIROS,Ailton Aureliano da Silva,Margarida de Santana,Formação Inicial e Continuada - FIC,
+Linha 9329: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0130,Josenilda Maria da Silva Monteiro,Matriculado,Matriculado,20181.EJ-BR.2N,02/12/1994,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,RECIFE - PE,118.794.564-19,IFPE / BARREIROS,Josenildo do Nascimento Monteiro,Maria Jose da Silva,Formação Inicial e Continuada - FIC,
+Linha 9330: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0030,JOSENILDO HONORATO CABRAL FERREIRA LINS,Matriculado,Matriculado,20181.EJ-BR.1N,10/04/1990,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,094.444.254-44,IFPE / BARREIROS,Jose Honorato Lins,Reneide Cabral Ferreira Lins,Formação Inicial e Continuada - FIC,
+Linha 9331: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0235,Josias Fernandes de Oliveira,Matriculado,Matriculado,20181.EJ-BR.2N,20/10/1976,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,JABOATÃO DOS GUARARAPES - PE,898.774.464-72,IFPE / BARREIROS,Não Declarado,Andrelina Fernandes de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 9336: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0324,Josimario Mendes de Souza,Matriculado,Matriculado,20181.EJ-BR.2N,10/10/1987,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,075.643.474-22,IFPE / BARREIROS,Reginaldo Mendes de Souza,Josete Maria Silva de Souza,Formação Inicial e Continuada - FIC,
+Linha 9337: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0359,Joziel Gadelha Silva,Matriculado,Matriculado,20181.EJ-BR.2N,18/06/1986,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,098.468.934-69,IFPE / BARREIROS,Severino Gadelha Silva,Cirlene Antonia da Silva,Formação Inicial e Continuada - FIC,
+Linha 9344: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0033,Juliana Prissila da Silva Pereira,Matriculado,Matriculado,20181.EJ-BR.4N,08/03/1989,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,099.092.434-31,IFPE / BARREIROS,Jose Wilson da Silva,Valdecir Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9350: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0084,Laiane Patricia Silva Pereira,Matriculado,Matriculado,20181.EJ-BR.4N,24/01/1991,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,MARAGOGI - AL,064.882.374-11,IFPE / BARREIROS,Jose da Silva Pereira,Maria Jose Silva Nascimento,Formação Inicial e Continuada - FIC,
+Linha 9374: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0251,Lasaro Zadiel da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,26/07/1991,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,100.044.414-78,IFPE / BARREIROS,Zaqueu Jose da Silva,Maria Lucia da Silva,Formação Inicial e Continuada - FIC,
+Linha 9384: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0188,Laudecy Francisca de Oliveira,Matriculado,Matriculado,20181.EJ-BR.1N,12/06/1964,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,409.593.684-34,IFPE / BARREIROS,Luiz Amaro de Oliveira,Maria Benedita da Silva,Formação Inicial e Continuada - FIC,
+Linha 9385: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0170,Leide Celia Braga da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,23/03/1982,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,PORTO CALVO - AL,065.764.854-09,IFPE / BARREIROS,Jose Vicente da Silva,Telma Rejane Buarque Braga,Formação Inicial e Continuada - FIC,
+Linha 9393: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0234,Lucas Alves da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,11/04/1997,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,122.892.954-85,IFPE / BARREIROS,Elezito Zeferino Alves,Maria de Fátima da Conceição Silva,Formação Inicial e Continuada - FIC,
+Linha 9410: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0106,Lucimar Alves da Silva,Matriculado,Matriculado,20181.EJ-BR.4N,13/02/1979,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,,028.730.564-36,IFPE / BARREIROS,Benedito Alves da Silva,Maria Jose dos Prazeres Silva,Formação Inicial e Continuada - FIC,
+Linha 9429: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0237,Márcia Gabriella Ferreira de Araujo,Matriculado,Matriculado,20181.EJ-BR.3N,12/10/1984,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,RIO FORMOSO - PE,073.119.734-81,IFPE / BARREIROS,Arlindo José de Melo,Maria Lenilda Ferreira de Araujo,Formação Inicial e Continuada - FIC,
+Linha 9456: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0021,Marcicleide Carla da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,25/03/1989,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,111.714.664-20,IFPE / BARREIROS,Luiz Carlos da Silva,Amara Ana Marques da Silva,Formação Inicial e Continuada - FIC,
+Linha 9458: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0308,Maria Alana Barreto Jose da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,03/06/1998,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,138.174.734-51,IFPE / BARREIROS,Aldo José da Silva,Maria Luciana Barreto da Silva,Formação Inicial e Continuada - FIC,
+Linha 9467: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0083,Maria do Carmo dos Santos Silva,Matriculado,Matriculado,20181.EJ-BR.3N,16/07/1986,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,065.930.984-00,IFPE / BARREIROS,Não Declarado,Irene Maria dos Santos Silva,Formação Inicial e Continuada - FIC,
+Linha 9476: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0316,Maria Humberica da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,25/01/1991,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,080.803.794-32,IFPE / BARREIROS,Jose Roberto da Silva,Maria das Gracas do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 9488: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0307,Maria Karolaine da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,23/02/1998,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,TAMANDARÉ - PE,713.390.424-10,IFPE / BARREIROS,Jose Bernardo da Silva,Fabiana Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9497: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0059,Maria Lucélia Laudiene da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,20/01/1988,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,070.948.644-85,IFPE / BARREIROS,Não Declarado,Amara Lúcia da Silva,Formação Inicial e Continuada - FIC,
+Linha 9501: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0013,Maria Paula Alves de Lima,Matriculado,Matriculado,20181.EJ-BR.1N,13/06/1993,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,105.068.554-73,IFPE / BARREIROS,Otacílio Cândido de Lima Silva,Amara Maria Alves,Formação Inicial e Continuada - FIC,
+Linha 9505: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0190,Marluce Francisco do Nascimento,Matriculado,Matriculado,20181.EJ-BR.4N,10/02/1977,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,JABOATÃO DOS GUARARAPES - PE,045.795.544-93,IFPE / BARREIROS,Amarino Tavares do Nascimento,Maria Jose Francisco,Formação Inicial e Continuada - FIC,
+Linha 9516: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0366,Miqueias Silas da Silva Miranda de Gusmao,Matriculado,Matriculado,20181.EJ-BR.1N,09/11/1992,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,089.018.974-90,IFPE / BARREIROS,Ivanio Angelo de Gusmao,Rute Maria da Silva Miranda,Formação Inicial e Continuada - FIC,
+Linha 9542: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0323,Mirely Maria da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,10/11/1998,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,133.980.374-70,IFPE / BARREIROS,Joao Miguel da Silva,Maria Quirino da Silva Filha,Formação Inicial e Continuada - FIC,
+Linha 9543: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0090,Moisés Silvestre dos Santos,Matriculado,Matriculado,20181.EJ-BR.2N,25/02/1981,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,026.310.214-95,IFPE / BARREIROS,Manoel Euclides dos Santos,Maria de Lourdes Silvestre dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9546: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0024,Nadiele Maria da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,28/08/1995,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,102.546.144-42,IFPE / BARREIROS,Nadiel Felizardo da Silva,Lenilda Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9548: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0342,Orana Siqueira Alves dos Santos,Matriculado,Matriculado,20181.EJ-BR.3N,14/07/1968,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,PESQUEIRA - PE,819.034.304-10,IFPE / BARREIROS,Hermes Marcolino Alves,Olga Duperron Siqueira Alves,Formação Inicial e Continuada - FIC,
+Linha 9562: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0350,Patricia Priscilla Silva dos Santos,Matriculado,Matriculado,20181.EJ-BR.2N,25/04/1988,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,080.193.644-63,IFPE / BARREIROS,Plauto Onofre dos Santos Floriano,Mariluce Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9569: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0293,Rafael Jose da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,26/08/1991,M,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,RIO FORMOSO - PE,101.920.964-00,IFPE / BARREIROS,Severino Jose da Silva,Rosileide Maria Cavalcanti,Formação Inicial e Continuada - FIC,
+Linha 9591: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0067,Rafaele Ferreira da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,27/10/1992,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,081.376.434-35,IFPE / BARREIROS,Manoel Amaro da Silva,Joselia Silva Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9597: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0199,Rafaelma Ferreira da Sila,Matriculado,Matriculado,20181.EJ-BR.1N,20/02/1995,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,127.970.094-79,IFPE / BARREIROS,Manoel Amaro da Silva,Joselia Silva Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9599: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0040,Rafalane Ferreira da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,20/02/1993,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,111.002.174-79,IFPE / BARREIROS,Manoel Amaro da Silva,Joselia Silva Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9600: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0269,Roseane da Costa Canuto da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,29/03/1983,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,074.420.694-44,IFPE / BARREIROS,Severino Canuto da Silva,Maria do Socorro Silva da Costa,Formação Inicial e Continuada - FIC,
+Linha 9634: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0219,Rosilane Maria Ferreira,Matriculado,Matriculado,20181.EJ-BR.2N,20/06/1979,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,038.207.874-88,IFPE / BARREIROS,Antonio Eduardo Ferreira,Tereza Maria Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9636: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0050,Rosilene Maria Albuquerque de Lima,Matriculado,Matriculado,20181.EJ-BR.4N,27/12/1978,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,065.759.924-71,IFPE / BARREIROS,Jose Salatiel de Lima,Cássia Valéria de Albuquerque de Lima,Formação Inicial e Continuada - FIC,
+Linha 9637: Filtrada pelo Nível/Regime de Ensino; 
+20181EJ-BR0196,Rozeni Maria da Silva,Matriculado,Matriculado,20181.EJ-BR.1N,06/05/1983,F,2018/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,076.046.354-90,IFPE / BARREIROS,João Leobino da Silva,Josefa Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9639: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0296,Sandro Costa da Silva,Matriculado,Matriculado,20181.EJ-BR.3N,02/03/1991,M,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,PALMARES - PE,088.236.604-16,IFPE / BARREIROS,Moiseis Gomes da Silva,Luzia Lins Costa,Formação Inicial e Continuada - FIC,
+Linha 9650: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0154,Sara de Kássia Silva,Matriculado,Matriculado,20181.EJ-BR.2N,27/06/1998,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,119.558.164-50,IFPE / BARREIROS,Eliel Francisco da Silva,Edjane Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9651: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0278,Taciana Cristina dos Santos Rosa,Matriculado,Matriculado,20181.EJ-BR.2N,22/12/1986,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,094.879.184-50,IFPE / BARREIROS,Francisco Jose Rosa,Maria Jose dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9668: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0092,Thuany Crizele Santos Silva,Matriculado,Matriculado,20181.EJ-BR.4N,03/07/1992,F,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,4,Noturno,BARREIROS - PE,087.674.454-46,IFPE / BARREIROS,Bartolomeu Bispo da Silva,Maria Josilda dos Santos Silva,Formação Inicial e Continuada - FIC,
+Linha 9681: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0334,Vera Lúcia de Lima Gusmão,Matriculado,Matriculado,20181.EJ-BR.3N,15/02/1965,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,460.597.414-87,IFPE / BARREIROS,José Ferreira de Lima,Gilda Maria de Moraes Lima,Formação Inicial e Continuada - FIC,
+Linha 9693: Filtrada pelo Nível/Regime de Ensino; 
+20161EJ-BR0280,Vera Lucia Vasconcelos de Oliveira,Matriculado,Matriculado,20181.EJ-BR.2N,15/11/1964,F,2016/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,594.195.474-34,IFPE / BARREIROS,José Amaro da Silva,Edite Acioli Vasconcelos,Formação Inicial e Continuada - FIC,
+Linha 9694: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0073,Viviane Francisca da Silva,Matriculado,Matriculado,20181.EJ-BR.2N,24/11/1992,F,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,108.809.934-30,IFPE / BARREIROS,Amaro Francisco da Silva,Gilvanete Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 9701: Filtrada pelo Nível/Regime de Ensino; 
+20172EJ-BR0138,Wagner Stefanny Luciano de Lima Silva,Matriculado,Matriculado,20181.EJ-BR.2N,01/09/1991,M,2017/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,2,Noturno,BARREIROS - PE,078.710.354-36,IFPE / BARREIROS,Gilberto Luciano dos Santos Silva,Hilda de Lima dos Santos Silva,Formação Inicial e Continuada - FIC,
+Linha 9702: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0091,Waldimeri Maria da Silva Ferreira,Matriculado,Matriculado,20181.EJ-BR.3N,13/02/1972,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,665.232.494-68,IFPE / BARREIROS,Joaé Vicente Ferreira,Maria Serrate da Silva Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9704: Filtrada pelo Nível/Regime de Ensino; 
+20161EJ-BR0302,Weslei da Silva Pereira,Matriculado,Matriculado,20181.EJ-BR.1N,10/03/1990,M,2016/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,092.881.364-95,IFPE / BARREIROS,Pedro Moraes Pereira,Amara da Silva,Formação Inicial e Continuada - FIC,
+Linha 9722: Filtrada pelo Nível/Regime de Ensino; 
+20162EJ-BR0173,Willian Lucas de Souza,Matriculado,Matriculado,20181.EJ-BR.1N,23/02/1994,M,2016/2,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,1,Noturno,BARREIROS - PE,700.986.504-32,IFPE / BARREIROS,,Lucia Maria de Souza,Formação Inicial e Continuada - FIC,
+Linha 9731: Filtrada pelo Nível/Regime de Ensino; 
+20171EJ-BR0202,Zenilda Lima dos Santos Silva,Matriculado,Matriculado,20181.EJ-BR.3N,25/11/1979,F,2017/1,PROEJA - ENS. MED. PROF. EM OPERADOR DE COMPUTAÇÃO,3,Noturno,BARREIROS - PE,045.769.554-46,IFPE / BARREIROS,Antonio Candido dos Santos,Amarina Lima dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9750: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0012,Ademilton Jorge de Barros,Matriculado,Matriculado,20181.OIABJ.3N,06/03/1991,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,114.733.914-74,IFPE / BELO JARDIM,Floriano Jorge de Barros,Maria do Carmo da Silva,Formação Inicial e Continuada - FIC,
+Linha 9753: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0020,Alex Carlos Pereira da Silva,Matriculado,Matriculado,20181.OIABJ.3N,08/03/1993,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,RIO DE JANEIRO - RJ,111.173.314-74,IFPE / BELO JARDIM,Manoel Carlos da Silva,Maria Janeide Pereira Batista,Formação Inicial e Continuada - FIC,
+Linha 9767: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0039,Aline Catarine Chaves,Matriculado,Matriculado,20181.OIABJ.3N,20/08/1990,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,100.375.304-37,IFPE / BELO JARDIM,José dos Reis Cavalcante Chaves,Maria Helena da Silva,Formação Inicial e Continuada - FIC,
+Linha 9772: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0047,Caio Yan Ferreira Florentino da Silva,Matriculado,Matriculado,20181.OIABJ.3N,27/11/1998,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,131.871.494-05,IFPE / BELO JARDIM,Ailson Florentino da Silva,Cicera de Fatima Ferreira,Formação Inicial e Continuada - FIC,
+Linha 9850: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0055,Cicera Maria dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,20/08/1988,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,091.548.464-12,IFPE / BELO JARDIM,,Iraci Francisca dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9867: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0063,Crislei Naiane da Silva Cavalcante,Matriculado,Matriculado,20181.OIABJ.3N,10/04/1995,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,703.659.244-31,IFPE / BELO JARDIM,Luciano Silva Cavalcante,Gysley Melo da Silva,Formação Inicial e Continuada - FIC,
+Linha 9879: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0071,Eliane Maria da Silva Gomes,Matriculado,Matriculado,20181.OIABJ.3N,11/06/1994,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,117.354.704-57,IFPE / BELO JARDIM,Jose Maria Gomes da Silva,Maria de Lourdes Lima Silva,Formação Inicial e Continuada - FIC,
+Linha 9927: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0080,Elizabete Oliveira Mariano da Silva,Matriculado,Matriculado,20181.OIABJ.3N,12/08/1991,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,017.225.914-20,IFPE / BELO JARDIM,Sebastião de Oliveira,Marinete Maria da Silva Oliveira,Formação Inicial e Continuada - FIC,
+Linha 9931: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0098,Eunice Elias dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,18/11/1995,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,120.514.954-67,IFPE / BELO JARDIM,Elias Sebastiao dos Santos,Iraci Maria dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9961: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0101,Fabio Flor dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,22/07/1998,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,127.937.464-01,IFPE / BELO JARDIM,José Flor dos Santos,Josefa Alves dos Santos,Formação Inicial e Continuada - FIC,
+Linha 9974: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0110,Genilda Maria dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,28/01/1979,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,040.007.424-93,IFPE / BELO JARDIM,Manoel Carlos dos Santos,Julia Maria dos Santos,Formação Inicial e Continuada - FIC,
+Linha 10001: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0128,Givanilza Pires Mergulhao dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,29/09/1980,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,053.118.584-27,IFPE / BELO JARDIM,Geneci Cordeiro Mergulhão ,Herundina Pires Mergulhão,Formação Inicial e Continuada - FIC,
+Linha 10018: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0144,Izadora Pereira da Silva Nunes,Matriculado,Matriculado,20181.OIABJ.3N,28/06/1994,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,114.398.174-05,IFPE / BELO JARDIM,Idvanio Alves da Silva,Simone Chaves Pereira Silva,Formação Inicial e Continuada - FIC,
+Linha 10052: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0160,Jefferson Leonardo dos Santos,Matriculado,Matriculado,20181.OIABJ.3N,16/03/1996,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,068.643.754-39,IFPE / BELO JARDIM,Wilson dos Santos Silva,Laurenice Maria do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 10080: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0152,João Carlos Ferreira,Matriculado,Matriculado,20181.OIABJ.3N,02/06/1992,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,109.986.394-51,IFPE / BELO JARDIM,,,Formação Inicial e Continuada - FIC,
+Linha 10092: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0179,José Ricardo Freitas de Oliveira,Matriculado,Matriculado,20181.OIABJ.3N,26/05/1987,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,083.546.364-88,IFPE / BELO JARDIM,Gerson Jacinto de Oliveira,Maria Soares de Freitas,Formação Inicial e Continuada - FIC,
+Linha 10156: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0187,Josivânia Cicera Eduarda da Silva,Matriculado,Matriculado,20181.OIABJ.3N,24/05/1996,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,127.813.824-26,IFPE / BELO JARDIM,Josilnado Eduardo da Silva,Maria Divania da silva,Formação Inicial e Continuada - FIC,
+Linha 10175: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0195,Maria Aparecida Dedier Cordeiro Silva,Matriculado,Matriculado,20181.OIABJ.3N,10/08/1972,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,SANHARÓ - PE,847.235.484-91,IFPE / BELO JARDIM,Antonio Dedier Cordeiro,Maria Anna da Solidade,Formação Inicial e Continuada - FIC,
+Linha 10273: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0209,Maria Dolores de Oliveira Bezerra,Matriculado,Matriculado,20181.OIABJ.3N,11/05/1975,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,PESQUEIRA - PE,040.184.184-77,IFPE / BELO JARDIM,,,Formação Inicial e Continuada - FIC,
+Linha 10287: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0217,Maria Elza Almeida de Barros Santana,Matriculado,Matriculado,20181.OIABJ.3N,14/04/1991,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,CAPOEIRAS - PE,096.304.164-92,IFPE / BELO JARDIM,Antonio Almeida de Barros,Maria Eva de Melo Barros,Formação Inicial e Continuada - FIC,
+Linha 10293: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0225,Maria Roniéle Braz Moreira,Matriculado,Matriculado,20181.OIABJ.3N,28/12/1991,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,PESQUEIRA - PE,102.908.144-13,IFPE / BELO JARDIM,João Antonio Braz,Eliane Maria Moreira,Formação Inicial e Continuada - FIC,
+Linha 10324: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0241,Patrícia Cordeiro Araújo,Matriculado,Matriculado,20181.OIABJ.3N,04/05/1997,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,117.303.244-44,IFPE / BELO JARDIM,,,Formação Inicial e Continuada - FIC,
+Linha 10378: Filtrada pelo Nível/Regime de Ensino; 
+20162OIABJ0236,Paulo Barbosa da Silva,Matriculado,Matriculado,,06/08/1976,M,2016/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,4,Noturno,SÃO PAULO - SP,025.165.464-83,IFPE / BELO JARDIM,Antonio Barbosa da Silva,Maria Aparecida Baptista da Silva,Formação Inicial e Continuada - FIC,
+Linha 10381: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0250,Raíssa de Oliveira Pereira,Matriculado,Matriculado,20181.OIABJ.3N,19/11/1995,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,RECIFE - PE,704.577.834-19,IFPE / BELO JARDIM,Francinaldo de Oliveira Pereira,Maria de Fátima de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 10401: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0268,Rosineide Alves da Silva,Matriculado,Matriculado,20181.OIABJ.3N,28/02/1978,F,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,092.144.674-80,IFPE / BELO JARDIM,,,Formação Inicial e Continuada - FIC,
+Linha 10435: Filtrada pelo Nível/Regime de Ensino; 
+20172OIABJ0284,Wellington Alves da Silva,Matriculado,Matriculado,20181.OIABJ.3N,17/07/1998,M,2017/2,CURSO DE QUALIFICAÇÃO PROFISSIONAL DE OPERADOR INDUSTRIAL EM ALIMENTOS,3,Noturno,BELO JARDIM - PE,125.755.644-41,IFPE / BELO JARDIM,Antonio alves da silva,Maria do Carmo da Silva,Formação Inicial e Continuada - FIC,
+Linha 10520: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0010,Alexandro Chicuta de Lima ,Matriculado,Matriculado,20181.Y5CR.1V,25/08/1972,M,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,,127.177.608-14,IFPE / CARUARU,,,Extensão,
+Linha 11663: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0040,Anna Elloísa Santos Silva,Matriculado,Matriculado,20181.Y3CR.2V,15/08/2003,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,071.029.424-78,IFPE / CARUARU,Everaldo Alves da Silva,Joelma Rita dos Santos Silva,Extensão,
+Linha 11710: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0091,Bianca Karina de Sousa Lima,Matriculado,Matriculado,20181.Y3CR.2V,04/01/2002,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,104.341.014-78,IFPE / CARUARU,Reginaldo Cosmo de Lima,Marta Maria de Sousa Lima,Extensão,
+Linha 11736: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0306,Carla Virginia Alves da Silva,Matriculado,Matriculado,20181.Y3CR.1BV,20/05/2003,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,BREJO DA MADRE DE DEUS - PE,714.377.394-82,IFPE / CARUARU,Bruno José da Silva,Janete Alves Bezerra,Extensão,
+Linha 11763: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0028,Cilene Maria dos Santos,Matriculado,Matriculado,20181.Y5CR.1V,01/02/1993,F,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,,062.719.954-20,IFPE / CARUARU,,,Extensão,
+Linha 11773: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0047,Cintia Patricia Pereira da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,04/04/2002,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,713.303.404-26,IFPE / CARUARU,Antonio Pereira da Silva Junior,Edvania Maria Pereira da Silva,Extensão,
+Linha 11775: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0075,Débora Ruth de Siqueira Santos,Matriculado,Matriculado,20181.Y3CR.2V,26/03/2002,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,100.797.434-63,IFPE / CARUARU,Mario José dos Santos,Mirian Rute de Siqueira Santos,Extensão,
+Linha 11804: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0322,ELAINE CRISTINA DA ROCHA SILVA,Matriculado,Matriculado,20181.Y3CR.1BV,22/12/1976,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,RECIFE - PE,026.847.544-03,IFPE / CARUARU,,NOME DA MÃE NÃO INFORMADO,Extensão,
+Linha 11833: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0080,Emmanoel Antônio Almeida Cavalcanti,Matriculado,Matriculado,20181.Y3CR.1AV,05/02/2001,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,BELO JARDIM - PE,132.305.644-05,IFPE / CARUARU,Manoel Cavalcanti Sobrinho,Maria Helena Almeida e Silva Cavalcanti,Extensão,
+Linha 11854: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0020,Evelyn Luisy Ferreira Longuinhos,Matriculado,Matriculado,20181.Y3CR.1AV,02/04/2001,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,RECIFE - PE,113.441.224-00,IFPE / CARUARU,Carlos Wilhame Marques Longuinhos,Graciara Ferreira Longuinhos,Extensão,
+Linha 11865: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0121,Fábio Ewerton Ferreira de Souza,Matriculado,Matriculado,20181.Y3CR.2V,08/04/1998,M,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,BUÍQUE - PE,118.293.284-33,IFPE / CARUARU,José Cícero Nunes de Souza,Quitéria Alaíde Ferreira,Extensão,
+Linha 11872: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0059,Flávia Marcella Perrier Campos,Matriculado,Matriculado,20181.Y3CR.2V,17/12/2001,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,703.536.364-52,IFPE / CARUARU,Flávio Romero de Mendonça Campos,Marcia Regina França Perrier Campos,Extensão,
+Linha 11887: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0098,Flávia Regina Santos da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,11/11/1999,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,658.640.184-49,IFPE / CARUARU,,,Extensão,
+Linha 11889: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0036,Francisco de Assis Ferreira Neto,Matriculado,Matriculado,20181.Y5CR.1V,01/02/1990,M,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,,332.738.804-06,IFPE / CARUARU,,,Extensão,
+Linha 11891: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0039,Gabriel Vinicius Cavalcante dos Santos,Matriculado,Matriculado,20181.Y3CR.1AV,05/01/2001,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,707.256.704-60,IFPE / CARUARU,Edimilson José dos Santos,Mônica Patricia Cavalcante dos Santos,Extensão,
+Linha 11903: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0012,George Vinicius Erminio dos Santos,Matriculado,Matriculado,20181.Y3CR.2V,14/03/2002,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,703.880.994-61,IFPE / CARUARU,George Erminio dos Santos,Edileuza Severina dos Santos Almeida,Extensão,
+Linha 11913: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0209,Giovana Rodrigues Alves,Matriculado,Matriculado,20181.Y3CR.1BV,25/08/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,GARANHUNS - PE,709.629.694-86,IFPE / CARUARU,Ady Alves dos Santos,Claudia Rodrigues Alves,Extensão,
+Linha 11921: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0055,Gleiciane Adrielli Souza Guinho,Matriculado,Matriculado,20181.Y3CR.1AV,13/12/2002,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,140.172.844-85,IFPE / CARUARU,Gerom Ferreira Guinho,Adriana de Melo Souza Guinho,Extensão,
+Linha 11930: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0144,Isaac Pedro da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,06/12/1993,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,111.629.634-92,IFPE / CARUARU,Manoel Oliveira da Silva,Maria Claudineide Rodrigues da Silva,Extensão,
+Linha 11982: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0083,Isabella Carvalho da Costa Silva,Matriculado,Matriculado,20181.Y3CR.2V,14/02/2002,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,102.663.234-05,IFPE / CARUARU,Valdemiro da Costa Silva,Joelma Maria de Carvalho,Extensão,
+Linha 11984: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0160,Janaeli Maria da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,20/04/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,709.936.664-50,IFPE / CARUARU,Aluizio Amaro da Silva,Maria Vera Lúcia da Silva,Extensão,
+Linha 11999: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0152,Jonatas Bezerra da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,13/08/2000,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,708.896.584-47,IFPE / CARUARU,Janailson Bezerra da Silva,Girleide Ginalda da Silva,Extensão,
+Linha 12039: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0225,José Eduardo Silva Torres,Matriculado,Matriculado,20181.Y3CR.1BV,07/04/1999,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,706.152.884-21,IFPE / CARUARU,Sizenando Luiz de Torres,Juliana Maria Silva Torres,Extensão,
+Linha 12056: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0071,Jose Gomes Barbosa Neto,Matriculado,Matriculado,20181.Y3CR.1AV,22/02/2001,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,AMEIXAS (CUMARU) - PE,134.021.574-89,IFPE / CARUARU,Aelson Gomes Barbosa,Maria da Conceiçao de Franca,Extensão,
+Linha 12063: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0195,José Rodrigo Gonçalves Alves do Nascimento,Matriculado,Matriculado,20181.Y3CR.1BV,29/06/2000,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,709.693.264-08,IFPE / CARUARU,José Gilmar Alves do Nascimento,Nadilene Maria Gonçalves Bezerra,Extensão,
+Linha 12084: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0063,Juan Kleibe da Silva dos Santos,Matriculado,Matriculado,20181.Y3CR.1AV,21/08/2001,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,710.015.544-42,IFPE / CARUARU,Cleibe Jose da Silva,Margarida Maria dos Santos,Extensão,
+Linha 12093: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0044,Jussara Maria Daniel da Silva ,Matriculado,Matriculado,20181.Y5CR.1V,31/07/1984,F,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,,052.241.694-29,IFPE / CARUARU,,,Extensão,
+Linha 12108: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0284,Kyara Maria de Souza Silva,Matriculado,Matriculado,20181.Y3CR.1BV,24/11/2001,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,077.057.563-31,IFPE / CARUARU,Joselito Marques da Silva,Keylla Maria de Souza,Extensão,
+Linha 12118: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0032,Layza Silvestre Ferreira de Lima,Matriculado,Matriculado,20181.Y3CR.2V,15/10/2001,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,CARUARU - PE,714.394.364-95,IFPE / CARUARU,Ronaldo Ferreira de Lima,Isabel Cristina Silvestre Ferreira,Extensão,
+Linha 12129: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0217,Maria Clara de Oliveira Dutra Soares,Matriculado,Matriculado,20181.Y3CR.1BV,10/09/1999,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,059.284.294-01,IFPE / CARUARU,Hugo Jose Dutra Soares,Jucianna Marta de Oliveira Dutra Soares,Extensão,
+Linha 12202: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0250,Maria de Fátima Rodrigues Vila Nova,Matriculado,Matriculado,20181.Y3CR.1BV,09/09/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,103.788.934-75,IFPE / CARUARU,,,Extensão,
+Linha 12204: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0314,Maria Eduarda da Silva Gomes,Matriculado,Matriculado,20181.Y3CR.1BV,07/02/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,705.447.034-64,IFPE / CARUARU,Roberto Paulo Gomes,Josivânia Gomes da Silva,Extensão,
+Linha 12207: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0233,Maria Emília do Nascimento Pereira,Matriculado,Matriculado,20181.Y3CR.1BV,06/12/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,709.332.324-38,IFPE / CARUARU,Severino João Pereira Júnior,Maria Veronica do Nascimento,Extensão,
+Linha 12211: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0101,Maria Kamyla Moura Santos,Matriculado,Matriculado,20181.Y3CR.1AV,30/04/2002,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,112.808.034-60,IFPE / CARUARU,Severino Manoel dos Santos,Maria Cristina de Moura Santos,Extensão,
+Linha 12215: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0268,Maria Manuela de Barros,Matriculado,Matriculado,20181.Y3CR.1BV,13/12/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,150.860.154-21,IFPE / CARUARU,,,Extensão,
+Linha 12222: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0128,Marileide da Conceição Santos,Matriculado,Matriculado,20181.Y3CR.1AV,12/12/1999,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,095.911.304-57,IFPE / CARUARU,,,Extensão,
+Linha 12231: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0187,Mikaelly Maria da Silva Mélo,Matriculado,Matriculado,20181.Y3CR.1AV,25/02/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,114.929.184-23,IFPE / CARUARU,Luciano Alcides de Mélo,Rosemere Maria da Silva Mélo,Extensão,
+Linha 12257: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0052,Naedja Karla Petrucio dos Santos,Matriculado,Matriculado,20181.Y5CR.1V,07/07/1990,F,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,CARUARU - PE,086.769.814-42,IFPE / CARUARU,,,Extensão,
+Linha 12268: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0241,Nataly Farias dos Santos,Matriculado,Matriculado,20181.Y3CR.1BV,25/03/2000,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,SÃO PAULO - SP,113.224.474-97,IFPE / CARUARU,Jucivando Bezerra dos Santos,Lucineide de Farias,Extensão,
+Linha 12271: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0179,Oziely Duerlainy da Silva,Matriculado,Matriculado,20181.Y3CR.1AV,31/10/2001,F,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,712.495.544-03,IFPE / CARUARU,Josildo Cosme da Silva,Priscila Meireles da Luz,Extensão,
+Linha 12280: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0060,Paulo Henrique Meneses Brasil,Matriculado,Matriculado,20181.Y5CR.1V,15/10/1990,M,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,CARUARU - PE,079.640.544-14,IFPE / CARUARU,,,Extensão,
+Linha 12290: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0276,Raniel Vinicius da Silva Nascimento,Matriculado,Matriculado,20181.Y3CR.1BV,11/11/2000,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,,120.130.014-28,IFPE / CARUARU,,,Extensão,
+Linha 12312: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0079,Rommel Domingos Farias dos Santos,Matriculado,Matriculado,20181.Y5CR.1V,16/12/1971,M,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,CARUARU - PE,698.907.494-91,IFPE / CARUARU,Luiz Domingos dos Santos,Maria Bernadete Farias dos Santos,Extensão,
+Linha 12334: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0136,Sewton Gustavo Ferreira dos Santos,Matriculado,Matriculado,20181.Y3CR.1AV,24/04/2000,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,709.922.134-52,IFPE / CARUARU,Sergio Adriano dos Santos,Elanne Michele da Silva Ferreira,Extensão,
+Linha 12355: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0105,Silvaneide Ventura da Silva,Matriculado,Matriculado,20181.Y3CR.2V,25/09/1974,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,034.055.634-02,IFPE / CARUARU,,,Extensão,
+Linha 12356: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0087,Suetone Carneiro de Andrade Neto,Matriculado,Matriculado,20181.Y5CR.1V,24/07/2001,M,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,,712.260.574-46,IFPE / CARUARU,,Elijany Mousinho Mota Barbosa,Extensão,
+Linha 12368: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0067,Waldenia Vanessa Campos dos Santos,Matriculado,Matriculado,20181.Y3CR.2V,15/08/2002,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,,136.831.544-54,IFPE / CARUARU,Valter José dos Santos,Maria Betania Campos de Santana,Extensão,
+Linha 12424: Filtrada pelo Nível/Regime de Ensino; 
+20172Y3CR0016,Wendy Iasmin da Silva Pontes,Matriculado,Matriculado,20181.Y3CR.2V,28/01/2002,F,2017/2,CURSO ESPANHOL BÁSICO I- EXT CR,2,Vespertino,SÃO CAITANO - PE,139.980.844-36,IFPE / CARUARU,Ubirajara de Pontes,Genilda Maria da Silva,Extensão,
+Linha 12432: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0292,Wesliz do Nascimento Andrade,Matriculado,Matriculado,20181.Y3CR.1BV,28/09/1999,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,CARUARU - PE,126.116.404-08,IFPE / CARUARU,Marcone de Andrade,Jovenilda Tereza do Nascimento,Extensão,
+Linha 12438: Filtrada pelo Nível/Regime de Ensino; 
+20181Y3CR0110,William de Lemos Cassiano,Matriculado,Matriculado,20181.Y3CR.1AV,03/07/1999,M,2018/1,CURSO ESPANHOL BÁSICO I- EXT CR,1,Vespertino,SÃO JOAQUIM DO MONTE - PE,106.876.194-67,IFPE / CARUARU,Fernando Sobral Cassiano,Edvanne Oliveira de Lemos Cassiano,Extensão,
+Linha 12443: Filtrada pelo Nível/Regime de Ensino; 
+20181Y5CR0095,Willijane de Oliveira Silva,Matriculado,Matriculado,20181.Y5CR.1V,25/11/1982,F,2018/1,ESPANHOL INTERMEDIÁRIO I EXT CR,1,Vespertino,CARUARU - PE,011.634.724-41,IFPE / CARUARU,Antonio Francisco da Silva,Dalvaniza Alexandrina de Oliveira Silva,Extensão,
+Linha 12447: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0080,Adriana de Melo da Silva,Matriculado,Matriculado,20181.QPAF.3N,28/07/1980,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,058.910.044-02,IFPE / AFOGADOS DA INGAZEIRA,Lourival Isidio de Lima,Maria de Fátima de Melo Lima,Formação Inicial e Continuada - FIC,
+Linha 12458: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0056,Anderson José Ferreira,Matriculado,Matriculado,20181.QPAF.3N,07/07/1991,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,108.513.284-66,IFPE / AFOGADOS DA INGAZEIRA,,Maria do Socorro Ferreira,Formação Inicial e Continuada - FIC,
+Linha 12494: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0023,Cicero Felix de Oliveira,Matriculado,Matriculado,20181.QPAF.4N,14/03/1987,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,061.711.834-58,IFPE / AFOGADOS DA INGAZEIRA,,Ozeni Félix de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 12552: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0260,Damiana da Silva Leite,Matriculado,Matriculado,20181.QPAF.4N,26/04/1985,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,,067.504.524-00,IFPE / AFOGADOS DA INGAZEIRA,,,Formação Inicial e Continuada - FIC,
+Linha 12567: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0269,Damiana Maria de Souza,Matriculado,Matriculado,20181.QPAF.3N,13/09/1974,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,TABIRA - PE,038.133.144-05,IFPE / AFOGADOS DA INGAZEIRA,João Maria Filho,Severina Fuastino de Souza,Formação Inicial e Continuada - FIC,
+Linha 12568: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0196,Dayane Jucielly da Silva Godê,Matriculado,Matriculado,20181.QPAF.3N,28/11/1989,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,016.416.404-99,IFPE / AFOGADOS DA INGAZEIRA,José Ivanildo Godê da Silva,Damiana Cristian da Silva Godê,Formação Inicial e Continuada - FIC,
+Linha 12584: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0064,Eliane dos Santos,Matriculado,Matriculado,20181.QPAF.3N,27/04/1976,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,053.724.274-00,IFPE / AFOGADOS DA INGAZEIRA,Messias Pedro dos Santos,Maria Genilda dos Santos,Formação Inicial e Continuada - FIC,
+Linha 12610: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0250,Elinaldo Francisco Bezerra,Matriculado,Matriculado,20181.QPAF.3N,19/07/1981,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,IGUARACI - PE,037.417.874-77,IFPE / AFOGADOS DA INGAZEIRA,Enoque Francisco Bezerra,Madalena Francisco Bezerra,Formação Inicial e Continuada - FIC,
+Linha 12614: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0171,Elyaneide Maciel Alves,Matriculado,Matriculado,20181.QPAF.4N,18/05/1983,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,RECIFE - PE,042.157.074-12,IFPE / AFOGADOS DA INGAZEIRA,Adaulto Alves Pereira,Edite Maciel Alves,Formação Inicial e Continuada - FIC,
+Linha 12618: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0030,Fabiano Alves Feitosa,Matriculado,Matriculado,20181.QPAF.3N,03/05/1982,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,313.489.258-84,IFPE / AFOGADOS DA INGAZEIRA,,,Formação Inicial e Continuada - FIC,
+Linha 12632: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0072,Fabrícia Rodrigues da Silva,Matriculado,Matriculado,20181.QPAF.3N,03/06/1983,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,RECIFE - PE,064.484.664-01,IFPE / AFOGADOS DA INGAZEIRA,Fernandes Rodrigues da Silva ,Francisca Lucinalva Rodrigues da Silva,Formação Inicial e Continuada - FIC,
+Linha 12634: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0163,Fernanda Viana dos Santos,Matriculado,Matriculado,20181.QPAF.4N,18/01/1995,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,107.547.084-62,IFPE / AFOGADOS DA INGAZEIRA,José Dias dos Santos,Maria dos Aflitos Viana,Formação Inicial e Continuada - FIC,
+Linha 12642: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0153,Geuvan Ramos Barboza,Matriculado,Matriculado,20181.QPAF.3N,03/01/1964,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,SOLIDÃO - PE,763.210.294-91,IFPE / AFOGADOS DA INGAZEIRA,Vicente Ramos Barboza,Raimunda Barboza,Formação Inicial e Continuada - FIC,
+Linha 12666: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0099,Gracione Alves da Silva,Matriculado,Matriculado,20181.QPAF.3N,05/01/1981,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,071.324.904-86,IFPE / AFOGADOS DA INGAZEIRA,Luiz Alves da Silva,Antonia Seflaustina da Silva,Formação Inicial e Continuada - FIC,
+Linha 12676: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0180,Henrique Barbosa do Ramo,Matriculado,Matriculado,20181.QPAF.4N,23/05/1992,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,102.297.414-95,IFPE / AFOGADOS DA INGAZEIRA,Severino Ramo da Silva,Lucia Barbosa do Ramo,Formação Inicial e Continuada - FIC,
+Linha 12687: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0145,Ilvânia Lima da Silva,Matriculado,Matriculado,20181.QPAF.3N,12/11/1976,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,TAGUATINGA - DF,061.591.774-78,IFPE / AFOGADOS DA INGAZEIRA,Espedito Lima da Silva,Edite Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 12699: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0242,José Amirailton Rocha Nunes,Matriculado,Matriculado,20181.QPAF.3N,02/12/1971,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,TABIRA - PE,696.029.804-00,IFPE / AFOGADOS DA INGAZEIRA,Alfredo Nunes da Anunciação,Maria de Lourdes Rocha Nunes,Formação Inicial e Continuada - FIC,
+Linha 12751: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0137,Josivania Sousa Patriota de Lima,Matriculado,Matriculado,20181.QPAF.3N,03/06/1985,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,TABIRA - PE,058.263.134-39,IFPE / AFOGADOS DA INGAZEIRA,João de Sousa Nunes,Antonia Honorato Sousa,Formação Inicial e Continuada - FIC,
+Linha 12784: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0201,Juliana Oliveira de Sousa,Matriculado,Matriculado,20181.QPAF.4N,25/04/1991,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,,066.089.784-99,IFPE / AFOGADOS DA INGAZEIRA,José Roberto Perreira de Sousa,Maria Lucineide de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 12789: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0120,Kelvin Ximendes de Lima,Matriculado,Matriculado,20181.QPAF.4N,10/06/1993,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,CIDADE NÃO INFORMADA DE SÃO PAULO - SP,451.178.998-30,IFPE / AFOGADOS DA INGAZEIRA,Helvecio Mariano de Lima Filho,Maria Aparecida Ximendes,Formação Inicial e Continuada - FIC,
+Linha 12804: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0200,Lindayane Alves da Silva,Matriculado,Matriculado,20181.QPAF.3N,02/04/1996,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,BRASÍLIA - DF,064.047.971-51,IFPE / AFOGADOS DA INGAZEIRA,Nivaldo Francisco da Silva,Maria Bernadete Alves da Silva,Formação Inicial e Continuada - FIC,
+Linha 12833: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0210,Marcos Gleidson da Silva Ferreira,Matriculado,Matriculado,20181.QPAF.4N,21/10/1993,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,703.282.224-02,IFPE / AFOGADOS DA INGAZEIRA,Antonio Jose Ferreira,Damiana Quiteria da Silva,Formação Inicial e Continuada - FIC,
+Linha 12871: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0161,Marcos Vinicius Barbosa da Silva,Matriculado,Matriculado,20181.QPAF.3N,23/02/1995,M,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,112.960.194-38,IFPE / AFOGADOS DA INGAZEIRA,João Pedro da Silva,Maria José Barbosa Cabral,Formação Inicial e Continuada - FIC,
+Linha 12874: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0226,Maria Aparecida Lira Ferreira,Matriculado,Matriculado,20181.QPAF.3N,13/03/1974,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,053.805.264-38,IFPE / AFOGADOS DA INGAZEIRA,José Lira do Nascimento,Maria Eunice Ferreira do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 12884: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0218,Maria Imaculada da Silva,Matriculado,Matriculado,20181.QPAF.3N,22/03/1994,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,119.555.614-43,IFPE / AFOGADOS DA INGAZEIRA,José Francisco da Silva,Maria Helena da Silva,Formação Inicial e Continuada - FIC,
+Linha 12907: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0234,Maria José Cordeiro da Silva Tenório,Matriculado,Matriculado,20181.QPAF.3N,01/05/1967,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,066.236.844-41,IFPE / AFOGADOS DA INGAZEIRA,Manoel Cordeiro da Silva,Maria Generosa Rodrigues da Conceição,Formação Inicial e Continuada - FIC,
+Linha 12909: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0102,Maria José de Souza Honorato,Matriculado,Matriculado,20181.QPAF.3N,13/11/1987,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,CARNAÍBA - PE,076.120.144-08,IFPE / AFOGADOS DA INGAZEIRA,Vanderley Honorato da Silva,Irene Alves de Souza Honorato,Formação Inicial e Continuada - FIC,
+Linha 12910: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0252,Maria Madalena Brito,Matriculado,Matriculado,20181.QPAF.4N,16/12/1985,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,,059.609.694-16,IFPE / AFOGADOS DA INGAZEIRA,,,Formação Inicial e Continuada - FIC,
+Linha 12919: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0112,Maria Valdirene Santos Souza,Matriculado,Matriculado,20181.QPAF.4N,09/11/1972,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,,887.548.201-20,IFPE / AFOGADOS DA INGAZEIRA,Luiz Gonzaga de Souza,Evarista Fernandes Santos,Formação Inicial e Continuada - FIC,
+Linha 12927: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0170,Mayara Daiane da Silva,Matriculado,Matriculado,20181.QPAF.3N,04/09/1991,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,099.731.874-07,IFPE / AFOGADOS DA INGAZEIRA,Antonio Neto da Silva,Jeanne Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 12943: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0090,Micaely Silva Queiroz,Matriculado,Matriculado,,06/03/1997,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,129.465.784-45,IFPE / AFOGADOS DA INGAZEIRA,Ademir Queiroz da Silva,Elizabete da Silva,Formação Inicial e Continuada - FIC,
+Linha 12946: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0198,Ronaldo Barbosa da Silva,Matriculado,Matriculado,20181.QPAF.4N,08/06/1981,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,CARNAÍBA - PE,039.628.114-19,IFPE / AFOGADOS DA INGAZEIRA,João Barbosa da Silva,Noemia Josefa da Silva,Formação Inicial e Continuada - FIC,
+Linha 13015: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0129,Rosa Cristina de Lima Veras,Matriculado,Matriculado,20181.QPAF.3N,01/01/1989,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,077.761.974-16,IFPE / AFOGADOS DA INGAZEIRA,Luiz Gonzaga de Lima Silva,Lucia Maria Alves de Lima,Formação Inicial e Continuada - FIC,
+Linha 13017: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0031,Rosineide dos Santos Lima Nunes,Matriculado,Matriculado,20181.QPAF.4N,15/06/1974,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,,198.507.268-81,IFPE / AFOGADOS DA INGAZEIRA,João Xavier de Lima,Maria Sidney dos Santos Lima Nunes,Formação Inicial e Continuada - FIC,
+Linha 13020: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0110,Sahra Francine Veira da Silva,Matriculado,Matriculado,20181.QPAF.3N,20/09/1995,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,TAQUARITINGA DO NORTE - PE,703.404.514-32,IFPE / AFOGADOS DA INGAZEIRA,Paulo Vieira da Silva,Maria de Fátima Soares da Silva,Formação Inicial e Continuada - FIC,
+Linha 13022: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0013,Silvia Pereira dos Santos,Matriculado,Matriculado,20181.QPAF.3N,27/10/1985,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,CARNAÍBA - PE,070.755.334-28,IFPE / AFOGADOS DA INGAZEIRA,Cicero Pereira Santos,Josefa de Carvalho Pereira Santos,Formação Inicial e Continuada - FIC,
+Linha 13038: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0188,Tamires Tuany dos Santos Lima,Matriculado,Matriculado,20181.QPAF.3N,02/06/1989,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,100.046.074-65,IFPE / AFOGADOS DA INGAZEIRA,José Ezio Pereira de Lima,Francisca Maria dos Santos,Formação Inicial e Continuada - FIC,
+Linha 13041: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0139,Thalles Miller Lira da Silva Jorge,Matriculado,Matriculado,20181.QPAF.4N,28/11/1994,M,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,125.106.954-10,IFPE / AFOGADOS DA INGAZEIRA,Jeova Gaudencio da Silva Jorge,Maria das Dores Lira da Silva,Formação Inicial e Continuada - FIC,
+Linha 13052: Filtrada pelo Nível/Regime de Ensino; 
+20172QPAF0021,Valdjane dos Santos Oliveira,Matriculado,Matriculado,20181.QPAF.3N,15/09/1987,F,2017/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,3,Noturno,AFOGADOS DA INGAZEIRA - PE,372.518.948-07,IFPE / AFOGADOS DA INGAZEIRA,Carlos Jesuino de Oliveira,Maria José dos Santos,Formação Inicial e Continuada - FIC,
+Linha 13065: Filtrada pelo Nível/Regime de Ensino; 
+20162QPAF0155,Williana Cirino Alves,Matriculado,Matriculado,20181.QPAF.4N,16/12/1981,F,2016/2,CURSO DE QUALIFICAÇÃO EM PANIFICAÇÃO E CONFEITARIA / PE - IF AF,4,Noturno,AFOGADOS DA INGAZEIRA - PE,063.473.154-83,IFPE / AFOGADOS DA INGAZEIRA,Eleno Cirino Alves,Maria do Socorro Alves,Formação Inicial e Continuada - FIC,
+Linha 13092: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0021,Adgilson Augusto de Souza,Matriculado,Matriculado,20181.ALX.3N,02/11/1987,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CABO DE SANTO AGOSTINHO - PE,091.534.684-22,IFPE / CABO DE SANTO AGOSTINHO,,,Formação Inicial e Continuada - FIC,
+Linha 13491: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0030,Augusto Mendes de Oliveira,Matriculado,Matriculado,20181.ALX.3N,18/08/1968,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,666.660.744-91,IFPE / CABO DE SANTO AGOSTINHO,José Mendes de Oliveira,Severina Venancio de Oliveira,Formação Inicial e Continuada - FIC,
+Linha 13539: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0056,Cacilda Alexsandre de Oliveira,Matriculado,Matriculado,20181.ALX.3N,08/07/1958,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CANASTRA (IBATEGUARA) - AL,719.550.204-00,IFPE / CABO DE SANTO AGOSTINHO,João Vicente da Silva,Maria do Carmo Alexandra,Formação Inicial e Continuada - FIC,
+Linha 13550: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0048,Camila Francisca da Silva Matias,Matriculado,Matriculado,20181.ALX.3N,25/04/1999,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,138.879.754-21,IFPE / CABO DE SANTO AGOSTINHO,Edivaldo Matias da Silva,Jocineide Francisca da Silva,Formação Inicial e Continuada - FIC,
+Linha 13553: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0064,Claudia Maria da Silva,Matriculado,Matriculado,20181.ALX.3N,10/10/1987,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,RECIFE - PE,094.455.324-90,IFPE / CABO DE SANTO AGOSTINHO,Claudio Roberto da Silva,Sônia Maria da Conceição,Formação Inicial e Continuada - FIC,
+Linha 13561: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0072,Diego Alisson Simeão da Silva,Matriculado,Matriculado,20181.ALX.3N,23/05/1997,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,114.995.714-02,IFPE / CABO DE SANTO AGOSTINHO,José Eraldo Simeão da Silva,Dalva Moura da Silva,Formação Inicial e Continuada - FIC,
+Linha 13573: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0099,Edmario Custodio Batista,Matriculado,Matriculado,20181.ALX.3N,03/09/1981,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,SIRINHAÉM - PE,036.615.904-64,IFPE / CABO DE SANTO AGOSTINHO,Amaro Custodio Batista,Maria José da Silva,Formação Inicial e Continuada - FIC,
+Linha 13578: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0080,Ednaldo Bernardo Mendonça,Matriculado,Matriculado,20181.ALX.3N,25/06/1972,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,758.678.934-72,IFPE / CABO DE SANTO AGOSTINHO,Germano Bernardo de Mendonça,Julia Maria de Almeida,Formação Inicial e Continuada - FIC,
+Linha 13579: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0102,Elda Fragoso de Souza,Matriculado,Matriculado,20181.ALX.3N,01/01/1991,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,094.195.374-20,IFPE / CABO DE SANTO AGOSTINHO,,Rute Fragoso de Souza,Formação Inicial e Continuada - FIC,
+Linha 13585: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0110,Elitânia Maria da Silva,Matriculado,Matriculado,20181.ALX.3N,16/06/1989,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,086.195.104-28,IFPE / CABO DE SANTO AGOSTINHO,José Julio da Silva,Maria José do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 13592: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0129,Elivânia Maria da Silva,Matriculado,Matriculado,20181.ALX.3N,19/08/1984,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,072.851.274-26,IFPE / CABO DE SANTO AGOSTINHO,José Marques da Silva Filho,Maria das Dores da Silva,Formação Inicial e Continuada - FIC,
+Linha 13594: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0137,Euzelany Bispo de Assis Santana,Matriculado,Matriculado,20181.ALX.3N,26/02/1979,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,051.283.274-93,IFPE / CABO DE SANTO AGOSTINHO,Antonio Augusto Santos de Assis,Arlinda Maria Bispo,Formação Inicial e Continuada - FIC,
+Linha 13607: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0145,Fabiana Maria de Lima,Matriculado,Matriculado,20181.ALX.3N,28/04/1994,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CABO DE SANTO AGOSTINHO - PE,118.360.394-09,IFPE / CABO DE SANTO AGOSTINHO,Cosme Ferreira de Lima,Sara Maria do Nascimento,Formação Inicial e Continuada - FIC,
+Linha 13613: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0153,Ivan Augusto Francisco Bonfim,Matriculado,Matriculado,20181.ALX.3N,09/02/1999,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,485.576.308-08,IFPE / CABO DE SANTO AGOSTINHO,,Rosemari Francisca Bonfim,Formação Inicial e Continuada - FIC,
+Linha 13644: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0161,Ivonete dos Santos Ribeiro,Matriculado,Matriculado,20181.ALX.3N,16/02/1959,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,LIMOEIRO - PE,289.508.874-87,IFPE / CABO DE SANTO AGOSTINHO,José Gomes dos Santos,Alaide Jovina da Silva,Formação Inicial e Continuada - FIC,
+Linha 13645: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0188,Jéssica Vanessa Dantas Lima,Matriculado,Matriculado,20181.ALX.3N,01/10/1998,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,ARAPIRACA - AL,131.821.744-01,IFPE / CABO DE SANTO AGOSTINHO,José Ailton Barbosa Lima,Ana Cristina dos Santos Dantas,Formação Inicial e Continuada - FIC,
+Linha 13659: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0170,José Amaro Trindade do Nascimento,Matriculado,Matriculado,20181.ALX.3N,24/01/1972,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,859.523.464-72,IFPE / CABO DE SANTO AGOSTINHO,Amaro Pedro do Nascimento,Maria Marluze Lins da Trindade,Formação Inicial e Continuada - FIC,
+Linha 13668: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0218,José Roberto da Silva,Matriculado,Matriculado,20181.ALX.3N,16/09/1985,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CABO DE SANTO AGOSTINHO - PE,062.635.524-92,IFPE / CABO DE SANTO AGOSTINHO,Isaias Belo da Silva,Marli Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 13669: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0200,Joseane Brito de Figueiredo,Matriculado,Matriculado,20181.ALX.3N,02/12/1987,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,103.698.154-16,IFPE / CABO DE SANTO AGOSTINHO,Jeremias Brito de Figueiredo,Maria Marluce da Silva,Formação Inicial e Continuada - FIC,
+Linha 13671: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0226,Josilene Maria dos Santos Almeida,Matriculado,Matriculado,20181.ALX.3N,18/11/1971,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,719.547.674-04,IFPE / CABO DE SANTO AGOSTINHO,José Aniceto dos Santos ,Jerusa Maria de Lima Santos,Formação Inicial e Continuada - FIC,
+Linha 13673: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0234,Keali Patricia da Silva,Matriculado,Matriculado,20181.ALX.3N,13/05/1980,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,050.668.644-23,IFPE / CABO DE SANTO AGOSTINHO,,Maria Luciene da Silva,Formação Inicial e Continuada - FIC,
+Linha 13688: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0293,Luciclecia Luzinete de Lira Santos,Matriculado,Matriculado,20181.ALX.3N,24/09/1984,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,079.221.644-08,IFPE / CABO DE SANTO AGOSTINHO,Ismael Antonio de Lira,Luzinete Maria de Lira,Formação Inicial e Continuada - FIC,
+Linha 13714: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0307,Marcelo José dos Santos Freire,Matriculado,Matriculado,20181.ALX.3N,01/01/1984,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,VITÓRIA DE SANTO ANTÃO - PE,083.369.954-71,IFPE / CABO DE SANTO AGOSTINHO,José Severino Freire,Linete Barbosa dos Santos Freire,Formação Inicial e Continuada - FIC,
+Linha 13722: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0269,Marcicleide Lourenço da Silva Mariano,Matriculado,Matriculado,20181.ALX.3N,23/01/1976,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,919.862.494-68,IFPE / CABO DE SANTO AGOSTINHO,,,Formação Inicial e Continuada - FIC,
+Linha 13723: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0277,Maria Beatriz da Silva,Matriculado,Matriculado,20181.ALX.3N,07/01/1973,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,PALMARES - PE,252.554.858-29,IFPE / CABO DE SANTO AGOSTINHO,Severino Francisco da Silva,Serevina Beatriz da Silva,Formação Inicial e Continuada - FIC,
+Linha 13728: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0285,Mauriceia Maria de Melo,Matriculado,Matriculado,20181.ALX.3N,29/03/1980,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,ESCADA - PE,053.578.264-04,IFPE / CABO DE SANTO AGOSTINHO,Luiz Inacio de Melo,Maria José do Livramento,Formação Inicial e Continuada - FIC,
+Linha 13751: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0323,Rafael de Lima Barboza,Matriculado,Matriculado,20181.ALX.3N,18/10/1989,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,JABOATÃO (JABOATÃO DOS GUARARAPES) - PE,102.735.554-48,IFPE / CABO DE SANTO AGOSTINHO,Jose Joaquim Barboza,Selma Ferreira de Lima,Formação Inicial e Continuada - FIC,
+Linha 13780: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0315,Raiane Vicente da Silva,Matriculado,Matriculado,20181.ALX.3N,16/03/1999,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,014.241.434-46,IFPE / CABO DE SANTO AGOSTINHO,Ednaldo da Silva,Maria de Lourdes Vicente,Formação Inicial e Continuada - FIC,
+Linha 13782: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0013,Rosângela de Souza Verçosa,Matriculado,Matriculado,20181.ALX.3N,01/01/1991,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,312.181.564-49,IFPE / CABO DE SANTO AGOSTINHO,,,Formação Inicial e Continuada - FIC,
+Linha 13806: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0340,Severina Maria Alves da Silva,Matriculado,Matriculado,20181.ALX.3N,19/12/1978,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,ESCADA - PE,010.253.864-69,IFPE / CABO DE SANTO AGOSTINHO,João Francisco da Silva,Maria Feliciana da Conceição,Formação Inicial e Continuada - FIC,
+Linha 13811: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0331,Severina Maria da Silva,Matriculado,Matriculado,20181.ALX.3N,14/10/1968,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CABO DE SANTO AGOSTINHO - PE,610.792.944-49,IFPE / CABO DE SANTO AGOSTINHO,Antonio Cosmo da Silva,Amara Maria da Silva,Formação Inicial e Continuada - FIC,
+Linha 13812: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0358,Severino Belarmino Ribeiro,Matriculado,Matriculado,20181.ALX.3N,17/11/1965,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,452.327.764-87,IFPE / CABO DE SANTO AGOSTINHO,João Belarmino Ribeiro,Maria Helena Ribeiro,Formação Inicial e Continuada - FIC,
+Linha 13813: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0374,Tatiane Barreto Lins,Matriculado,Matriculado,20181.ALX.3N,19/04/1986,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,JABOATÃO (JABOATÃO DOS GUARARAPES) - PE,067.098.514-78,IFPE / CABO DE SANTO AGOSTINHO,José Claudio Barreto Lins,Angelane Cordeiro Nunes,Formação Inicial e Continuada - FIC,
+Linha 13820: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0366,Vanessa Lopes da Silva,Matriculado,Matriculado,20181.ALX.3N,13/03/1994,F,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,,106.208.544-21,IFPE / CABO DE SANTO AGOSTINHO,Silvio Manoel da Silva,Valquiria Lopes da Silva,Formação Inicial e Continuada - FIC,
+Linha 13833: Filtrada pelo Nível/Regime de Ensino; 
+20172ALX0382,Walison Claudio dos Santos Silva,Matriculado,Matriculado,20181.ALX.3N,21/11/1993,M,2017/2,CURSO DE ALMOXARIFE - SEE / PE,3,Noturno,CABO DE SANTO AGOSTINHO - PE,103.529.394-35,IFPE / CABO DE SANTO AGOSTINHO,Jailson Bezerra da Silva,Celia Maria dos Santos,Formação Inicial e Continuada - FIC,
+Linha 13845: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0119,Abraão José da Silva,Matriculado,Matriculado,20181.EX2PM.1V,13/11/1985,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,070.221.294-60,IFPE /  PALMARES,Não Declarado,Maria das Dores da Silva,Extensão,
+Linha 14180: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0011,Alisson Soares de Lima,Matriculado,Matriculado,20181.EX2PM.1V,17/08/1998,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,119.752.864-48,IFPE /  PALMARES,José Raimundo de Lima,Luciana Alves Soares da Silva,Extensão,
+Linha 14189: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0086,Anderson Roberto de Souza Silva,Matriculado,Matriculado,20181.EX4PM.1N,07/05/1995,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,,109.374.784-66,IFPE /  PALMARES,José Roberto da Silva,Josinete de Souza Silva,Extensão,
+Linha 14196: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0160,Andrine Santos da Silva,Matriculado,Matriculado,20181.EX2PM.1V,27/07/1997,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,GAMELEIRA - PE,111.304.224-96,IFPE /  PALMARES,Claudiovan Viana da Silva,Josilene Maria dos Santos,Extensão,
+Linha 14199: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0194,Arthur José Rodrigues Loureiro ,Matriculado,Matriculado,20181.EX2PM.1V,25/04/1986,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,,067.111.084-50,IFPE /  PALMARES,Alexandre Antonio Nunes Loureiro,Rosa Rodrigues Loureiro,Extensão,
+Linha 14204: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0151,Bárbara Vitória de França Peixoto de Lima,Matriculado,Matriculado,20181.EX2PM.1V,11/10/2000,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,098.569.134-46,IFPE /  PALMARES,Domingos Sávio Peixoto de Lima,Vilma Maria de França,Extensão,
+Linha 14207: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0090,Bruna Thaissa de Oliveira Tabosa,Matriculado,Matriculado,20181.EX3PM.1M,02/08/1989,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,075.963.104-27,IFPE /  PALMARES,,,Extensão,
+Linha 14210: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0060,Carlos Bezerra da Silva Néto,Matriculado,Matriculado,20181.EX4PM.1N,30/01/1975,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,JAQUEIRA - PE,026.278.424-63,IFPE /  PALMARES,Inácio Bezerra da Silva,Benetida Maria Bezerra da Silva,Extensão,
+Linha 14214: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0159,Darlan Francisco Lopes,Matriculado,Matriculado,20181.EX4PM.1N,14/01/1989,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,087.411.954-50,IFPE /  PALMARES,,Arlete Francisca Lopes,Extensão,
+Linha 14228: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0015,David Mateus Cabral Mendes,Matriculado,Matriculado,20181.EX3PM.1M,13/08/1998,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,116.869.424-86,IFPE /  PALMARES,,,Extensão,
+Linha 14230: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0112,Debóra Crysley da Soledade,Matriculado,Matriculado,20181.EX3PM.1M,15/08/1991,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,RECIFE - PE,092.068.124-75,IFPE /  PALMARES,,Maria Cicera da Soledade,Extensão,
+Linha 14231: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0082,Deivid Alves de Holanda,Matriculado,Matriculado,20181.EX3PM.1M,07/01/1991,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,CATENDE - PE,101.039.144-55,IFPE /  PALMARES,Djalma Alves de Holanda,Solange Maria Silva de Holanda,Extensão,
+Linha 14236: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0230,Edson Bastos Lopes Silva,Matriculado,Matriculado,20181.EX4PM.1N,27/01/1983,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,047.290.864-22,IFPE /  PALMARES,Izack Bastos Lopes Silva,Neuza Francisca Lopes Silva,Extensão,
+Linha 14242: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0023,Eduardo Silva de Oliveira,Matriculado,Matriculado,20181.EX3PM.1M,28/02/1998,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,PALMARES - PE,714.116.084-10,IFPE /  PALMARES,Alfeu Joaquim Silva de Oliveira,Maria Aparecida da Silva,Extensão,
+Linha 14248: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0104,Elton John de França Peixoto de Lima,Matriculado,Matriculado,20181.EX3PM.1M,09/11/1998,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,PALMARES - PE,087.783.414-85,IFPE /  PALMARES,Domingos Sávio Peixoto de Lima ,Vilma Maria de França,Extensão,
+Linha 14252: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0031,Emerson Tulio da Silva Santos,Matriculado,Matriculado,20181.EX3PM.1M,01/10/1996,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,BACUPARI (PALMARES DO SUL) - RS,705.010.294-60,IFPE /  PALMARES,Edimário Jose da Silva Santos,Betânia Maria da Silva Santos,Extensão,
+Linha 14256: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0108,Gabriel Felipe Coronado,Matriculado,Matriculado,20181.EX4PM.1N,24/10/1996,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,FORTALEZA - CE,461.526.208-64,IFPE /  PALMARES,Não Declarado,Berenice de Farias Coronado,Extensão,
+Linha 14266: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0020,Geiciane Maria da Silva,Matriculado,Matriculado,20181.EX2PM.1V,20/07/2000,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,JOAQUIM NABUCO - PE,709.562.304-07,IFPE /  PALMARES,Benedito José da Silva,Maria Madalena da Silva,Extensão,
+Linha 14271: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0120,Giselli Ervellym Silva e Silva,Matriculado,Matriculado,20181.EX3PM.1M,26/01/1992,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,PALMARES - PE,073.434.714-65,IFPE /  PALMARES,Adnilson Jose da Silva,Elizabete da Conceicao Silva,Extensão,
+Linha 14277: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0038,Gustavo Correia Lima,Matriculado,Matriculado,20181.EX2PM.1V,18/09/1992,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,065.595.384-19,IFPE /  PALMARES,Givaldo dos Santos Lima,Marinalda Barbosa Correia,Extensão,
+Linha 14278: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0124,Gustavo Correia Lima,Matriculado,Matriculado,20181.EX4PM.1N,18/09/1992,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,065.595.384-19,IFPE /  PALMARES,Givaldo dos Santos Lima,Marinalda Barbosa Correia,Extensão,
+Linha 14279: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0167,Gustavson Menezes de Barros,Matriculado,Matriculado,20181.EX4PM.1N,15/12/1990,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,086.763.314-05,IFPE /  PALMARES,Gutemberg Menezes de Barros,Marcia Gonçalves de Barros,Extensão,
+Linha 14280: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0043,Heleno Paulo Rodrigues da Silva Junior,Matriculado,Matriculado,20181.EX4PM.1N,15/05/1997,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,GUARULHOS - SP,388.831.618-90,IFPE /  PALMARES,Heleno Paulo Rodrigues da Silva,Marta Moraes de Assis,Extensão,
+Linha 14282: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0140,Iana Claudia Pereira Rodrigues,Matriculado,Matriculado,20181.EX4PM.1N,15/03/1997,F,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,087.392.044-99,IFPE /  PALMARES,Josemar José Rodrigues,Maria de Jesus Pereira Rodrigues,Extensão,
+Linha 14287: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0143,Jhulia Rebecca Rosendo da Silva,Matriculado,Matriculado,20181.EX2PM.1V,22/02/2017,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,RIBEIRÃO - PE,132.854.344-73,IFPE /  PALMARES,Cicero José da Silva,Taciana Rosendo da Silva,Extensão,
+Linha 14301: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0054,João Rafael da Silva,Matriculado,Matriculado,20181.EX2PM.1V,23/06/1997,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,117.884.214-26,IFPE /  PALMARES,José Gilton Soares de Morais,Maria Eugenia Freire Angelino de Morais,Extensão,
+Linha 14308: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0035,João Rafael da Silva,Matriculado,Matriculado,20181.EX4PM.1N,23/06/1997,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,117.884.214-26,IFPE /  PALMARES,José Gilton Soares de Morais,Maria Eugenia Freire Angelino de Morais,Extensão,
+Linha 14310: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0132,João Victor Gomes dos Santos,Matriculado,Matriculado,20181.EX4PM.1N,03/04/1999,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,ÁGUA PRETA - PE,067.107.174-29,IFPE /  PALMARES,Não Declarado,Edjane Gomes dos Santos,Extensão,
+Linha 14312: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0183,Jonatas dos Santos de Sousa,Matriculado,Matriculado,20181.EX4PM.1N,23/06/1995,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,124.420.304-11,IFPE /  PALMARES,Cicero Matias Vilela de Sousa,Josete Alexandre dos Santos,Extensão,
+Linha 14320: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0078,José Hamilton Lins Júnior,Matriculado,Matriculado,20181.EX4PM.1N,19/05/1998,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,103.536.354-21,IFPE /  PALMARES,José Hamilton Lins Filho,Mércia Cardozo da Silva,Extensão,
+Linha 14324: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0256,Juan Vinicius dos Santos,Matriculado,Matriculado,20181.EX4PM.1N,03/03/1999,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,FRANCISCO MORATO - SP,125.204.154-36,IFPE /  PALMARES,Jaelson José dos Santos,Silvania Cicera dos Santos,Extensão,
+Linha 14330: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0046,Juliana Graziella Freire Claudino,Matriculado,Matriculado,20181.EX2PM.1V,26/10/1990,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,,091.479.204-08,IFPE /  PALMARES,,,Extensão,
+Linha 14332: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0127,Liliane da Silva,Matriculado,Matriculado,20181.EX2PM.1V,03/07/1999,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,,127.766.904-01,IFPE /  PALMARES,José Amaro da Silva,Ana Lucia da Silva,Extensão,
+Linha 14340: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0208,Luana Martins Vital,Matriculado,Matriculado,20181.EX2PM.1V,14/10/1988,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,RECIFE - PE,072.100.834-80,IFPE /  PALMARES,Luiz Antonio Vital,Ana Lidia de Souza Martins Vital,Extensão,
+Linha 14342: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0040,Lucas Henrique de Barros Aureliano,Matriculado,Matriculado,20181.EX3PM.1M,23/06/1997,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,112.549.614-29,IFPE /  PALMARES,,,Extensão,
+Linha 14345: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0051,Luiz Henrique Ferreira Queiroz,Matriculado,Matriculado,20181.EX4PM.1N,17/05/1995,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,132.247.634-93,IFPE /  PALMARES,Luiz Cavalcanti Queiroz,Matilde Maria Ferreira,Extensão,
+Linha 14355: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0175,Marcos Gomes da Silva Filho,Matriculado,Matriculado,20181.EX4PM.1N,28/02/1995,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,CATENDE - PE,115.910.444-13,IFPE /  PALMARES,Marcos Gomes da Silva,Cícera Maria da Silva,Extensão,
+Linha 14358: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0248,MARCOS RODRIGUES FERREIRA DA SILVA,Matriculado,Matriculado,20181.EX4PM.1N,04/07/1972,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,614.366.664-49,IFPE /  PALMARES,JOÃO RODRIGUES DA SILVA,LUIZA LUCIA FERREIRA DA SILVA,Extensão,
+Linha 14359: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0216,Maria Eduarda da Silva,Matriculado,Matriculado,20181.EX2PM.1V,27/07/2000,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,GUARULHOS - SP,711.432.504-51,IFPE /  PALMARES,Sérgio José da Silva,Uliene Maria da Silva,Extensão,
+Linha 14360: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0186,Maria Vanessa Oliveira Gomes de Melo,Matriculado,Matriculado,20181.EX2PM.1V,27/09/1997,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,JOAQUIM NABUCO - PE,109.688.044-03,IFPE /  PALMARES,Valdomiro Gomes de Melo ,Elizabete Nascimento de Oliveira Melo,Extensão,
+Linha 14366: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0066,Mariana de Souza Alves,Matriculado,Matriculado,20181.EX3PM.1M,18/02/1993,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,RECIFE - PE,093.325.904-27,IFPE /  PALMARES,Jose Paulo Alves da Silva,Maria de Lourdes de Souza,Extensão,
+Linha 14367: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0178,MARLON FELLIPE SANTOS DE SANTANA,Matriculado,Matriculado,20181.EX2PM.1V,06/06/1987,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,064.295.914-50,IFPE /  PALMARES,GUTEMBERG CRUZ DE SANTANA,LUCIENE DA SILVA SANTOS,Extensão,
+Linha 14369: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0100,Mateus Cavalcanti Silva dos Santos,Matriculado,Matriculado,20181.EX2PM.1V,22/05/1999,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,116.049.034-14,IFPE /  PALMARES,Robson Carlos dos Santos,Ana Francisca Cavalcanti dos Santos Silva,Extensão,
+Linha 14371: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0019,Mateus Cavalcanti Silva dos Santos,Matriculado,Matriculado,20181.EX4PM.1N,22/05/1999,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,116.049.034-14,IFPE /  PALMARES,Robson Carlos dos Santos,Ana Francisca Cavalcanti dos Santos Silva,Extensão,
+Linha 14373: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0191,Mercia Cosme da Silva,Matriculado,Matriculado,20181.EX4PM.1N,29/07/1972,F,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,024.656.444-08,IFPE /  PALMARES,Natalicio Cosme da Silva,Helena Quiteria da Silva,Extensão,
+Linha 14377: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0224,Nádja Oliveira Barboza,Matriculado,Matriculado,20181.EX2PM.1V,23/09/1998,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,SÃO PAULO - SP,109.742.714-54,IFPE /  PALMARES,Severino Ferreira Barboza,Sandra Mariqa de Oliveira Barboza,Extensão,
+Linha 14380: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0213,Niclaudio Evangelista de Queiroz Neto,Matriculado,Matriculado,20181.EX4PM.1N,28/07/1989,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,100.932.174-98,IFPE /  PALMARES,,Nicleide Gomes de Queiroz,Extensão,
+Linha 14382: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0205,Nilson Cosme da Silva Junior,Matriculado,Matriculado,20181.EX4PM.1N,13/09/1995,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,,117.869.104-70,IFPE /  PALMARES,Nilson Cosme da Silva,Joselia Ferreira de Sena Silva,Extensão,
+Linha 14384: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0221,Nilton César de Lucena Silva,Matriculado,Matriculado,20181.EX4PM.1N,28/06/1994,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,RIBEIRÃO - PE,102.670.364-69,IFPE /  PALMARES,Paulo José da Silva,Marinalva Maria Lucena Cardoso,Extensão,
+Linha 14385: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0232,Pauliana da Silva,Matriculado,Matriculado,20181.EX2PM.1V,28/08/1995,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,ÁGUA PRETA - PE,112.936.224-86,IFPE /  PALMARES,Egnaldo Francisco da Silva,Edilma Belo da Silva,Extensão,
+Linha 14388: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0116,Phablo Pierry de Souza,Matriculado,Matriculado,20181.EX4PM.1N,23/05/1993,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,121.601.154-01,IFPE /  PALMARES,Não Declarado,Hozaní Maria de Souza,Extensão,
+Linha 14392: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0062,Renato Oliveira da Silva,Matriculado,Matriculado,20181.EX2PM.1V,01/11/1997,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,119.833.274-33,IFPE /  PALMARES,Reginaldo José da Silva,Lindinalva Maria Silva de Oliveira,Extensão,
+Linha 14398: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0027,Richard Kevin Lucas dos Anjos,Matriculado,Matriculado,20181.EX4PM.1N,05/02/1993,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,112.626.264-12,IFPE /  PALMARES,Joel Pereira dos Anjos,Marilene da Silva Lucas,Extensão,
+Linha 14402: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0058,Ricson Jose de Santana,Matriculado,Matriculado,20181.EX3PM.1M,30/05/1982,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,041.326.054-26,IFPE /  PALMARES,,,Extensão,
+Linha 14403: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0139,Rodrigo Lino da Silva,Matriculado,Matriculado,20181.EX3PM.1M,28/04/1983,M,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,051.951.504-86,IFPE /  PALMARES,Izael Lino da Silva,Iracy Lino da Silva,Extensão,
+Linha 14406: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0135,Rosiane Maria da Silva,Matriculado,Matriculado,20181.EX2PM.1V,08/03/1998,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,070.677.644-59,IFPE /  PALMARES,Givanildo Pedro da Silva,Rosicleide Maria da Silva,Extensão,
+Linha 14409: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0070,Samuel Filipe Araújo dos Santos,Matriculado,Matriculado,20181.EX2PM.1V,10/08/1998,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,113.071.724-07,IFPE /  PALMARES,Perciano Belarmino dos Santos,Eliane Nunes Araújo dos Santos,Extensão,
+Linha 14413: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0089,Sandro Sebastiao da Silva,Matriculado,Matriculado,20181.EX2PM.1V,22/05/1987,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,PALMARES - PE,065.144.624-48,IFPE /  PALMARES,Amaro Sebastião da Silva,Maria Regina da Conceição,Extensão,
+Linha 14415: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0147,Simone Maria da Silva,Matriculado,Matriculado,20181.EX3PM.1M,13/09/1997,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,PALMARES - PE,115.914.074-00,IFPE /  PALMARES,Genivaldo Luiz da Silva,Ivanilda Maria da Silva,Extensão,
+Linha 14418: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0240,Tacylla Ridriane Izidoro Campos,Matriculado,Matriculado,20181.EX2PM.1V,16/03/2000,F,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,JOAQUIM NABUCO - PE,124.683.814-16,IFPE /  PALMARES,Risomario Pereira Campos,Adriana Felix Izidoro,Extensão,
+Linha 14419: Filtrada pelo Nível/Regime de Ensino; 
+20181EX3PM0074,Thays Grazielly Vasconcelos da Silva,Matriculado,Matriculado,20181.EX3PM.1M,27/02/1997,F,2018/1,CURSO DE INGLÊS PRÉ - INTERMEDIÁRIO I,1,Matutino,,118.258.494-20,IFPE /  PALMARES,,,Extensão,
+Linha 14426: Filtrada pelo Nível/Regime de Ensino; 
+20181EX4PM0094,Tiago Luiz Barreto Pinheiro,Matriculado,Matriculado,20181.EX4PM.1N,16/04/1982,M,2018/1,CURSO BÁSICO DE PROGRAMAÇÃO WEB - PM,1,Noturno,PALMARES - PE,045.521.234-16,IFPE /  PALMARES,,Rejane Barreto Pinheiro,Extensão,
+Linha 14427: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0259,Vinícius Brasil Rodrigues,Matriculado,Matriculado,,23/02/1998,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,,100.316.174-09,IFPE /  PALMARES,,Marilda Brasil Rodrigues,Extensão,
+Linha 14433: Filtrada pelo Nível/Regime de Ensino; 
+20181EX2PM0097,Weslley Henrique Silva Pereira,Matriculado,Matriculado,20181.EX2PM.1V,02/08/2018,M,2018/1,CURSO DE INGLÊS BÁSICO II,1,Vespertino,,127.742.284-25,IFPE /  PALMARES,,,Extensão,
+Linha 14442: Filtrada pelo Nível/Regime de Ensino; 
+Linha 14808: Quantidade de campos incompatível; 

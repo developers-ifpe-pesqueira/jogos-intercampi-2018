@@ -48,11 +48,7 @@
                         <option></option>
                         @foreach($modalidades as $modalidade)
                             <option value="{{ $modalidade->id }}">
-                                {{ $modalidade->categoria->categoria}} - {{ $modalidade->modalidade}} 
-                                @if($modalidade->prova != '') 
-                                    ({{ $modalidade->prova}})
-                                @endif
-                                - {{ $modalidade->sexo}}
+                                {{ $modalidade->nome }}
                             </option>
                         @endforeach
                     </select>

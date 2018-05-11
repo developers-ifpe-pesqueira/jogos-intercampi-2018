@@ -44,7 +44,7 @@
                         Campus: 
                         (<a id="selecionar">Selecionar todos</a> / <a id="deselecionar">Limpar seleção</a>)
                     </label>
-                    <select class="form-control" name="campus[]" id="campus" multiple="multiple">
+                    <select class="form-control" name="campus[]" id="campus" multiple="multiple" required>
                         @foreach($campi as $campus)
                             <option value="{{ $campus->id }}">
                                 {{ $campus->campus}} 

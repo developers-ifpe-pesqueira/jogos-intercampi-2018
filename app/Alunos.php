@@ -22,4 +22,17 @@ class Alunos extends Model
                     ->y;
         return $age;
     }
+    public function getNomeAttribute($value){
+        $encoding = 'UTF-8'; // ou ISO-8859-1...
+        return mb_convert_case($value, MB_CASE_UPPER, $encoding);;
+    }
+    public function getNomeMaeAttribute($value){
+        $encoding = 'UTF-8'; // ou ISO-8859-1...
+        return mb_convert_case($value, MB_CASE_UPPER, $encoding);;
+    }
+    public function getNomeAnsiAttribute(){
+        $value =  iconv( 'UTF-8', 'ASCII//TRANSLIT', $this->attributes['nome'] );
+        $value = preg_replace( '/[`^~\'"]/', null, $value);
+        return $value;
+    }
 }

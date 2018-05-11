@@ -7,9 +7,11 @@ use App\Modalidade;
 use App\Campus;
 use App\Alunos;
 use App\Inscrito;
+use App\Log as Logar;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
+use Carbon\Carbon;
 
 
 class HomeController extends Controller
@@ -32,7 +34,7 @@ class HomeController extends Controller
     public function index()
     {
         $campus = Campus::find(\Auth::user()->campus_id);
-        $inscritos = DB::Select('SELECT `aluno_id` FROM `inscritos` WHERE `campus_id` = ? GROUP BY `aluno_id`',
+        $inscritos = DB::Select('SELECT `aluno_id` FROM `inscritos` WHERE `campus_id` = ? AND confirmado = 1 GROUP BY `aluno_id`',
                                 [$campus->id]);
         $qtd_inscritos = count($inscritos);
         $sql = "SELECT 
@@ -135,16 +137,21 @@ class HomeController extends Controller
         $inscritos = Inscrito::with('aluno')
                         ->where('campus_id', $campus->id)
                         ->where('modalidade_id', $modalidade->id)
-                        ->orderBy('aluno_id')
-                        ->get();
+                        ->orderBy('aluno_id');
 
+        $array_inscritos = $inscritos->pluck('aluno_id')->toArray();
+        $inscritos = $inscritos->get();
         if ($modalidade->sexo_abrev == 'U'){
             $alunos = Alunos::where('campus_id', $campus->id)
             ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)
+            ->whereNotIn('id',$array_inscritos)
             ->get();
         } else {
             $alunos = Alunos::where('campus_id', $campus->id)
-            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)->where('sexo', $modalidade->sexo_abrev)->get();
+            ->where('nascimento', '>=', $modalidade->categoria->dt_nascimento_limite)
+            ->whereNotIn('id',$array_inscritos)
+            ->where('sexo', $modalidade->sexo_abrev)
+            ->get();
         }
         
         return view('inscricoes_modalidade', compact('modalidade', 'campus', 'alunos', 'inscritos'));
@@ -161,6 +168,18 @@ class HomeController extends Controller
     
     public function inscricoes_adicionar($campus_id, $modalidade_id, Request $request)
     {
+        /* Valida se está no periodo de inscrições */
+        $data_inicial_insc = Carbon::createFromFormat('Y-m-d H:i:s', env('DT_INICIO_INSC', '2018-05-14 00:00:00'));
+        $data_final_insc = Carbon::createFromFormat('Y-m-d H:i:s', env('DT_TERMINO_INSC', '2018-05-19 00:00:00'));
+        $agora = Carbon::now();
+        if ($agora->lt($data_inicial_insc)){
+            $msg_erro = 'As inscrições ainda não estão abertas.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
+        if ($agora->gt($data_final_insc)){
+            $msg_erro = 'As inscrições estão encerradas.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
         /* Valida os dados recebidos do formulário */
         $validator = Validator::make($request->all(), [
             'aluno_id' => 'required|numeric',
@@ -195,7 +214,7 @@ class HomeController extends Controller
         /* Verifica pela data de nascimento se o estudante pode ser inscrito */
         $aluno = Alunos::find($request->aluno_id);
         if ($aluno->idade < 12){
-            $msg_erro = 'Inscrição não realizada. Idade inferior a 12 anos, verifique se data de nascimento está correta.';
+            $msg_erro = 'Inscrição não realizada. Idade inferior a 12 anos, verifique se data de nascimento está correta. Para correção enviar documentação para intercampi@pesqueira.ifpe.edu.br';
             return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
         }
         $tz  = new \DateTimeZone(config('app.timezone', 'America/Recife'));
@@ -316,12 +335,21 @@ class HomeController extends Controller
                 }
             }
         }
+        /* Inscrever Aluno */
         $confirmado = FALSE;
         Inscrito::create([
             'campus_id' => $campus_id,
             'modalidade_id' => $modalidade_id,
             'aluno_id' => $request->aluno_id,
             'confirmado' => $confirmado,
+        ]);
+        /* Logar que o aluno foi inscrito */
+        $data = date('d/m/Y H:m:i');
+        $msg = "O aluno $aluno->matricula - $aluno->nome foi inscrito na modalidade $modalidade->id - $modalidade->modalidade $modalidade->prova em $data" ;
+        Logar::create([
+            'ip'  => \Request::ip(), 
+            'usuario_id' => \Auth::user()->id, 
+            'descricao' => $msg,
         ]);
         /* Verifica se pode confirmar equipe */
         $inscritos = Inscrito::with('modalidade')
@@ -333,6 +361,15 @@ class HomeController extends Controller
             Inscrito::where('campus_id', $campus_id)
                     ->where('modalidade_id', $modalidade_id)
                     ->update(['confirmado' => TRUE]);
+            /* Logar que os alunos desta modalidade foram confirmados */
+            if(!$atleta->confirmado){
+                $msg = "As inscrições dos alunos para a modalidade $modalidade->id - $modalidade->modalidade $modalidade->prova foram confirmadas em $data" ;
+                Logar::create([
+                    'ip'  => \Request::ip(), 
+                    'usuario_id' => \Auth::user()->id, 
+                    'descricao' => $msg,
+                ]);
+            }
         }
         $msg_ok = "Estudande inscrito com sucesso!";
         return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso',$msg_ok);
@@ -340,6 +377,18 @@ class HomeController extends Controller
 
     public function inscricoes_remover($campus_id, $modalidade_id, Request $request)
     {
+        /* Valida se está no periodo de inscrições */
+        $data_inicial_insc = Carbon::createFromFormat('Y-m-d H:i:s', env('DT_INICIO_INSC', '2018-05-14 00:00:00'));
+        $data_final_insc = Carbon::createFromFormat('Y-m-d H:i:s', env('DT_TERMINO_INSC', '2018-05-19 00:00:00'));
+        $agora = Carbon::now();
+        if ($agora->lt($data_inicial_insc)){
+            $msg_erro = 'As inscrições ainda não estão abertas.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
+        if ($agora->gt($data_final_insc)){
+            $msg_erro = 'As inscrições estão encerradas.';
+            return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->withErrors([$msg_erro]);
+        }
         $validator = Validator::make($request->all(), [
             'inscricao' => 'required|numeric',
         ]);
@@ -357,8 +406,18 @@ class HomeController extends Controller
         if(!\Auth::user()->admin && \Auth::user()->campus_id != $inscrito->campus_id){
             abort(403);
         }
-
+        $aluno = Alunos::find($inscrito->aluno_id);
+        $modalidade = Modalidade::find($inscrito->modalidade_id);
+        /* Cancela a inscrição do aluno */
         $inscrito->delete();
+        /* Logar que a inscrição do aluno foi cancelada */
+        $data = date('d/m/Y h:m:i');
+        $msg = "A inscrição do aluno $aluno->matricula - $aluno->nome foi cancelada na modalidade $modalidade->id - $modalidade->modalidade $modalidade->prova em $data" ;
+        Logar::create([
+            'ip'  => \Request::ip(), 
+            'usuario_id' => \Auth::user()->id, 
+            'descricao' => $msg,
+        ]);
 
         /* Verifica se pode confirmar equipe */
         $inscritos = Inscrito::with('modalidade')
@@ -371,7 +430,22 @@ class HomeController extends Controller
                 Inscrito::where('campus_id', $campus_id)
                         ->where('modalidade_id', $modalidade_id)
                         ->update(['confirmado' => FALSE]);
+                if($atleta->confirmado){
+                    $msg = "As inscrições dos alunos para a modalidade $modalidade->id - $modalidade->modalidade $modalidade->prova não estão confirmadas em $data" ;
+                    Logar::create([
+                        'ip'  => \Request::ip(), 
+                        'usuario_id' => \Auth::user()->id, 
+                        'descricao' => $msg,
+                    ]);
+                }
             }
+        }else{
+            $msg = "Todas as inscrições dos alunos para a modalidade $modalidade->id - $modalidade->modalidade $modalidade->prova foram canceladas em $data" ;
+            Logar::create([
+                'ip'  => \Request::ip(), 
+                'usuario_id' => \Auth::user()->id, 
+                'descricao' => $msg,
+            ]);
         }
         $msg_ok = "Estudande removido com sucesso!";
         return redirect()->route('inscricoes.modalidade.v',['campus'=> $campus_id, 'modalidade'=> $modalidade_id])->with('sucesso', $msg_ok);    
@@ -400,9 +474,32 @@ class HomeController extends Controller
 
     public function relacao_modalidade()
     {
-        return view('index');
+        $campi = Campus::all();
+        $modalidades = Modalidade::all();
+        return view('relacao_modalidade', compact('campi','modalidades'));
     }
-
+    public function relacao_modalidade_pdf(Request $request)
+    {
+        $validatedData = $request->validate([
+            'campus' => 'required',
+            'modalidade' => 'required',
+        ]);
+        $campi = Campus::whereIn('id', $request->campus)->get();
+        $inscritos = Inscrito::with('aluno')
+                            ->whereIn('campus_id', $request->campus)
+                            ->whereIn('modalidade_id', $request->modalidade)
+                            ->where('confirmado', TRUE)
+                            ->get();
+        $inscritos_modalidade = Inscrito::with('modalidade')
+                                    ->whereIn('campus_id', $request->campus)
+                                    ->whereIn('modalidade_id', $request->modalidade)
+                                    ->where('confirmado', TRUE)
+                                    ->groupBy('campus_id')
+                                    ->groupBy('modalidade_id')
+                                    ->get();
+        $pdf = \PDF::loadView('pdf.modalidade', compact('campi','inscritos','inscritos_modalidade'));
+        return $pdf->stream();
+    }
     public function importar()
     {
         $this->authorize('admin');
@@ -411,16 +508,27 @@ class HomeController extends Controller
 
     public function processar_importacao(Request $request)
     {
+    /* Verificações de segurança */
+        /* Valida se o usuário autenticado é Administrador */
         $this->authorize('admin');
+        /* Valida dados da requisição */
         $validatedData = $request->validate([
             'arquivo' => 'required|file',
         ]);
-    /* Limpar tabela alunos */
-        DB::delete('delete from alunos');
+    /* Verifica se é a 1a importação */
+        $modo = '1a Importação';
+        if (Alunos::all()->count() > 0) {
+            $modo = 'Atualização';
+        } 
 
     /* Importar do arquivo CSV */
         /* Abrir o arquivo CSV */
         $fp = fopen($request->arquivo, "r");
+        /* Cria o arquivo para armazenar os registros não importados */
+        $data = date('Y-m-d_H-m-i');
+        $caminho = public_path() . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'importacoes';
+        $nome_arquivo = $caminho . DIRECTORY_SEPARATOR . "falha_$data.txt";
+        $fp_log = fopen($nome_arquivo, "a");
         /* Extrair primeira linha para array cabecalho */
         $linha = fgets($fp);
         if (!mb_detect_encoding($linha, 'UTF-8', true)){
@@ -448,6 +556,8 @@ class HomeController extends Controller
         /* Extrair linha para array dados */
         $cont = 2;
         $linhas_ok = 0;
+        $registros_inseridos = 0;
+        $registros_atualizados = 0;
         $linhas_erro = 0;
         $falha = "";
         while(!feof($fp)) {
@@ -565,11 +675,6 @@ class HomeController extends Controller
                     $dt_nascimento = strtotime(substr($nascimento,6,4) . '-' . substr($nascimento,3,2) . '-' . substr($nascimento,0,2));
                     $dt_nasc = date('Y-m-d', $dt_nascimento);
                 }
-                $data_limite =  strtotime(env('DT_NASC_IMPORT', '1993-01-01'));
-                if ($dt_nascimento < $data_limite){
-                    $validado = FALSE;
-                    $falha .= "Filtrada pela data de nascimento; ";
-                }
                 if ($nivel == 'Extensão' || $nivel == 'Formação Inicial e Continuada - FIC') {
                     $validado = FALSE;
                     $falha .= "Filtrada pelo Nível/Regime de Ensino; ";
@@ -577,27 +682,73 @@ class HomeController extends Controller
             }
             /* Inserir os dados no BD ou imprimir linhas não inseridas*/
             if ($validado){
-                Alunos::create([
-                    'matricula' => $matricula,
-                    'cpf' => $cpf,
-                    'nome' => $nome,
-                    'sexo' => $sexo,
-                    'nascimento' => $dt_nasc,
-                    'turma' => $turma,
-                    'nome_pai' => $nome_pai,
-                    'nome_mae' => $nome_mae,
-                    'campus_id' => $campus,
-                ]); 
+                if ($modo == '1a Importação'){
+                    Alunos::create([
+                        'matricula' => $matricula,
+                        'cpf' => $cpf,
+                        'nome' => $nome,
+                        'sexo' => $sexo,
+                        'nascimento' => $dt_nasc,
+                        'turma' => $turma,
+                        'nome_pai' => $nome_pai,
+                        'nome_mae' => $nome_mae,
+                        'campus_id' => $campus,
+                    ]); 
+                    $registros_inseridos++;
+                } else {
+                    $aluno = Alunos::where('matricula', $matricula)->first();
+                    if (is_null($aluno)){
+                        Alunos::create([
+                            'matricula' => $matricula,
+                            'cpf' => $cpf,
+                            'nome' => $nome,
+                            'sexo' => $sexo,
+                            'nascimento' => $dt_nasc,
+                            'turma' => $turma,
+                            'nome_pai' => $nome_pai,
+                            'nome_mae' => $nome_mae,
+                            'campus_id' => $campus,
+                        ]); 
+                        $registros_inseridos++;
+                    } else {
+                        $aluno->cpf = $cpf;
+                        $aluno->nome = $nome;
+                        $aluno->sexo = $sexo;
+                        $aluno->nascimento = $dt_nasc;
+                        $aluno->turma = $turma;
+                        $aluno->nome_pai = $nome_pai;
+                        $aluno->nome_mae = $nome_mae;
+                        $aluno->campus_id = $campus;
+                        $aluno->save();
+                        $registros_atualizados++;
+                    }
+                }
                 $linhas_ok++;
             } else {
                 $linhas_erro++;
-                Log::info("Linha $cont: $falha");
+                $escrever = fwrite($fp_log, "$linha");
+                $escrever = fwrite($fp_log, "Linha $cont: $falha\r\n");
+                /* Log::info("Linha $cont: $falha"); */
             }
             $cont++; 
             $falha = '';
           } 
         fclose($fp);
-        $msg_ok = "Importação realizada com sucesso. $linhas_ok registros importados.";
+        fclose($fp_log);
+         /* Grava o arquivo recebido */
+         $data = date('Y-m-d_H-m-i');
+         $extensao = $request->arquivo->extension();
+         $nome_arquivo = "original_$data.$extensao";
+         $upload = $request->arquivo->storeAs('importacoes', $nome_arquivo, 'uploads');
+        /* Logar que a importação foi realizada */
+        $data = date('d/m/Y H:m:i');
+        $msg = "Importação realizada em $data. $linhas_ok registros importados. ( novos: $registros_inseridos / atualizados: $registros_atualizados )." ;
+        Logar::create([
+            'ip'  => \Request::ip(), 
+            'usuario_id' => \Auth::user()->id, 
+            'descricao' => $msg,
+        ]);
+        $msg_ok = "Importação realizada com sucesso. $linhas_ok registros importados. ( novos: $registros_inseridos / atualizados: $registros_atualizados ).";
         return view('importar', compact('falha'))->with('sucesso', $msg_ok);
     }
 

@@ -23,5 +23,6 @@ Route::delete('/inscricoes/modalidade/{campus}/{modalidade}/remover', 'HomeContr
 Route::get('/relacao/campus', 'HomeController@relacao_campus')->name('relacao.campus');
 Route::post('/relacao/campus', 'HomeController@relacao_campus_pdf');
 Route::get('/relacao/modalidade', 'HomeController@relacao_modalidade')->name('relacao.modalidade');
+Route::post('/relacao/modalidade', 'HomeController@relacao_modalidade_pdf');
 Route::get('/importar', 'HomeController@importar')->name('importar');
 Route::post('/importar', 'HomeController@processar_importacao');

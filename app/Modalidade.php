@@ -31,6 +31,19 @@ class Modalidade extends Model
     public function getSexoAbrevAttribute(){
         return $this->attributes['sexo'];
     }
+    public function getNomeAttribute(){
+        $str_modalidade = "";
+        $str_modalidade .= $this->categoria->categoria . ' - ';
+        $str_modalidade .= $this->attributes['modalidade'];
+        if ($this->attributes['prova'] != ''){
+            $str_modalidade .= ' - ';
+            $str_modalidade .= $this->attributes['prova'];
+        }
+        $str_modalidade .= ' (';
+        $str_modalidade .= $this->sexo;
+        $str_modalidade .= ')';
+        return $str_modalidade;
+    }
 
      /* Relacionamentos N:1 */
      public function categoria()
