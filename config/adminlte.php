@@ -125,6 +125,11 @@ return [
                     
                 ],
                 [
+                    'text' => 'Por Campus/Modalidade',
+                    'icon'  => 'volleyball-ball',
+                    'route' => 'relacao.campus.modalidade',
+                ],
+                [
                     'text' => 'Por Modalidade',
                     'icon'  => 'table-tennis',
                     'route' => 'relacao.modalidade',

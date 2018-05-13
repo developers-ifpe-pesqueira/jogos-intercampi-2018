@@ -474,11 +474,35 @@ class HomeController extends Controller
 
     public function relacao_modalidade()
     {
-        $campi = Campus::all();
         $modalidades = Modalidade::all();
-        return view('relacao_modalidade', compact('campi','modalidades'));
+        return view('relacao_modalidade', compact('modalidades'));
     }
     public function relacao_modalidade_pdf(Request $request)
+    {
+        $validatedData = $request->validate([
+            'modalidade' => 'required',
+        ]);
+        
+        $modalidades = Modalidade::whereIn('id', $request->modalidade)->get();
+
+        $inscritos = Inscrito::with('aluno')->with('campus')
+                            ->whereIn('modalidade_id', $request->modalidade)
+                            ->where('confirmado', TRUE)
+                            ->orderBy('modalidade_id')
+                            ->orderBy('campus_id')
+                            ->get();
+        
+        $pdf = \PDF::loadView('pdf.modalidade', compact('modalidades','inscritos'));
+        return $pdf->stream();
+    }
+    
+    public function relacao_campus_modalidade()
+    {
+        $campi = Campus::all();
+        $modalidades = Modalidade::all();
+        return view('relacao_campus_modalidade', compact('campi','modalidades'));
+    }
+    public function relacao_campus_modalidade_pdf(Request $request)
     {
         $validatedData = $request->validate([
             'campus' => 'required',
@@ -497,7 +521,7 @@ class HomeController extends Controller
                                     ->groupBy('campus_id')
                                     ->groupBy('modalidade_id')
                                     ->get();
-        $pdf = \PDF::loadView('pdf.modalidade', compact('campi','inscritos','inscritos_modalidade'));
+        $pdf = \PDF::loadView('pdf.campus_modalidade', compact('campi','inscritos','inscritos_modalidade'));
         return $pdf->stream();
     }
     public function importar()
@@ -526,7 +550,7 @@ class HomeController extends Controller
         $fp = fopen($request->arquivo, "r");
         /* Cria o arquivo para armazenar os registros não importados */
         $data = date('Y-m-d_H-m-i');
-        $caminho = public_path() . DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'importacoes';
+        $caminho = storage_path('app/public') . DIRECTORY_SEPARATOR . 'importacoes';
         $nome_arquivo = $caminho . DIRECTORY_SEPARATOR . "falha_$data.txt";
         $fp_log = fopen($nome_arquivo, "a");
         /* Extrair primeira linha para array cabecalho */
@@ -739,7 +763,7 @@ class HomeController extends Controller
          $data = date('Y-m-d_H-m-i');
          $extensao = $request->arquivo->extension();
          $nome_arquivo = "original_$data.$extensao";
-         $upload = $request->arquivo->storeAs('importacoes', $nome_arquivo, 'uploads');
+         $upload = $request->arquivo->storeAs('importacoes', $nome_arquivo, 'public');
         /* Logar que a importação foi realizada */
         $data = date('d/m/Y H:m:i');
         $msg = "Importação realizada em $data. $linhas_ok registros importados. ( novos: $registros_inseridos / atualizados: $registros_atualizados )." ;

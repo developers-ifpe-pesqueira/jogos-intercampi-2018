@@ -4,7 +4,7 @@
 
 @section('corpo')
     @php $primeira = TRUE; @endphp
-    @foreach($campi as $campus)
+    @foreach($modalidades as $modalidade)
         @if($primeira)
             @php $primeira = FALSE; @endphp
         @else
@@ -17,43 +17,48 @@
         </header>
         <section>
             <h1>Relação de inscritos por Modalidade</h1>
-            <h2><i>Campus</i>  {{ $campus->campus }}</h2>
-            @if(count($inscritos->where('campus_id', $campus->id)) > 0 )
-                @php $primeira_modalidade = TRUE; @endphp
-                @foreach($inscritos_modalidade->where('campus_id', $campus->id) as $im)
-                    @if($primeira_modalidade)
-                        @php $primeira_modalidade = FALSE; @endphp
-                    @else
-                        <hr><br>
-                    @endif
-                    <h4>{{ $im->modalidade->nome }}</h4>
-                    <table>
-                        <thead>
+            <h2> {{ $modalidade->nome }}</h2>
+            @if(count($inscritos->where('modalidade_id', $modalidade->id)) > 0 )
+                @php $primeira_modalidade = TRUE; $campus_old = ""; @endphp
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%">Campus</th>
+                            <th style="width: 15%">Matrícula</th>
+                            <th style="width: 40%">Nome</th>
+                            <th style="width: 15%">Data de <br>nascimento</th>
+                        </tr>
+                    </thead>
+                    @php
+                        $cont = 1;
+                        $cont_campi = 0;
+                    @endphp
+                    <tbody>
+                        @foreach($inscritos->where('modalidade_id', $modalidade->id) as $i)
                             <tr>
-                                <th>#</th>
-                                <th>Matrícula</th>
-                                <th>Nome</th>
-                                <th>Data de <br>nascimento</th>
+                                @if($i->campus_id != $campus_old)
+                                    @php 
+                                        /* $qtd_campus = count($inscritos->where('modalidade_id', $modalidade->id)->where('campus_id', $i->campus_id));  */
+                                        $cont_campi++; 
+                                    @endphp
+                                    {{-- <td rowspan="{{ $qtd_campus }}">{{ $i->campus->campus }} </td> --}}
+                                @endif
+                                <td>{{ $i->campus->campus }} </td>
+                                <td class='centralizar'> {{ $i->aluno->matricula }} </td>
+                                <td> {{ $i->aluno->nome }} </td>
+                                <td class='centralizar'> {{ date('d/m/Y', strtotime($i->aluno->nascimento)) }} </td>
                             </tr>
-                        </thead>
-                        @php
-                            $cont = 1;
-                        @endphp
-                        <tbody>
-                            @foreach($inscritos->where('campus_id', $campus->id)->where('modalidade_id', $im->modalidade_id)->sortBy('aluno.nome_ansi') as $inscrito)
-                                <tr>
-                                    <td class='centralizar'>{{ $cont++ }}</td>
-                                    <td class='centralizar'>{{ $inscrito->aluno->matricula }}</td>
-                                    <td>{{ $inscrito->aluno->nome }}</td>
-                                    <td class='centralizar'>{{ date('d/m/Y', strtotime($inscrito->aluno->nascimento)) }}</td>
-                                </tr>
-                            @endforeach
-                        </tbody>
-                    </table>
-                    <p>Quantidade total de inscritos nesta modalidade: <b>{{ --$cont }}</b></p>
-                @endforeach
+                            @php 
+                                $campus_old = $i->campus_id; 
+                                $cont++;
+                            @endphp
+                         @endforeach
+                    </tbody>
+                </table>
+                <p>Quantidade de <i>campi</i> inscritos nesta modalidade: <b>{{ $cont_campi }}</b></p>
+                <p>Quantidade de inscritos nesta modalidade: <b>{{ --$cont }}</b></p>
             @else
-                <h3 class="erro"><b>Obs.:</b> Não há inscritos neste <i>Campus</i></h3>
+                <h3 class="erro"><b>Obs.:</b> Não há inscritos nesta modalidade.</h3>
             @endif
         </section>
         <footer>

@@ -40,19 +40,6 @@
             {{ csrf_field() }}
             <div class="form-group row">
                 <div class="col-md-12 col-xs-12">
-                    <label for="campus">
-                        Campus: 
-                        (<a id="selecionar_c">Selecionar todos</a> / <a id="deselecionar_c">Limpar seleção</a>)
-                    </label>
-                    <select class="form-control" name="campus[]" id="campus" multiple="multiple" required>
-                        @foreach($campi as $campus)
-                            <option value="{{ $campus->id }}">
-                                {{ $campus->campus}} 
-                            </option>
-                        @endforeach
-                    </select>
-                </div>
-                <div class="col-md-12 col-xs-12">
                     <label for="modalidade">
                         Modalidade: 
                         (<a id="selecionar_m">Selecionar todos</a> / <a id="deselecionar_m">Limpar seleção</a>)
@@ -79,24 +66,15 @@
     <script src="{{ asset('vendor/select2-4.0.5/select2.min.js')}}"></script>
     <script>
     $(document).ready(function() {
-        $('#campus').select2();
         $('#modalidade').select2();
-       $('#selecionar_c').click(function(){
-           $('#campus option').attr('selected','selected');
-           $('#campus').select2();
-       }); 
-       $('#deselecionar_c').click(function(){
-           $('#campus option').removeAttr('selected');
-           $('#campus').select2();
-       }); 
-       $('#selecionar_m').click(function(){
-           $('#modalidade option').attr('selected','selected');
-           $('#modalidade').select2();
-       }); 
-       $('#deselecionar_m').click(function(){
-           $('#modalidade option').removeAttr('selected');
-           $('#modalidade').select2();
-       }); 
+        $('#selecionar_m').click(function(){
+            $('#modalidade option').attr('selected','selected');
+            $('#modalidade').select2();
+        }); 
+        $('#deselecionar_m').click(function(){
+            $('#modalidade option').removeAttr('selected');
+            $('#modalidade').select2();
+        }); 
     });
     </script>
 @stop
