@@ -76,6 +76,15 @@
             <br><br>
             <div class="container">
                 <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <a href="{{ asset('arquivos/Regulamento Geral Intercampi 2018.pdf') }}" class="btn btn-lg btn-block btn-success" target="_blank"><i class="fa fa-fw fa-book"></i> Regulamento Geral</a>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <a href="{{ asset('arquivos/Regulamento Especifico Intercampi 2018.pdf') }}" class="btn btn-lg btn-block btn-success" target="_blank"><i class="fa fa-fw fa-file-alt"></i> Regulamento Específico</a>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
                     <div class="col-md-4 col-xs-12">
                         <a href="" class="btn btn-lg btn-block btn-success" disabled><i class="fa fa-fw fa-table-tennis"></i> Modalidades</a>
                     </div>
