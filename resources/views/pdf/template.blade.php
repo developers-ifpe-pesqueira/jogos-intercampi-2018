@@ -16,6 +16,7 @@
 		}
 		header img{
 			height: 2cm;
+			width: 2cm;
 		}
 		header p{
 			font-size: 14px;

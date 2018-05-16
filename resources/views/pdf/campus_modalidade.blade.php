@@ -11,7 +11,7 @@
             <div class="page-break"></div>
         @endif
         <header>
-            <img src="img/medalha-intercampi-2018.png">
+            <img src="img/medalha-intercampi-2018.png" style="height: 2cm;">
             <p>Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco</p>
             <p>Jogos Intercampi IFPE 2018</p>
         </header>

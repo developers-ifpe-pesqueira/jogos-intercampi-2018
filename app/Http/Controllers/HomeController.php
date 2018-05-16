@@ -468,8 +468,13 @@ class HomeController extends Controller
                                 ->groupBy('aluno_id')
                                 ->groupBy('campus_id')
                                 ->get();
-        $pdf = \PDF::loadView('pdf.campus', compact('campi','inscritos'));
-        return $pdf->stream();
+        $view = \View::make('pdf.campus', compact('campi','inscritos'));
+        $contents = $view->render();
+        $mpdf = new \Mpdf\Mpdf();
+        $mpdf->WriteHTML($contents);
+        return $mpdf->Output();
+        /* $pdf = \PDF::loadView('pdf.campus', compact('campi','inscritos'));
+        return $pdf->stream(); */
     }
 
     public function relacao_modalidade()
@@ -491,9 +496,13 @@ class HomeController extends Controller
                             ->orderBy('modalidade_id')
                             ->orderBy('campus_id')
                             ->get();
-        
-        $pdf = \PDF::loadView('pdf.modalidade', compact('modalidades','inscritos'));
-        return $pdf->stream();
+        $view = \View::make('pdf.modalidade', compact('modalidades','inscritos'));
+        $contents = $view->render();
+        $mpdf = new \Mpdf\Mpdf();
+        $mpdf->WriteHTML($contents);
+        return $mpdf->Output();
+        /* $pdf = \PDF::loadView('pdf.modalidade', compact('modalidades','inscritos'));
+        return $pdf->stream(); */
     }
     
     public function relacao_campus_modalidade()
@@ -521,8 +530,14 @@ class HomeController extends Controller
                                     ->groupBy('campus_id')
                                     ->groupBy('modalidade_id')
                                     ->get();
-        $pdf = \PDF::loadView('pdf.campus_modalidade', compact('campi','inscritos','inscritos_modalidade'));
-        return $pdf->stream();
+
+        $view = \View::make('pdf.campus_modalidade', compact('campi','inscritos','inscritos_modalidade'));
+        $contents = $view->render();
+        $mpdf = new \Mpdf\Mpdf();
+        $mpdf->WriteHTML($contents);
+        return $mpdf->Output();
+        /* $pdf = \PDF::loadView('pdf.campus_modalidade', compact('campi','inscritos','inscritos_modalidade'));
+        return $pdf->stream(); */
     }
     public function importar()
     {
