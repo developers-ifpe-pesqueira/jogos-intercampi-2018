@@ -97,7 +97,7 @@
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-md-12 col-xs-12">
+                    {{-- <div class="col-md-12 col-xs-12">
                         <div class="alert alert-info alert-dismissible">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                             <h4><i class="icon fa fa-info"></i> Encontro pós-inscrição:</h4>
@@ -106,7 +106,39 @@
                             <p>HORÁRIO: <b>9h</b></p>
                             <p>LOCAL: <b>Campus Caruaru</b></p>
                         </div>
+                    </div> --}}
+                    <div class="col-md-3 col-xs-12">
+                        <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h4><i class="icon fa fa-info"></i> Counter-Strike (CS:GO):</h4>
+                            <p>Mínimo e máximo de inscritos por Campus - 5 atletas</p>
+                            <p>O campeonato poderá ter no minimo e no máximo 8 equipes</p>
+                        </div>
                     </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h4><i class="icon fa fa-info"></i> League of Legends (LoL):</h4>
+                            <p>Mínimo e máximo de inscritos por Campus - 5 atletas</p>
+                            <p>O campeonato poderá ter no mínimo e no máximo 8 equipes</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h4><i class="icon fa fa-info"></i> FIFA 18:</h4>
+                            <p>Mínimo e máximo de inscritos por Campus - 2 atletas </p>
+                            <p>O Campeonato poderá ter inscrição dos 16 Campi do IFPE</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h4><i class="icon fa fa-info"></i> Just Dance:</h4>
+                            <p>O <b>Just Dance</b> terá como finalidade a prática do lazer, por isso não vimos a necessidade de inscrições. </p>
+                        </div>
+                    </div>
+                    <p>Obs.: O regulamento específico de cada jogo será divulgado posteriormente.</p>
                 </div>
             </div>
         </div>

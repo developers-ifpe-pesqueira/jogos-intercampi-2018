@@ -23,6 +23,7 @@ class CreateModalidadesTable extends Migration
             $table->integer('qtd_min')->default(0);
             $table->integer('qtd_max');
             $table->integer('categoria_id')->unsigned();
+            $table->boolean('encerrado')->default(FALSE);
             $table->timestamps();
             $table->softDeletes();
             $table->foreign('categoria_id')->references('id')->on('categorias')->onUpdate('cascade')->onDelete('restrict');

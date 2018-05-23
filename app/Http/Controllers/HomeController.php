@@ -109,6 +109,7 @@ class HomeController extends Controller
     public function inscricoes()
     {
         $modalidades = Modalidade::with('categoria')
+                                ->where('encerrado', FALSE)
                                 ->orderBy('categoria_id')
                                 ->orderBy('modalidade')
                                 ->orderBy('prova')
