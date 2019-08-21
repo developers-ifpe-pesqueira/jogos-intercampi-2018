@@ -77,10 +77,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <a href="{{ asset('arquivos/Regulamento Geral Intercampi 2018.pdf') }}" class="btn btn-lg btn-block btn-success" target="_blank"><i class="fa fa-fw fa-book"></i> Regulamento Geral</a>
+                        <a href="{{-- asset('arquivos/Regulamento Geral Intercampi 2018.pdf') --}}" class="btn btn-lg btn-block btn-success" target="_blank" disabled><i class="fa fa-fw fa-book"></i> Regulamento Geral</a>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <a href="{{ asset('arquivos/Regulamento Especifico Intercampi 2018.pdf') }}" class="btn btn-lg btn-block btn-success" target="_blank"><i class="fa fa-fw fa-file-alt"></i> Regulamento Específico</a>
+                        <a href="{{-- asset('arquivos/Regulamento Especifico Intercampi 2018.pdf') --}}" class="btn btn-lg btn-block btn-success" target="_blank" disabled><i class="fa fa-fw fa-file-alt"></i> Regulamento Específico</a>
                     </div>
                 </div>
                 <br>
@@ -107,7 +107,7 @@
                             <p>LOCAL: <b>Campus Caruaru</b></p>
                         </div>
                     </div> --}}
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                             <h4><i class="icon fa fa-info"></i> Counter-Strike (CS:GO):</h4>
@@ -115,7 +115,7 @@
                             <p>O campeonato poderá ter no minimo e no máximo 8 equipes</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                             <h4><i class="icon fa fa-info"></i> League of Legends (LoL):</h4>
@@ -123,21 +123,21 @@
                             <p>O campeonato poderá ter no mínimo e no máximo 8 equipes</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                            <h4><i class="icon fa fa-info"></i> FIFA 18:</h4>
+                            <h4><i class="icon fa fa-info"></i> FIFA 19:</h4>
                             <p>Mínimo e máximo de inscritos por Campus - 2 atletas </p>
                             <p>O Campeonato poderá ter inscrição dos 16 Campi do IFPE</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    {{--  <div class="col-md-3 col-xs-12">
                         <div class="alert alert-info alert-dismissible" style="min-height: 12em;">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
                             <h4><i class="icon fa fa-info"></i> Just Dance:</h4>
                             <p>O <b>Just Dance</b> terá como finalidade a prática do lazer, por isso não vimos a necessidade de inscrições. </p>
                         </div>
-                    </div>
+                    </div>  --}}
                     <p>Obs.: O regulamento específico de cada jogo será divulgado posteriormente.</p>
                 </div>
             </div>

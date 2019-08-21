@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Jogos Intercampi IFPE 2018',
+    'title' => 'Jogos Intercampi IFPE 2019',
 
     'title_prefix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>INTERCAMPI</b> 2018',
+    'logo' => '<b>INTERCAMPI</b> 2019',
 
     'logo_mini' => '<b>IFPE</b>',
 

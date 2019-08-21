@@ -114,6 +114,26 @@ class ModalidadesSeeder extends Seeder
         ]);
         Modalidade::create([
             'modalidade' => 'Atletismo', 
+            'prova' => 'Salto Triplo', 
+            'tipo' => 'Individual', 
+            'tipo_prova' => 'Individual',
+            'sexo' => 'M', 
+            'qtd_min' => 1,
+            'qtd_max' => 2,
+            'categoria_id' => 1,
+        ]);
+        Modalidade::create([
+            'modalidade' => 'Atletismo', 
+            'prova' => 'Salto Triplo', 
+            'tipo' => 'Individual', 
+            'tipo_prova' => 'Individual',
+            'sexo' => 'F', 
+            'qtd_min' => 1,
+            'qtd_max' => 2,
+            'categoria_id' => 1,
+        ]);
+        Modalidade::create([
+            'modalidade' => 'Atletismo', 
             'prova' => 'Corrida 100m', 
             'tipo' => 'Individual', 
             'tipo_prova' => 'Individual',
@@ -537,10 +557,10 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
             'qtd_min' => 5,
-            'qtd_max' => 10,
+            'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
-        Modalidade::create([
+        /* Modalidade::create([
             'modalidade' => 'Corrida de Orientação', 
             'prova' => '', 
             'tipo' => '', 
@@ -548,14 +568,14 @@ class ModalidadesSeeder extends Seeder
             'qtd_min' => 5,
             'qtd_max' => 12,
             'categoria_id' => 1,
-        ]);
+        ]); */
         Modalidade::create([
             'modalidade' => 'Futebol de Campo', 
             'prova' => '', 
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
             'qtd_min' => 11,
-            'qtd_max' => 16,
+            'qtd_max' => 18,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -564,7 +584,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
             'qtd_min' => 5,
-            'qtd_max' => 10,
+            'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -573,7 +593,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Coletiva', 
             'sexo' => 'F', 
             'qtd_min' => 5,
-            'qtd_max' => 10,
+            'qtd_max' => 12,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -582,7 +602,7 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Coletiva', 
             'sexo' => 'M', 
             'qtd_min' => 7,
-            'qtd_max' => 12,
+            'qtd_max' => 14,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
@@ -591,23 +611,32 @@ class ModalidadesSeeder extends Seeder
             'tipo' => 'Coletiva', 
             'sexo' => 'F', 
             'qtd_min' => 7,
-            'qtd_max' => 12,
+            'qtd_max' => 14,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
-            'modalidade' => 'Jogos Eletrônicos', 
+            'modalidade' => 'Jogos Eletrônicos - CS:GO', 
             'prova' => '', 
             'tipo' => 'Coletiva', 
-            'sexo' => 'M', 
+            'sexo' => 'U', 
             'qtd_min' => 5,
             'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
         Modalidade::create([
-            'modalidade' => 'Jogos Eletrônicos', 
+            'modalidade' => 'Jogos Eletrônicos - FIFA 19', 
             'prova' => '', 
             'tipo' => 'Coletiva', 
-            'sexo' => 'F', 
+            'sexo' => 'U', 
+            'qtd_min' => 2,
+            'qtd_max' => 2,
+            'categoria_id' => 1,
+        ]);
+        Modalidade::create([
+            'modalidade' => 'Jogos Eletrônicos - League of Legends', 
+            'prova' => '', 
+            'tipo' => 'Coletiva', 
+            'sexo' => 'U', 
             'qtd_min' => 5,
             'qtd_max' => 5,
             'categoria_id' => 1,
@@ -684,7 +713,7 @@ class ModalidadesSeeder extends Seeder
             'qtd_max' => 5,
             'categoria_id' => 1,
         ]);
-        Modalidade::create([
+        /* Modalidade::create([
             'modalidade' => 'Corrida de Orientação', 
             'prova' => '', 
             'tipo' => '', 
@@ -719,6 +748,6 @@ class ModalidadesSeeder extends Seeder
             'qtd_min' => 1,
             'qtd_max' => 5,
             'categoria_id' => 2,
-        ]);
+        ]); */
     }
 }

@@ -14,11 +14,11 @@ class CategoriasSeeder extends Seeder
     {
         Categoria::create([
             'categoria' => 'SUB 19', 
-            'dt_nascimento_limite' => '1999-01-01',
+            'dt_nascimento_limite' => '2001-01-01',
         ]);
-        Categoria::create([
+        /* Categoria::create([
             'categoria' => 'SUB 25', 
             'dt_nascimento_limite' => '1993-01-01',
-        ]);
+        ]); */
     }
 }
